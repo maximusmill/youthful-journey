@@ -17,7 +17,7 @@ h1 {
     font-family: 'Monoton', cursive;
 }
 h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }
 /*Page Header Section Styles*/
 header.page-header {
@@ -92,8 +92,7 @@ header.page-header .page-header-coffee{
 main.page-main  {
     width: 400px;
     margin: 0 auto;
-    margin-bottom: 35px;
-    min-height: 34%;
+    min-height: 455px;
 }
 main.page-main p {
     text-align: left;
@@ -196,8 +195,8 @@ footer.page-footer button {
     border-radius: 5px;
     border: none;
     background-color: white;
-       background-image: none;
-   outline: 0;
+    background-image: none;
+    outline: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -223,22 +222,22 @@ span {
         font-size: 4.25rem;
     }
     header.page-header .page-header-digits {
-    font-size: 1rem;
-    line-height: 1;
-    top: 45px;
-    margin: 0 8px 0 8px;
-    word-spacing: -8px;
-}
+        font-size: 1rem;
+        line-height: 1;
+        top: 45px;
+        margin: 0 8px 0 8px;
+        word-spacing: -8px;
+    }
     header.page-header  > h2 {
-    font-size: 1rem;
-}
+        font-size: 1rem;
+    }
     footer.page-footer {
         width: 480px;
     }
     footer.page-footer button {
-       left: -62px;
-       transform: rotate(-32deg);
-        
+        left: -62px;
+        transform: rotate(-32deg);
+
     }
 
 }
@@ -259,4 +258,11 @@ span {
 
 
 
+}
+/*Desktop Breakpoint*/
+@media (min-width: 1601px){
+    main.page-main  {
+        min-height: 34%;
+        padding-top: 1.5%;
+    }
 }
