@@ -262,7 +262,7 @@ span {
 /*Desktop Breakpoint*/
 @media (min-width: 1601px){
     main.page-main  {
-        min-height: 34%;
-        padding-top: 1.5%;
+        min-height: 35.8%;
+        padding-top: 1.9%;
     }
 }
