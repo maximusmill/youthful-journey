@@ -280,6 +280,7 @@ footer .center div p {
 
   main {
     min-height: 500px;
+    padding: 80px 0 10px 0;
   }
 
   main .center {
