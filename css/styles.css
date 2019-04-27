@@ -241,7 +241,8 @@ footer .center div p {
 **********************************************************************************************************/
 @media (min-width: 480px) {
   header {
-    padding-bottom: 130px;
+    padding-bottom: 130px
+    margin-bottom: 80px;
   }
 
   header h1 {
@@ -281,7 +282,6 @@ footer .center div p {
   main {
     min-height: 420px;
     padding: 0 0 10px 0;
-    margin-top: 80px;
   }
 
   main .center {
