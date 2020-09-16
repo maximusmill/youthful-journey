@@ -1,0 +1,801 @@
+
+/*@font-face {*/
+/*    font-family: 'PhosphateInline';*/
+/*    src: url("../font/PhosphateInline.eot");*/
+/*    src: url("../font/PhosphateInline.otf");*/
+/*format('opentype');*/
+/*    src: url("../font/PhosphateInline.ttf");*/
+/*format('truetype');*/
+/*}*/
+
+/***** HTML Reset *****/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+}
+
+body {
+    margin-top: 50px;
+}
+
+/***** HTML Reset End *****/
+
+/***** Base Font Colors *****/
+
+.darkorange {
+    color: #EC5C2C;
+}
+
+.lightorange {
+    color: #F69F3D;
+}
+
+.black {
+    color: black;
+}
+
+.uline {
+    text-decoration: underline;
+}
+
+/***** Base Font Colors *****/
+
+/***** Base Heading Fonts *****/
+
+h1 {
+        font-family: "PhosphateInline", sans-serif;
+        font-weight: normal;
+        color: #F69F3D;
+        font-size: 1.1rem;
+        padding: 0 0 0 0;
+
+    }
+
+h2  {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+
+h3  {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+/***** Base Buttons *****/
+
+button {
+    background-color: #EC5C2C;
+    color: white;
+    border: none;
+    max-width: 100%;
+}
+
+/***** Base Buttons End *****/
+
+/***** Base Article *****/
+
+article {
+    position: relative;
+    font-size: 1.525rem;
+    line-height: 2rem;
+    color: white;
+    height: 360px;
+    width: 100%;
+    padding: 18px 18px 18px 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 2px 0 0 0;
+}
+
+article img {
+    position: absolute;
+    bottom: 18px;
+}
+
+article button {
+    position: absolute;
+    height: 35px;
+    padding: 2px 10px 2px 10px;
+    font-size: 1rem;
+    bottom: 18px;
+    right: 18px;
+}
+
+/***** Base Article End *****/
+
+/***** Base cta *****/
+
+.cta {
+    display: inline-block;
+    width: 100%;
+    background-color: #DEC9A9;
+    padding: 30px 10px 30px 10px;
+    margin: 40px 0 0 0;
+    background-image: url(".././img/ctafeet.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 300px;
+}
+
+.cta h2 {
+    font-size: 1.7rem;
+    line-height: 2.425rem;
+    color: white;
+}
+
+.cta p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+    padding: 18px 0 25px 0;
+    line-height: 1.725rem
+}
+
+.cta button {
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 14px 14px 14px 47px;
+    margin: 0 0 0 -10px;
+}
+
+/***** Base cta End  *****/
+
+/***** Base Transparent Banner   *****/
+.transbanner {
+    position: relative;
+    min-width: 100%;
+    min-height: 6.875rem;
+    background-color: #EBEBEB;
+    opacity: 0.64;
+    transform: rotate(-2deg) skew(-2deg, 0deg);
+}
+
+/***** Base Transparent Banner End   *****/
+
+/***** Top Info Bar *****/
+
+#topbar {
+    height: 55px;
+    background-color: #F69F3D;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 20;
+    border-bottom: #DFDFDF solid 20px;
+}
+
+/***** Top Info Bar End *****/
+
+/***** Nav *****/
+
+nav {
+    display: none;
+    padding: 38px 0 0 0;
+}
+
+/***** Nav End *****/
+
+/**** Mobile Menu *****/
+
+#mobilemenu {
+    position: fixed;
+    z-index: 11;
+    width: 29px;
+    right: 0;
+    margin: 5% 5% 0 0;
+}
+
+.mobmenucon {
+    position: fixed;
+    z-index: 10;
+    display: none;
+    margin-top: -29px;
+    width: 100%;
+    height: 50%;
+    background-color: #FDC841;
+}
+
+
+.menuDis {
+    display: block;
+
+}
+
+
+/***** Mobile Menu End *****/
+
+/***** Header *****/
+
+header img:nth-child(1) {
+    width: 60%;
+    margin: 4% 0 0 4%;
+}
+
+header .headfrenchie {
+    background-image: url(".././img/1dog.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: 70px;
+    height: 200px;
+
+}
+
+header .transbanner {
+    top: -10px;
+    background-image: url(".././img/ctafeet1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 120px;
+}
+
+header h1 {
+    margin: 10% 0 0 10%;
+    width: 80%;
+    font-size: 1.625rem;
+}
+
+/***** Header End *****/
+
+/***** Main *****/
+
+main article:nth-child(2) {
+    background-image: url(".././img/pipkin.jpg");
+}
+
+main article:nth-child(3) {
+    background-image: url(".././img/frenchiecol.jpg");
+}
+
+main section {
+    position: relative;
+    min-height: 480px;
+    padding: 40px 20px 20px 20px;
+    background-image: url(".././img/feetsection.png");
+    background-repeat: no-repeat;
+    background-position: center;
+ }
+
+main section img {
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+}
+
+main section h2 {
+    display: block;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    width: 100%;
+    text-align: right;
+ }
+
+main section span:nth-child(3) {
+    font-size: 2.5rem
+}
+
+main section button {
+    height: 35px;
+    margin-right: 32px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+main section div:nth-child(1) {
+    margin: 20px 3% 0 0;
+    width: 280px;
+    float: right;
+}
+
+main section div:nth-child(2) {
+    margin: 30px 0 0 0;
+    float: right;
+}
+
+
+main section button:nth-child(1) {
+    margin: 0 10px 0 0;
+}
+
+main section .transbanner {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+}
+
+/***** Main End *****/
+
+/***** Footer *****/
+
+footer {
+    position: relative;
+    min-height: 200px;
+    background-color: #F69F3D;
+    padding: 40px 20px 20px 20px;
+}
+
+footer img {
+    margin: 0 10px 10px 0;
+    width: 38px;
+}
+
+footer p {
+    color: white;
+}
+
+footer p:nth-child(3) {
+    padding: 10px 0 0 0;
+    font-weight: bold;
+    font-size: 1.3rem
+}
+
+footer p:nth-child(4) {
+    margin: 50px 0 0 0;
+    font-size: .75rem;
+}
+
+
+
+/***** Footer End *****/
+
+
+/***** Content Responsive *****/
+
+@media only screen and (min-width: 373px) {
+
+
+}
+
+@media only screen and (min-width: 388px) {
+
+    header img:nth-child(1) {
+        width: 52%;
+        margin: 4% 0 0 4%;
+    }
+
+    header h1 {
+        font-size: 1.625rem;
+    }
+
+   main section img {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (min-width: 460px) {
+    main section div:nth-child(1) {
+        margin: 20px 5% 0 0;
+    }
+    footer p:nth-child(3) {
+        padding: 10px 0 0 0;
+        font-weight: bold;
+        font-size: 1.3rem
+    }
+
+    footer p:nth-child(4) {
+        margin: 50px 0 0 0;
+        font-size: .75rem;
+    }
+
+}
+
+@media only screen and (min-width: 518px) {
+
+    header .headfrenchie {
+        background-image: url(".././img/2dog.jpg");
+        height: 225px;
+        /*width: 100%*/
+        }
+
+    header .transbanner {
+        top: -12px;
+         }
+
+    .cta {
+        background-color: #DEC9A9;
+        padding: 30px 10px 30px 50px;
+    }
+
+    .cta h2 {
+        width: 84%;
+    }
+
+    .cta p {
+        width: 75%;
+    }
+
+    .cta button {
+        margin: 0 0 0 -50px;
+    }
+
+    main section h2 {
+         font-size: 1.8rem;
+    }
+
+    main section div:nth-child(1) {
+        margin: 20px 7% 0 0;
+        width: 400px;
+    }
+
+
+    main section img {
+        width: 50%;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 610px) {
+
+     header img:nth-child(1) {
+        width: 40%;
+        margin: 4% 0 0 4%;
+    }
+
+    header .headfrenchie {
+        background-image: url(".././img/2dog.jpg");
+        height: 245px;
+    }
+
+    .cta h2 {
+        font-size: 1.7rem;
+        width: 70%;
+    }
+
+    .cta p {
+        width: 60%;
+    }
+
+    article {
+        display: inline-block;
+        width: 49.6%;
+        margin: 2px 1px 0 1px;
+        vertical-align: top;
+
+    }
+
+    main section div:nth-child(1) {
+        margin: 20px 7% 0 0;
+        width: 450px;
+    }
+
+    main section img {
+        width: 40%;
+    }
+
+    footer p:nth-child(3) {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 0 0 0;
+    }
+
+    footer p:nth-child(4) {
+        margin: 50px 0 0 0;
+        font-size: .75rem;
+    }
+
+}
+
+@media only screen and (min-width: 722px) {
+
+    header img:nth-child(1) {
+        width: 35%;
+        margin: 4% 0 0 4%;
+    }
+
+    header h1 {
+        font-size: 1.7rem;
+        width: 75%;
+   }
+
+    header .headfrenchie {
+        background-image: url(".././img/3dogs.jpg");
+        height: 300px;
+    }
+
+    header .transbanner {
+        top: -68px;
+    }
+
+    main .cta h2 {
+        font-size: 1.9rem;
+    }
+
+    main .cta p {
+        font-size: 1.5rem;
+    }
+
+    main section div:nth-child(1) {
+        margin: 20px 9% 0 0;
+        width: 450px;
+    }
+
+    main section img {
+        width: 37%;
+    }
+}
+
+@media only screen and (min-width: 852px) {
+
+    #topbar {
+        height: 55px;
+        background-color: #F69F3D;
+        width: 100%;
+        position: relative;
+        z-index: 20;
+        border-bottom: #DFDFDF solid 20px;
+    }
+
+    body {
+        margin-top: 0;
+    }
+
+    #mobilemenu {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        /*padding: 2% 0 0 0;*/
+    }
+
+    nav ul {
+        text-align: right;
+        padding: 0 2% 0 0;
+    }
+
+    nav ul li {
+        display: inline-block;
+        font-weight: bold;
+        font-size: .95rem;
+        padding: 0 20px 0 0;
+
+    }
+
+    header img:nth-child(1) {
+        width: 29.5%;
+        margin: 0 0 0 4%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    header h1 {
+        display: inline-block;
+        font-size: 1.7rem;
+        width: 50%;
+        vertical-align: top;
+        padding: 0 0 0 0;
+
+    }
+
+    header .transbanner {
+        top: -68px;
+    }
+
+    main .cta {
+        width: 80%;
+        margin-top: 0;
+    }
+
+    main article {
+        width: 44%;
+        margin: 40px 0 0 40px;
+    }
+
+    main section h2 {
+        font-size: 1.8rem;
+    }
+
+}
+
+@media only screen and (min-width: 930px) {
+
+    header img:nth-child(1) {
+        width: 28.5%;
+        margin: 0 0 0 4%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    header .headfrenchie {
+        background-image: url(".././img/4dogs.jpg");
+        height: 250px;
+        margin-top: 90px
+    }
+
+    header h1 {
+        display: inline-block;
+        width: 55%;
+        vertical-align: top;
+        padding: 0 0 0 6%;
+    }
+
+    header .transbanner {
+        top: -95px;
+    }
+
+    main .cta {
+        display: inline-block;
+        width: 61%;
+        height: 360px;
+    }
+
+    main .cta h2 {
+        width: 82%;
+        font-size: 2rem;
+    }
+
+    main .cta p {
+        width: 400px;
+        margin-bottom: 30px;
+    }
+
+    main article:nth-child(2) {
+        vertical-align: top;
+        display: inline-block;
+        width: 31%;
+        margin-top: 0;
+    }
+
+    main article:nth-child(3) {
+        display: none;
+    }
+    main section h2 {
+        font-size: 2.2em;
+    }
+
+    main section div:nth-child(1) {
+        margin: 50px 10% 0 0;
+    }
+
+}
+
+@media only screen and (min-width: 1150px) {
+
+
+    main section img {
+        width: 28%;
+        margin: 0 0 0 30px;
+    }
+}
+
+@media only screen and (min-width: 1180px) {
+
+    header img:nth-child(1) {
+        width: 26%;
+        margin: 0 0 0 4%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    header .headfrenchie {
+        background-image: url(".././img/4dogs.jpg");
+        height: 250px;
+        margin-top: 100px;
+    }
+
+    header h1 {
+        display: inline-block;
+        width: 50%;
+        vertical-align: top;
+        padding: 0 0 0 10%;
+
+    }
+
+}
+
+@media only screen and (min-width: 1280px) {
+        #wrapper {
+            margin: 0 auto;
+            width: 1280px;
+        }
+
+        .wrap {
+            background-color: #F69F3D;
+        }
+        footer {
+            margin: 0 auto;
+            width: 1280px;
+        }
+        header img:nth-child(1) {
+            width: 23%;
+            margin: 0 0 0 4%;
+            display: inline-block;
+            vertical-align: top;
+            padding: 10px 0 0 0;
+        }
+
+        header .headfrenchie {
+            background-image: url(".././img/5dogs.jpg");
+            height: 300px;
+                }
+
+       header h1 {
+            position: relative;
+            display: inline-block;
+            font-size: 2rem;
+            width: 60%;
+            vertical-align: top;
+            padding: 0 0 0 19%;
+            top: -10px;
+        }
+
+        nav {
+            display: block;
+        }
+
+        main .cta {
+            width: 42%;
+        }
+
+        main article:nth-child(2) {
+            width: 25%;
+        }
+
+        main article:nth-child(3) {
+        margin-top: 0;
+        width: 25%;
+        display: inline-block;
+    }
+
+        header .transbanner {
+            top: -93px;
+        }
+
+    }
+
+/***** Content Responsive End *****/
