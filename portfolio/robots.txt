@@ -1,1 +1,3 @@
-Hggjmgjhmghjm
+User-agent: *
+Disallow: /pfbr
+
