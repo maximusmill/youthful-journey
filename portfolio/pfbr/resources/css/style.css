@@ -1,11 +1,15 @@
 
 @font-face {
-    font-family: 'PhosphateInline';
-    src: url("../font/PhosphateInline.eot");
-    src: url("../font/PhosphateInline.otf");
-    format('opentype');
-    src: url("../font/PhosphateInline.ttf");
-    format('truetype');
+    font-family: 'phosphateinline';
+    src: url('/resources/font/phosphateinline.eot');
+    src: url('/resources/font/phosphateinline.eot?#iefix') format('embedded-opentype'),
+    url('/resources/font/phosphateinline.woff2') format('woff2'),
+    url('/resources/font/phosphateinline.woff') format('woff'),
+    url('/resources/font/phosphateinline.ttf') format('truetype'),
+    url('/resources/font/phosphateinline.svg#phosphateinlineroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 /***** HTML Reset *****/
@@ -72,6 +76,7 @@ body {
 
 /***** Base Font Colors *****/
 
+
 .darkorange {
     color: #EC5C2C;
 }
@@ -84,22 +89,17 @@ body {
     color: black;
 }
 
-.uline {
-    text-decoration: underline;
-}
-
 /***** Base Font Colors *****/
 
 /***** Base Heading Fonts *****/
 
 h1 {
-        font-family: "PhosphateInline", sans-serif;
-        font-weight: normal;
-        color: #F69F3D;
-        font-size: 1.1rem;
-        padding: 0 0 0 0;
+    font-family: 'phosphateinline', sans-serif;
+    color: #F69F3D;
+    font-size: 1.1rem;
+    padding: 0 0 0 0;
 
-    }
+}
 
 h2  {
     font-family: 'Oswald', sans-serif;
@@ -210,7 +210,7 @@ article button {
     background-color: #F69F3D;
     width: 100%;
     position: fixed;
-    top: 0px;
+    top: 0;
     z-index: 20;
     border-bottom: #DFDFDF solid 20px;
 }
@@ -233,7 +233,7 @@ nav {
     z-index: 11;
     width: 29px;
     right: 0;
-    margin: 5% 5% 0 0;
+    margin: 30px 26px 0 0;
 }
 
 .mobmenucon {
@@ -241,9 +241,10 @@ nav {
     z-index: 10;
     display: none;
     margin-top: -29px;
-    width: 100%;
+    min-width: 851px;
     height: 50%;
     background-color: #FDC841;
+    opacity: .2;
 }
 
 
@@ -305,7 +306,7 @@ main section {
     background-image: url(".././img/feetsection.png");
     background-repeat: no-repeat;
     background-position: center;
- }
+}
 
 main section img {
     position: absolute;
@@ -319,7 +320,7 @@ main section h2 {
     line-height: 3rem;
     width: 100%;
     text-align: right;
- }
+}
 
 main section span:nth-child(3) {
     font-size: 2.5rem
@@ -409,7 +410,7 @@ footer p:nth-child(4) {
         font-size: 1.625rem;
     }
 
-   main section img {
+    main section img {
         width: 50%;
     }
 
@@ -438,11 +439,11 @@ footer p:nth-child(4) {
         background-image: url(".././img/2dog.jpg");
         height: 225px;
         /*width: 100%*/
-        }
+    }
 
     header .transbanner {
         top: -12px;
-         }
+    }
 
     .cta {
         background-color: #DEC9A9;
@@ -462,7 +463,7 @@ footer p:nth-child(4) {
     }
 
     main section h2 {
-         font-size: 1.8rem;
+        font-size: 1.8rem;
     }
 
     main section div:nth-child(1) {
@@ -481,7 +482,7 @@ footer p:nth-child(4) {
 
 @media only screen and (min-width: 610px) {
 
-     header img:nth-child(1) {
+    header img:nth-child(1) {
         width: 40%;
         margin: 4% 0 0 4%;
     }
@@ -540,7 +541,7 @@ footer p:nth-child(4) {
     header h1 {
         font-size: 1.7rem;
         width: 75%;
-   }
+    }
 
     header .headfrenchie {
         background-image: url(".././img/3dogs.jpg");
@@ -739,63 +740,63 @@ footer p:nth-child(4) {
 }
 
 @media only screen and (min-width: 1280px) {
-        #wrapper {
-            margin: 0 auto;
-            width: 1280px;
-        }
+    #wrapper {
+        margin: 0 auto;
+        width: 1280px;
+    }
 
-        .wrap {
-            background-color: #F69F3D;
-        }
-        footer {
-            margin: 0 auto;
-            width: 1280px;
-        }
-        header img:nth-child(1) {
-            width: 23%;
-            margin: 0 0 0 4%;
-            display: inline-block;
-            vertical-align: top;
-            padding: 10px 0 0 0;
-        }
+    .wrap {
+        background-color: #F69F3D;
+    }
+    footer {
+        margin: 0 auto;
+        width: 1280px;
+    }
+    header img:nth-child(1) {
+        width: 23%;
+        margin: 0 0 0 4%;
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px 0 0 0;
+    }
 
-        header .headfrenchie {
-            background-image: url(".././img/5dogs.jpg");
-            height: 300px;
-                }
+    header .headfrenchie {
+        background-image: url(".././img/5dogs.jpg");
+        height: 300px;
+    }
 
-       header h1 {
-            position: relative;
-            display: inline-block;
-            font-size: 2rem;
-            width: 60%;
-            vertical-align: top;
-            padding: 0 0 0 19%;
-            top: -10px;
-        }
+    header h1 {
+        position: relative;
+        display: inline-block;
+        font-size: 2rem;
+        width: 60%;
+        vertical-align: top;
+        padding: 0 0 0 19%;
+        top: -10px;
+    }
 
-        nav {
-            display: block;
-        }
+    nav {
+        display: block;
+    }
 
-        main .cta {
-            width: 42%;
-        }
+    main .cta {
+        width: 42%;
+    }
 
-        main article:nth-child(2) {
-            width: 25%;
-        }
+    main article:nth-child(2) {
+        width: 25%;
+    }
 
-        main article:nth-child(3) {
+    main article:nth-child(3) {
         margin-top: 0;
         width: 25%;
         display: inline-block;
     }
 
-        header .transbanner {
-            top: -93px;
-        }
-
+    header .transbanner {
+        top: -93px;
     }
+
+}
 
 /***** Content Responsive End *****/
