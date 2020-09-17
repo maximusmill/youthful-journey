@@ -1,12 +1,12 @@
 
 @font-face {
     font-family: 'phosphateinline';
-    src: url('font/phosphateinline.eot');
-    src: url('font/phosphateinline.eot?#iefix') format('embedded-opentype'),
-    url('font/phosphateinline.woff2') format('woff2'),
-    url('font/phosphateinline.woff') format('woff'),
-    url('font/phosphateinline.ttf') format('truetype'),
-    url('font/phosphateinline.svg#phosphateinlineroman') format('svg');
+    src: url('../font/phosphateinline.eot');
+    src: url('../font/phosphateinline.eot?#iefix') format('embedded-opentype'),
+    url('../font/phosphateinline.woff2') format('woff2'),
+    url('../font/phosphateinline.woff') format('woff'),
+    url('../font/phosphateinline.ttf') format('truetype'),
+    url('../font/phosphateinline.svg#phosphateinlineroman') format('svg');
 
 
 }
