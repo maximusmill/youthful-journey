@@ -623,11 +623,7 @@ footer p:nth-child(4) {
     nav ul {
         display: inline-block;
         padding: 5px 0 10px 0;
-        /*margin: 10px 0 0 0;*/
         vertical-align: top;
-
-
-
     }
 
     nav ul li {
