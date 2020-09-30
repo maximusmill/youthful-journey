@@ -1,6 +1,8 @@
 const about = document.querySelector('.menudtab');
 const dogs = document.querySelector('.menudtdo');
 const liitems = document.querySelectorAll('ul,li,a')
+const menuButton = document.getElementById('mobilemenu');
+const mobileNav = document.getElementById('nav')
 
 /** Desktop Dropdown Menu **/
 liitems.forEach(item => item.addEventListener('click', (event) => {
@@ -23,18 +25,11 @@ liitems.forEach(item => item.addEventListener('click', (event) => {
          dogs.classList.remove('menuDisp')
     }
 }))
-//
-// const menuButton = document.getElementById('mobilemenu');
-// const menuCon = document.querySelector('.mobmenucon');
-// const onresize = (event) => {
-//     let width = event.target.outerWidth;
-//     if(width === 852 && menuCon.classList.contains('menuDis')) {
-//         menuCon.classList.remove('menuDis');
-//         window.removeEventListener("resize", onresize);
-//     }
-// }
-//
-// menuButton.addEventListener('click', () =>{
-//     menuCon.classList.toggle('menuDis');
-//     window.addEventListener("resize", onresize);
-// })
+
+/** Mobile Dropdown **/
+
+menuButton.addEventListener('click', (event) => {
+    mobileNav.classList.toggle('menuDisp')
+    console.log('guff')
+})
+

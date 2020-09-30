@@ -26,6 +26,7 @@
       <change beforePath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.eot" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.eot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portfolio/pfbr/resources/js/pfbr.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfbr/resources/js/pfbr.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +72,7 @@
       <updated>1553777672356</updated>
       <workItem from="1553777675528" duration="724000" />
       <workItem from="1601383054320" duration="5575000" />
+      <workItem from="1601398331771" duration="10682000" />
     </task>
     <task id="LOCAL-00001" summary="css rule updated">
       <created>1601389800564</created>
@@ -86,7 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601390266869</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updates">
+      <created>1601398366216</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601398366216</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updates">
+      <created>1601398580827</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601398580827</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,10 +118,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="css rule updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="css rule updated" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
   <component name="WindowStateProjectService">
     <state x="579" y="684" key="#Notifications" timestamp="1601398155778">
@@ -116,45 +134,48 @@
       <screen x="0" y="23" width="3200" height="1697" />
     </state>
     <state x="358" y="551" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.3200.1697@0.23.3200.1697" timestamp="1601388619010" />
-    <state width="1656" height="481" key="GridCell.Tab.0.bottom" timestamp="1601398295424">
+    <state width="786" height="410" key="GridCell.Tab.0.bottom" timestamp="1601460241277">
       <screen x="0" y="23" width="3200" height="1697" />
     </state>
-    <state width="1656" height="481" key="GridCell.Tab.0.bottom/0.23.3200.1697@0.23.3200.1697" timestamp="1601398295424" />
-    <state width="1656" height="481" key="GridCell.Tab.0.center" timestamp="1601398295424">
+    <state width="786" height="410" key="GridCell.Tab.0.bottom/0.23.3200.1697@0.23.3200.1697" timestamp="1601460241277" />
+    <state width="786" height="410" key="GridCell.Tab.0.center" timestamp="1601460241276">
       <screen x="0" y="23" width="3200" height="1697" />
     </state>
-    <state width="1656" height="481" key="GridCell.Tab.0.center/0.23.3200.1697@0.23.3200.1697" timestamp="1601398295424" />
-    <state width="1656" height="481" key="GridCell.Tab.0.left" timestamp="1601398295424">
+    <state width="786" height="410" key="GridCell.Tab.0.center/0.23.3200.1697@0.23.3200.1697" timestamp="1601460241276" />
+    <state width="786" height="410" key="GridCell.Tab.0.left" timestamp="1601460241271">
       <screen x="0" y="23" width="3200" height="1697" />
     </state>
-    <state width="1656" height="481" key="GridCell.Tab.0.left/0.23.3200.1697@0.23.3200.1697" timestamp="1601398295424" />
-    <state width="1656" height="481" key="GridCell.Tab.0.right" timestamp="1601398295424">
+    <state width="786" height="410" key="GridCell.Tab.0.left/0.23.3200.1697@0.23.3200.1697" timestamp="1601460241271" />
+    <state width="786" height="410" key="GridCell.Tab.0.right" timestamp="1601460241277">
       <screen x="0" y="23" width="3200" height="1697" />
     </state>
-    <state width="1656" height="481" key="GridCell.Tab.0.right/0.23.3200.1697@0.23.3200.1697" timestamp="1601398295424" />
-    <state width="1656" height="481" key="GridCell.Tab.1.bottom" timestamp="1601398295425">
+    <state width="786" height="410" key="GridCell.Tab.0.right/0.23.3200.1697@0.23.3200.1697" timestamp="1601460241277" />
+    <state width="786" height="410" key="GridCell.Tab.1.bottom" timestamp="1601460241279">
       <screen x="0" y="23" width="3200" height="1697" />
     </state>
-    <state width="1656" height="481" key="GridCell.Tab.1.bottom/0.23.3200.1697@0.23.3200.1697" timestamp="1601398295425" />
-    <state width="1656" height="481" key="GridCell.Tab.1.center" timestamp="1601398295425">
+    <state width="786" height="410" key="GridCell.Tab.1.bottom/0.23.3200.1697@0.23.3200.1697" timestamp="1601460241279" />
+    <state width="786" height="410" key="GridCell.Tab.1.center" timestamp="1601460241278">
       <screen x="0" y="23" width="3200" height="1697" />
     </state>
-    <state width="1656" height="481" key="GridCell.Tab.1.center/0.23.3200.1697@0.23.3200.1697" timestamp="1601398295425" />
-    <state width="1656" height="481" key="GridCell.Tab.1.left" timestamp="1601398295425">
+    <state width="786" height="410" key="GridCell.Tab.1.center/0.23.3200.1697@0.23.3200.1697" timestamp="1601460241278" />
+    <state width="786" height="410" key="GridCell.Tab.1.left" timestamp="1601460241278">
       <screen x="0" y="23" width="3200" height="1697" />
     </state>
-    <state width="1656" height="481" key="GridCell.Tab.1.left/0.23.3200.1697@0.23.3200.1697" timestamp="1601398295425" />
-    <state width="1656" height="481" key="GridCell.Tab.1.right" timestamp="1601398295425">
+    <state width="786" height="410" key="GridCell.Tab.1.left/0.23.3200.1697@0.23.3200.1697" timestamp="1601460241278" />
+    <state width="786" height="410" key="GridCell.Tab.1.right" timestamp="1601460241278">
       <screen x="0" y="23" width="3200" height="1697" />
     </state>
-    <state width="1656" height="481" key="GridCell.Tab.1.right/0.23.3200.1697@0.23.3200.1697" timestamp="1601398295425" />
+    <state width="786" height="410" key="GridCell.Tab.1.right/0.23.3200.1697@0.23.3200.1697" timestamp="1601460241278" />
     <state x="395" y="528" key="SettingsEditor" timestamp="1601388637010">
       <screen x="0" y="23" width="3200" height="1697" />
     </state>
     <state x="395" y="528" key="SettingsEditor/0.23.3200.1697@0.23.3200.1697" timestamp="1601388637010" />
-    <state x="546" y="595" width="1236" height="520" key="Vcs.Push.Dialog.v2" timestamp="1601398262847">
+    <state x="546" y="595" width="1236" height="520" key="Vcs.Push.Dialog.v2" timestamp="1601398372468">
       <screen x="0" y="23" width="3200" height="1697" />
     </state>
-    <state x="546" y="595" width="1236" height="520" key="Vcs.Push.Dialog.v2/0.23.3200.1697@0.23.3200.1697" timestamp="1601398262847" />
+    <state x="546" y="595" width="1236" height="520" key="Vcs.Push.Dialog.v2/0.23.3200.1697@0.23.3200.1697" timestamp="1601398372468" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/youthful_journey$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1601406913407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
