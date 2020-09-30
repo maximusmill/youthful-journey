@@ -52,15 +52,13 @@ table {
     border-spacing: 0;
 }
 
-a
-{
-    -webkit-tap-highlight-color: transparent;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
+    outline: none !important;
 }
 
 html {
@@ -97,6 +95,10 @@ body {
 a {
     color: black;
     text-decoration: none;
+}
+
+a:active{
+    color: black;
 }
 
 a:link, a:visited {

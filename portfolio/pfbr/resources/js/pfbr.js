@@ -30,6 +30,5 @@ liitems.forEach(item => item.addEventListener('click', (event) => {
 
 menuButton.addEventListener('click', (event) => {
     mobileNav.classList.toggle('menuDisp')
-    console.log('guff')
 })
 
