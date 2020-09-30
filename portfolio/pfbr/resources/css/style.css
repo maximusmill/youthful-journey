@@ -673,11 +673,15 @@ footer p:nth-child(4) {
 
     }
 
+    nav {
+
+    }
+
     nav ul {
         display: inline-block;
         padding: 5px 0 10px 0;
         vertical-align: top;
-        }
+          }
 
     nav ul li {
         width: 100px;
@@ -687,16 +691,15 @@ footer p:nth-child(4) {
         font-size: .95rem;
         vertical-align: top;
         text-align: left;
-    }
+         }
 
     nav ul li ul {
         margin: 12px 0 0 -25px;
         background-color: white;
-        opacity: .8;
         height: 100%;
         z-index: 50;
         width: 300px;
-       }
+    }
 
     nav ul li ul li {
         display: block;
