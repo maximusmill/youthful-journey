@@ -8,6 +8,7 @@ const mobileNav = document.getElementById('nav')
 liitems.forEach(item => item.addEventListener('click', (event) => {
     if (event.target.className === 'aboutli') {
          about.classList.toggle('menuDisp')
+         about.classList.toggle('transtest')
          about.addEventListener('mouseleave', (event) => {
          about.classList.remove('menuDisp')
          })

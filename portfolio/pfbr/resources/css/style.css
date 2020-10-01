@@ -263,8 +263,9 @@ nav {
     z-index: 100;
     width: 100%;
     background-color: white;
-    opacity: 0.92;
+    opacity: 0.88;
  }
+
 
 nav ul {
     display: block;
@@ -284,8 +285,7 @@ nav ul li {
 
 nav ul li ul {
     margin: 0 0 0 0;
-    background-color: white;
-    opacity: .8;
+    opacity: .98;
     height: 100%;
     z-index: 50;
     width: 300px;
@@ -661,7 +661,6 @@ footer p:nth-child(4) {
         height: 10px;
         text-align: right;
         z-index: 55;
-
     }
 
     .menudtab, .menudtdo {
