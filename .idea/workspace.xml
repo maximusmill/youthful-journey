@@ -20,18 +20,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b649e4b7-b7cf-4dc5-b2aa-27f350157f73" name="Default Changelist" comment="css rule updated">
+      <change afterPath="$PROJECT_DIR$/images/eyeeye.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfbr/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfbr/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfbr/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfbr/resources/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.eot" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.eot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio/pfbr/resources/js/pfbr.js" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfbr/resources/js/pfbr.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,22 +49,24 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/youthful-journey/portfolio/pfbr/index.html" useBuiltInWebServerPort="true">
+    <configuration name="youthful-journey" type="JavascriptDebugType" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/youthful-journey/" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.index.html" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -72,8 +81,10 @@
       <updated>1553777672356</updated>
       <workItem from="1553777675528" duration="724000" />
       <workItem from="1601383054320" duration="5575000" />
-      <workItem from="1601398331771" duration="21016000" />
-      <workItem from="1601540585880" duration="610000" />
+      <workItem from="1601398331771" duration="2850000" />
+      <workItem from="1601419159743" duration="1413000" />
+      <workItem from="1611313401175" duration="108000" />
+      <workItem from="1611510792252" duration="44215000" />
     </task>
     <task id="LOCAL-00001" summary="css rule updated">
       <created>1601389800564</created>
@@ -103,56 +114,7 @@
       <option name="project" value="LOCAL" />
       <updated>1601398580827</updated>
     </task>
-    <task id="LOCAL-00005" summary="updates">
-      <created>1601461536647</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1601461536647</updated>
-    </task>
-    <task id="LOCAL-00006" summary="updates">
-      <created>1601462115989</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1601462115989</updated>
-    </task>
-    <task id="LOCAL-00007" summary="updates">
-      <created>1601462383785</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1601462383785</updated>
-    </task>
-    <task id="LOCAL-00008" summary="updates">
-      <created>1601463527349</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1601463527349</updated>
-    </task>
-    <task id="LOCAL-00009" summary="updates">
-      <created>1601463784019</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1601463784019</updated>
-    </task>
-    <task id="LOCAL-00010" summary="updates">
-      <created>1601465844134</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1601465844134</updated>
-    </task>
-    <task id="LOCAL-00011" summary="updates">
-      <created>1601471169571</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1601471169571</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,56 +138,52 @@
     <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="579" y="684" key="#Notifications" timestamp="1601398155778">
-      <screen x="0" y="23" width="3200" height="1697" />
+    <state x="340" y="605" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611514379894">
+      <screen x="0" y="25" width="3200" height="1690" />
     </state>
-    <state x="579" y="684" key="#Notifications/0.23.3200.1697@0.23.3200.1697" timestamp="1601398155778" />
-    <state x="358" y="551" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601388619010">
-      <screen x="0" y="23" width="3200" height="1697" />
+    <state x="340" y="605" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.3200.1690@0.25.3200.1690" timestamp="1611514379894" />
+    <state width="717" height="408" key="GridCell.Tab.0.bottom" timestamp="1611665615457">
+      <screen x="0" y="25" width="3200" height="1690" />
     </state>
-    <state x="358" y="551" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.3200.1697@0.23.3200.1697" timestamp="1601388619010" />
-    <state width="1067" height="481" key="GridCell.Tab.0.bottom" timestamp="1601539101881">
-      <screen x="0" y="23" width="3200" height="1697" />
+    <state width="717" height="408" key="GridCell.Tab.0.bottom/0.25.3200.1690@0.25.3200.1690" timestamp="1611665615457" />
+    <state width="717" height="408" key="GridCell.Tab.0.center" timestamp="1611665615456">
+      <screen x="0" y="25" width="3200" height="1690" />
     </state>
-    <state width="1067" height="481" key="GridCell.Tab.0.bottom/0.23.3200.1697@0.23.3200.1697" timestamp="1601539101881" />
-    <state width="1067" height="481" key="GridCell.Tab.0.center" timestamp="1601539101880">
-      <screen x="0" y="23" width="3200" height="1697" />
+    <state width="717" height="408" key="GridCell.Tab.0.center/0.25.3200.1690@0.25.3200.1690" timestamp="1611665615456" />
+    <state width="717" height="408" key="GridCell.Tab.0.left" timestamp="1611665615456">
+      <screen x="0" y="25" width="3200" height="1690" />
     </state>
-    <state width="1067" height="481" key="GridCell.Tab.0.center/0.23.3200.1697@0.23.3200.1697" timestamp="1601539101880" />
-    <state width="1067" height="481" key="GridCell.Tab.0.left" timestamp="1601539101880">
-      <screen x="0" y="23" width="3200" height="1697" />
+    <state width="717" height="408" key="GridCell.Tab.0.left/0.25.3200.1690@0.25.3200.1690" timestamp="1611665615456" />
+    <state width="717" height="408" key="GridCell.Tab.0.right" timestamp="1611665615457">
+      <screen x="0" y="25" width="3200" height="1690" />
     </state>
-    <state width="1067" height="481" key="GridCell.Tab.0.left/0.23.3200.1697@0.23.3200.1697" timestamp="1601539101880" />
-    <state width="1067" height="481" key="GridCell.Tab.0.right" timestamp="1601539101881">
-      <screen x="0" y="23" width="3200" height="1697" />
+    <state width="717" height="408" key="GridCell.Tab.0.right/0.25.3200.1690@0.25.3200.1690" timestamp="1611665615457" />
+    <state width="717" height="408" key="GridCell.Tab.1.bottom" timestamp="1611665615458">
+      <screen x="0" y="25" width="3200" height="1690" />
     </state>
-    <state width="1067" height="481" key="GridCell.Tab.0.right/0.23.3200.1697@0.23.3200.1697" timestamp="1601539101881" />
-    <state width="1067" height="481" key="GridCell.Tab.1.bottom" timestamp="1601539101882">
-      <screen x="0" y="23" width="3200" height="1697" />
+    <state width="717" height="408" key="GridCell.Tab.1.bottom/0.25.3200.1690@0.25.3200.1690" timestamp="1611665615458" />
+    <state width="717" height="408" key="GridCell.Tab.1.center" timestamp="1611665615457">
+      <screen x="0" y="25" width="3200" height="1690" />
     </state>
-    <state width="1067" height="481" key="GridCell.Tab.1.bottom/0.23.3200.1697@0.23.3200.1697" timestamp="1601539101882" />
-    <state width="1067" height="481" key="GridCell.Tab.1.center" timestamp="1601539101882">
-      <screen x="0" y="23" width="3200" height="1697" />
+    <state width="717" height="408" key="GridCell.Tab.1.center/0.25.3200.1690@0.25.3200.1690" timestamp="1611665615457" />
+    <state width="717" height="408" key="GridCell.Tab.1.left" timestamp="1611665615457">
+      <screen x="0" y="25" width="3200" height="1690" />
     </state>
-    <state width="1067" height="481" key="GridCell.Tab.1.center/0.23.3200.1697@0.23.3200.1697" timestamp="1601539101882" />
-    <state width="1067" height="481" key="GridCell.Tab.1.left" timestamp="1601539101881">
-      <screen x="0" y="23" width="3200" height="1697" />
+    <state width="717" height="408" key="GridCell.Tab.1.left/0.25.3200.1690@0.25.3200.1690" timestamp="1611665615457" />
+    <state width="717" height="408" key="GridCell.Tab.1.right" timestamp="1611665615458">
+      <screen x="0" y="25" width="3200" height="1690" />
     </state>
-    <state width="1067" height="481" key="GridCell.Tab.1.left/0.23.3200.1697@0.23.3200.1697" timestamp="1601539101881" />
-    <state width="1067" height="481" key="GridCell.Tab.1.right" timestamp="1601539101882">
-      <screen x="0" y="23" width="3200" height="1697" />
+    <state width="717" height="408" key="GridCell.Tab.1.right/0.25.3200.1690@0.25.3200.1690" timestamp="1611665615458" />
+    <state x="538" y="794" key="Vcs.Push.Dialog.v2" timestamp="1611670227120">
+      <screen x="0" y="25" width="3200" height="1690" />
     </state>
-    <state width="1067" height="481" key="GridCell.Tab.1.right/0.23.3200.1697@0.23.3200.1697" timestamp="1601539101882" />
-    <state x="395" y="528" key="SettingsEditor" timestamp="1601388637010">
-      <screen x="0" y="23" width="3200" height="1697" />
+    <state x="538" y="794" key="Vcs.Push.Dialog.v2/0.25.3200.1690@0.25.3200.1690" timestamp="1611670227120" />
+    <state x="540" y="773" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611669890426">
+      <screen x="0" y="25" width="3200" height="1690" />
     </state>
-    <state x="395" y="528" key="SettingsEditor/0.23.3200.1697@0.23.3200.1697" timestamp="1601388637010" />
-    <state x="546" y="595" width="1236" height="520" key="Vcs.Push.Dialog.v2" timestamp="1601471171791">
-      <screen x="0" y="23" width="3200" height="1697" />
-    </state>
-    <state x="546" y="595" width="1236" height="520" key="Vcs.Push.Dialog.v2/0.23.3200.1697@0.23.3200.1697" timestamp="1601471171791" />
+    <state x="540" y="773" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.3200.1690@0.25.3200.1690" timestamp="1611669890426" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/youthful_journey$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1601406913407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/youthful_journey$index_html.dat" NAME="youthful-journey Coverage Results" MODIFIED="1611653401450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
