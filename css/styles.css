@@ -90,7 +90,7 @@ header #content h2 {
   color: white;
   text-align: left;
   display: inline-block;
-  font-size: 1.875rem;
+  font-size: 1.865rem;
   position: relative;
   top: -36px;
 }
@@ -103,16 +103,15 @@ header #content #digits {
   line-height: 1;
   word-spacing: -10px;
   width: 115px;
-  margin-left: 20px;
-  margin-right: 16px
+  margin-left: 17px;
+  margin-right: 13px
 }
 
 header #content img {
-  display: inline-block;
+  float: right;
   width: 60px;
-  margin-left: 16px;
+  padding-top: 3px;
   position: relative;
-  top: -35px;
   }
 
 header >span, .digit-color-mag {
@@ -185,21 +184,23 @@ header span.blinking2 {
 
 .portfolio h2 {
   transform: rotate(270deg);
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   width: 168px;
   position: relative;
   top: -97px;
   left: 126px;
   background-color: #E7E7E9;
   border: none;
-  padding: 0 0 3px 4px;
+  padding-top: 1px;
+  padding-bottom: 4px;
+  padding-left: 3px;
 }
 
 .portfolio #progress {
   position: relative;
   transform: rotate(270deg);
   font-family: 'Roboto Mono', monospace;
-  top: -102px;
+  top: -101px;
   left: 177px;
   font-size: 0.95rem;
   color: #F000FF;
@@ -338,4 +339,78 @@ footer p {
   padding-top: 25px;
   padding-bottom: 25px;
   text-align: center;
+}
+
+@media only screen and (max-width: 420px) {
+
+  header h1 {
+    font-size: 4.45rem;
+    margin: 90px auto 0;
+    width: 320px;
+  }
+
+  header #content {
+    width: 320px;
+  }
+
+  header #content h2 {
+    text-align: center;
+    display: block;
+    font-size: 1.875rem;
+    top: -66px;
+    padding-top: 50px;
+    width: 320px;
+  }
+
+  header #content #digits {
+    display: block;
+    margin: -45px auto 33px;
+  }
+
+  header #content img {
+    display: block;
+    margin: 0 auto;
+    float: none;
+    top: -30px;
+  }
+
+  main {
+    min-height: 780px;
+    padding-left: 40px;
+  }
+
+  main p {
+    top: 320px;
+  }
+
+  main p span {
+    color: #F000FF;
+  }
+
+  main ul {
+    position: relative;
+    transform: rotate(270deg);
+    background-color: white;
+    width: 200px;
+    line-height: 2;
+    top: -111px;
+    left: 22px;
+    text-align: left;
+    list-style-type: none;
+    list-style-image: url('../images/rightarrow.svg');
+  }
+
+  footer div {
+    width: 320px;
+    padding-left: 10px;
+  }
+
+  footer button {
+    left: 70px;
+    font-size: 16px;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
 }
