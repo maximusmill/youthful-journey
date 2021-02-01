@@ -21,7 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b649e4b7-b7cf-4dc5-b2aa-27f350157f73" name="Default Changelist" comment="css rule updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/css/swpw.css" beforeDir="false" afterPath="$PROJECT_DIR$/components/Show And Hide Input Password/css/swpw.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/input show password.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/Show And Hide Input Password/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/js/swpw.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Show And Hide Input Password/js/swpw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/eyeeye.png" beforeDir="false" afterPath="$PROJECT_DIR$/components/Show And Hide Input Password/images/eyeeye.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.eot" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.eot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/portfolio/pfbr/resources/font/PhosphateInline.woff2" afterDir="false" />
@@ -34,6 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -47,25 +52,31 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/Show And Hide Input Password" />
+      <recent name="$PROJECT_DIR$/compnents" />
+      <recent name="$PROJECT_DIR$/compnents/images" />
+      <recent name="$PROJECT_DIR$/compnents/js" />
+      <recent name="$PROJECT_DIR$/compnents/css" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="youthful-journey" type="JavascriptDebugType" nameIsGenerated="true" engineId="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" uri="http://localhost:63342/youthful-journey/" useBuiltInWebServerPort="true">
+    <configuration name="youthful-journey" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/youthful-journey/" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
   </component>
@@ -88,7 +99,8 @@
       <workItem from="1611510792252" duration="50482000" />
       <workItem from="1611744919640" duration="170000" />
       <workItem from="1611745283166" duration="18541000" />
-      <workItem from="1611843845650" duration="14692000" />
+      <workItem from="1611843845650" duration="15563000" />
+      <workItem from="1612172722021" duration="8611000" />
     </task>
     <task id="LOCAL-00001" summary="css rule updated">
       <created>1601389800564</created>
@@ -146,7 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612170165800</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="css rule updated">
+      <created>1612170615688</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612170615688</updated>
+    </task>
+    <task id="LOCAL-00010" summary="components">
+      <created>1612184345046</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1612184345046</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,73 +193,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updates" />
     <MESSAGE value="css rule updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="css rule updated" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="340" y="605" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611514379894">
-      <screen x="0" y="25" width="3200" height="1690" />
-    </state>
-    <state x="340" y="605" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.3200.1690@0.25.3200.1690" timestamp="1611514379894" />
-    <state x="100" y="435" width="1277" height="1460" key="DiffContextDialog" timestamp="1611670870078">
-      <screen x="0" y="25" width="3200" height="1690" />
-    </state>
-    <state x="100" y="435" width="1277" height="1460" key="DiffContextDialog/0.25.3200.1690@0.25.3200.1690" timestamp="1611670870078" />
-    <state width="1921" height="459" key="GridCell.Tab.0.bottom" timestamp="1612170382757">
-      <screen x="0" y="25" width="3200" height="1690" />
-    </state>
-    <state width="1921" height="459" key="GridCell.Tab.0.bottom/0.25.3200.1690@0.25.3200.1690" timestamp="1612170382757" />
-    <state width="1435" height="408" key="GridCell.Tab.0.bottom/0.25.3200.1693@0.25.3200.1693" timestamp="1611741984375" />
-    <state width="1512" height="408" key="GridCell.Tab.0.bottom/0.25.3200.1694@0.25.3200.1694" timestamp="1611743607332" />
-    <state width="1921" height="459" key="GridCell.Tab.0.center" timestamp="1612170382757">
-      <screen x="0" y="25" width="3200" height="1690" />
-    </state>
-    <state width="1921" height="459" key="GridCell.Tab.0.center/0.25.3200.1690@0.25.3200.1690" timestamp="1612170382757" />
-    <state width="1435" height="408" key="GridCell.Tab.0.center/0.25.3200.1693@0.25.3200.1693" timestamp="1611741984374" />
-    <state width="1512" height="408" key="GridCell.Tab.0.center/0.25.3200.1694@0.25.3200.1694" timestamp="1611743607331" />
-    <state width="1921" height="459" key="GridCell.Tab.0.left" timestamp="1612170382756">
-      <screen x="0" y="25" width="3200" height="1690" />
-    </state>
-    <state width="1921" height="459" key="GridCell.Tab.0.left/0.25.3200.1690@0.25.3200.1690" timestamp="1612170382756" />
-    <state width="1435" height="408" key="GridCell.Tab.0.left/0.25.3200.1693@0.25.3200.1693" timestamp="1611741984374" />
-    <state width="1512" height="408" key="GridCell.Tab.0.left/0.25.3200.1694@0.25.3200.1694" timestamp="1611743607331" />
-    <state width="1921" height="459" key="GridCell.Tab.0.right" timestamp="1612170382757">
-      <screen x="0" y="25" width="3200" height="1690" />
-    </state>
-    <state width="1921" height="459" key="GridCell.Tab.0.right/0.25.3200.1690@0.25.3200.1690" timestamp="1612170382757" />
-    <state width="1435" height="408" key="GridCell.Tab.0.right/0.25.3200.1693@0.25.3200.1693" timestamp="1611741984375" />
-    <state width="1512" height="408" key="GridCell.Tab.0.right/0.25.3200.1694@0.25.3200.1694" timestamp="1611743607332" />
-    <state width="1921" height="459" key="GridCell.Tab.1.bottom" timestamp="1612170382758">
-      <screen x="0" y="25" width="3200" height="1690" />
-    </state>
-    <state width="1921" height="459" key="GridCell.Tab.1.bottom/0.25.3200.1690@0.25.3200.1690" timestamp="1612170382758" />
-    <state width="1435" height="408" key="GridCell.Tab.1.bottom/0.25.3200.1693@0.25.3200.1693" timestamp="1611741984376" />
-    <state width="1512" height="408" key="GridCell.Tab.1.bottom/0.25.3200.1694@0.25.3200.1694" timestamp="1611743607333" />
-    <state width="1921" height="459" key="GridCell.Tab.1.center" timestamp="1612170382758">
-      <screen x="0" y="25" width="3200" height="1690" />
-    </state>
-    <state width="1921" height="459" key="GridCell.Tab.1.center/0.25.3200.1690@0.25.3200.1690" timestamp="1612170382758" />
-    <state width="1435" height="408" key="GridCell.Tab.1.center/0.25.3200.1693@0.25.3200.1693" timestamp="1611741984376" />
-    <state width="1512" height="408" key="GridCell.Tab.1.center/0.25.3200.1694@0.25.3200.1694" timestamp="1611743607333" />
-    <state width="1921" height="459" key="GridCell.Tab.1.left" timestamp="1612170382757">
-      <screen x="0" y="25" width="3200" height="1690" />
-    </state>
-    <state width="1921" height="459" key="GridCell.Tab.1.left/0.25.3200.1690@0.25.3200.1690" timestamp="1612170382757" />
-    <state width="1435" height="408" key="GridCell.Tab.1.left/0.25.3200.1693@0.25.3200.1693" timestamp="1611741984375" />
-    <state width="1512" height="408" key="GridCell.Tab.1.left/0.25.3200.1694@0.25.3200.1694" timestamp="1611743607333" />
-    <state width="1921" height="459" key="GridCell.Tab.1.right" timestamp="1612170382758">
-      <screen x="0" y="25" width="3200" height="1690" />
-    </state>
-    <state width="1921" height="459" key="GridCell.Tab.1.right/0.25.3200.1690@0.25.3200.1690" timestamp="1612170382758" />
-    <state width="1435" height="408" key="GridCell.Tab.1.right/0.25.3200.1693@0.25.3200.1693" timestamp="1611741984376" />
-    <state width="1512" height="408" key="GridCell.Tab.1.right/0.25.3200.1694@0.25.3200.1694" timestamp="1611743607333" />
-    <state x="538" y="794" key="Vcs.Push.Dialog.v2" timestamp="1612170143118">
-      <screen x="0" y="25" width="3200" height="1690" />
-    </state>
-    <state x="538" y="794" key="Vcs.Push.Dialog.v2/0.25.3200.1690@0.25.3200.1690" timestamp="1612170143118" />
-    <state x="540" y="773" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611669890426">
-      <screen x="0" y="25" width="3200" height="1690" />
-    </state>
-    <state x="540" y="773" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.3200.1690@0.25.3200.1690" timestamp="1611669890426" />
+    <MESSAGE value="components" />
+    <option name="LAST_COMMIT_MESSAGE" value="components" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/index_html$youthful_journey.dat" NAME="youthful-journey Coverage Results" MODIFIED="1612170382576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
