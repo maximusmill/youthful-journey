@@ -350,20 +350,20 @@ main ul li:nth-child(+n+5) span {
 
 /* Footer styles */
 footer {
-  min-height: 500px;
+  min-height: 460px;
   background-color: #E7E7E9;
   margin: 0 auto;
   padding-bottom: 0;
 }
 
 footer div {
-  height: 490px;
+  height: 460px;
   margin:0 auto;
   width: 400px
 }
 
 footer img {
-  margin-top: 249px;
+  margin-top: 219px;
 
 }
 
