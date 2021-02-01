@@ -92,7 +92,7 @@ header #content h2 {
   display: inline-block;
   font-size: 1.865rem;
   position: relative;
-  top: -36px;
+  top: -40px;
 }
 
 header #content #digits {
@@ -107,10 +107,20 @@ header #content #digits {
   margin-right: 13px
 }
 
+header #content #digits .digitcolor {
+
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+  transition: color 2s; /* For modern browsers */
+  color: #ffffff;
+}
+
 header #content img {
   float: right;
   width: 60px;
-  padding-top: 3px;
+  left: -4px;
+  padding-top: 8px;
   position: relative;
   }
 
@@ -126,6 +136,7 @@ header >span, .digit-color-tur {
 header span.blinking {
   animation: blinkingText 0.2s;
   animation-iteration-count: 5;
+
 }
 
 header span.blinking3 {
@@ -180,6 +191,7 @@ header span.blinking2 {
 .portfolio img {
   border: 3px #E7E7E9 solid;
   display: inline-block;
+  cursor: pointer;
 }
 
 .portfolio h2 {
@@ -209,6 +221,54 @@ header span.blinking2 {
   width: 120px;
 }
 
+.modal {
+  position: fixed;
+  background-color: #EBEBEB;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 0;
+  display: none;
+  opacity: 0.8;
+}
+
+.modal-content {
+  position: absolute;
+  opacity: 1;
+  top: 100px;
+  left: 30%;
+  right: 30%;
+  z-index: 0;
+  margin: 0 auto;
+  display: none;
+
+}
+
+.modal-content img {
+  width: 100%;
+
+}
+
+.open-modal {
+  display: block;
+  z-index: 20;
+}
+
+.closemodal {
+  padding-top: 10px;
+  margin-right: 10px;
+  z-index: 24;
+  float: right;
+  cursor: pointer;
+  width: 25px;
+}
+
+.open-content {
+  display: block;
+  z-index: 22;
+}
+
 main {
   min-height: 530px;
   background-color: white;
@@ -233,7 +293,7 @@ main h2 {
   font-size: 1.65rem;
   float: left;
   margin-top: 36px;
-  animation: pulseText 5s;
+  animation: pulseText 7s;
   animation-iteration-count: 2;
 }
 
@@ -253,11 +313,10 @@ main img {
 }
 
 main p {
-  transform: rotate(270deg);
+  transform: rotate(0deg);
   position: relative;
   top: 55px;
-  left: -35px;
-  width: 220px;
+  width: 180px;
   text-align: left;
   line-height: 2;
   background-color: white;
@@ -270,12 +329,12 @@ main p span {
 
 main ul {
   position: relative;
-  transform: rotate(270deg);
+  transform: rotate(0deg);
   background-color: white;
-  width: 200px;
+  width: 174px;
   line-height: 2;
-  top: -111px;
-  left: 182px;
+  top: -105px;
+  left: 225px;
   text-align: left;
   list-style-type: none;
   list-style-image: url('../images/rightarrow.svg');
@@ -341,6 +400,22 @@ footer p {
   text-align: center;
 }
 
+@media only screen and (max-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
 @media only screen and (max-width: 420px) {
 
   header h1 {
@@ -380,7 +455,7 @@ footer p {
   }
 
   main p {
-    top: 320px;
+    top: 48px;
   }
 
   main p span {
@@ -389,12 +464,12 @@ footer p {
 
   main ul {
     position: relative;
-    transform: rotate(270deg);
+    transform: rotate(0deg);
     background-color: white;
     width: 200px;
     line-height: 2;
-    top: -111px;
-    left: 22px;
+    top: 100px;
+    left: 12px;
     text-align: left;
     list-style-type: none;
     list-style-image: url('../images/rightarrow.svg');
