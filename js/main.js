@@ -8,10 +8,10 @@ const digits = document.querySelectorAll('#digits span')
 
 
 const showDigits = () => {
-    digits[16].classList.add('digitcolor')
+    digits[8].classList.add('digitcolor')
     digits[18].classList.add('digitcolor')
     digits[20].classList.add('digitcolor')
-    digits[21].classList.add('digitcolor')
+    digits[29].classList.add('digitcolor')
     digits[23].classList.add('digitcolor')
  }
 
