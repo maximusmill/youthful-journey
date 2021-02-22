@@ -9,7 +9,7 @@ eye.addEventListener('click', _ => {
 })
 
 // Add Event Listener To Detect Keydowns
-input.addEventListener('keyup', (event) => {
+input.addEventListener('keydown', (event) => {
     // Store Key Pressed
     let kp = event.key
     // Store Input Value Length
