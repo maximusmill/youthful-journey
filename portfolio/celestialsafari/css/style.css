@@ -150,13 +150,14 @@ ul.image-container {
 	display: flex;
 	margin-top: 24%;
 	justify-content: center;
+	overflow: hidden;
 }
 
 ul li.image {
 	color: white;
 	display: inline-block;
 	margin: 0 4px 0 4px;
-	width: 120%;
+	width: 100%;
 	height :auto;
 }
 
