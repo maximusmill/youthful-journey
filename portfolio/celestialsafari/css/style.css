@@ -688,7 +688,8 @@ footer a {
 		  background-color: black;
 		  height: 60px;
 		  width: 100vw;
-	  }
+		  margin: 0;
+	  	  }
 	 	 
 	 main .img-cont {
 		 display: flex; 
