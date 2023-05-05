@@ -671,23 +671,25 @@ footer a {
 		 max-width: 75%;
 	
 	 }
-	 header  {
-		 position: sticky;
-		 width: 100%;
-		 top:0;
-		 background-color: black;
-		 z-index: 20;
-		 padding: 0 0 6px 0;
-		 
-	 }
-	 
-	 nav {
-		 padding: 0 0 0 6%;
-		 position: sticky;
-		 top: 110px;
-		 z-index: 20;
-		 background-color: black;
-	 }
+	header  {
+		  position: fixed;
+		  width: 100%;
+		  top:0;
+		  background-color: black;
+		  z-index: 20;
+		  padding: 0 0 6px 0;
+		  
+	  }
+	  
+	  nav {
+		  padding: 0 0 0 6%;
+		  position: fixed;
+		  top: 110px;
+		  z-index: 20;
+		  background-color: black;
+		  height: 60px;
+		  width: 100vw;
+	  }
 	 
 	 
 	 main .img-cont {
