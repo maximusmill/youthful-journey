@@ -673,7 +673,7 @@ footer a {
 	 }
 	header  {
 		  position: fixed;
-		  width: 100%;
+		  width: 100vw;
 		  top:0;
 		  background-color: black;
 		  z-index: 20;
@@ -690,8 +690,7 @@ footer a {
 		  height: 60px;
 		  width: 100vw;
 	  }
-	 
-	 
+	 	 
 	 main .img-cont {
 		 display: flex; 
 		 justify-content: center;
