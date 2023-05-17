@@ -174,7 +174,7 @@ header span.blinking2 {
 .work {
   height: 250px;
   background-color: #89E9D9;
-  margin-top: -250px;
+  margin-top: -300px;
   transition: 1s;
 }
 
