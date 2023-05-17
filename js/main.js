@@ -1,5 +1,6 @@
 const eye = document.querySelector('.eye')
 const work = document.querySelector('.work')
+const portfolio = document.querySelector('.portfolio')
 const portimg1 = document.querySelector('.portfolio img')
 const modal = document.querySelector('.modal')
 const modalcontent = document.querySelector('.modal-content')
@@ -19,6 +20,7 @@ setTimeout(showDigits, 3500)
 
 eye.addEventListener('click', () => {
     work.classList.toggle('work-visible')
+    portfolio.classList.toggle('work-visible')
 })
 
 portimg1.addEventListener('click', () => {
