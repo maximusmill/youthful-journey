@@ -356,7 +356,7 @@ main ul {
   list-style-image: url('../images/rightarrow.svg');
 }
 
-main ul li:nth-child(+n+5) {
+main ul li:nth-child(+n+6) {
   color: #F000FF;
 }
 
