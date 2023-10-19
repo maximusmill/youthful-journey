@@ -36,8 +36,6 @@ button {
   color: #00a5fc;
 }
 
-
-
 .lft-cnt {
   width: 35rem;
 }
@@ -59,7 +57,6 @@ header {
   align-items: center;
 }
 
-
 header nav {
   font-size: 0.875rem;
 }
@@ -78,7 +75,7 @@ main {
 }
 
 main {
-  background-image: url('../img/mesh1.png');
+  background-image: url("../img/mesh1.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 1095px;
@@ -94,7 +91,7 @@ main h1 {
   margin-top: 7.5rem;
   letter-spacing: 1px;
   margin-bottom: 36px;
-  }
+}
 
 main .btn-cnt {
   width: 43rem;
@@ -124,21 +121,19 @@ main p {
   justify-content: flex-end;
   position: relative;
 }
- 
+
 .shadow {
   position: absolute;
   box-shadow: 3px 3px 8px hsl(0deg 0% 0% / 0.15);
 }
 
- .rgt-cnt .knoxicn {
-  background-color: white; 
+.rgt-cnt .knoxicn {
+  background-color: white;
   position: absolute;
   top: -22px;
   right: -62px;
   padding: 20px;
   border-radius: 13px;
-  
-  
 }
 
 .rgt-cnt .m365icn {
@@ -147,7 +142,7 @@ main p {
   right: -110px;
   padding: 11px;
   border-radius: 13px;
-  background-color: white; 
+  background-color: white;
 }
 
 .rgt-cnt .azureicn {
@@ -156,7 +151,7 @@ main p {
   right: -40px;
   padding: 16px;
   border-radius: 13px;
-  background-color: white; 
+  background-color: white;
 }
 
 .rgt-cnt .intuneicn {
@@ -165,7 +160,7 @@ main p {
   left: 150px;
   padding: 16px;
   border-radius: 13px;
-  background-color: white; 
+  background-color: white;
 }
 
 .rgt-cnt .win11icn {
@@ -174,8 +169,8 @@ main p {
   left: 90px;
   padding: 16px;
   border-radius: 13px;
-  background-color: white; 
-} 
+  background-color: white;
+}
 
 section {
   display: flex;
@@ -186,10 +181,8 @@ section {
 /****  Section 2 ****/
 
 section ul {
-
   list-style-type: none;
   list-style: none;
-
 }
 
 section ul li {
@@ -197,7 +190,6 @@ section ul li {
   margin: 0 0 22px 0;
   padding-left: 73px;
   background-repeat: no-repeat;
-  
 }
 
 main section:nth-child(2) .rgt-cnt {
@@ -205,28 +197,33 @@ main section:nth-child(2) .rgt-cnt {
   justify-content: flex-start;
 }
 
-section ul li h2{
-margin: 0 0 0 0;
-
+section ul li h2 {
+  margin: 0 0 0 0;
 }
 
 section ul li p {
   color: #00a5fc;
-  margin: 5px 0 0 0 ;
+  margin: 5px 0 0 0;
 }
 
 main section:nth-child(2) .lft-cnt {
   margin-top: 145px;
-  padding-left: 8rem;
+  padding-left: 11rem;
 }
-
 
 .findia {
   height: 364px;
   width: 289px;
   border-radius: 13px;
-  background-color: white; 
-  box-shadow: 3px 3px 8px hsl(0deg 0% 0% / 0.15);
+  background-color: white;
+  box-shadow: 5px 3px 8px hsl(0deg 0% 0% / 0.04);
   margin-right: 0;
-  
+}
+
+.findia div {
+  border-start-start-radius: 13px;
+  border-start-end-radius: 13px;
+  background-color: rgba(60, 88, 136, 0.38);
+  height: 65px;
+  color: white;
 }
