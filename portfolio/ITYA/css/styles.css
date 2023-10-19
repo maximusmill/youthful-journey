@@ -1,0 +1,232 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #5b7a9d;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+p {
+  font-weight: 300;
+  font-size: 1.25rem;
+  letter-spacing: 1.3px;
+  line-height: 30px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  color: black;
+}
+
+button {
+  background-color: #00a5fc;
+  color: white;
+  width: 173px;
+  height: 47px;
+  border: 0px;
+  border-radius: 7px;
+  font-size: 1.125rem;
+  box-shadow: 3px 3px 8px hsl(0deg 0% 0% / 0.28);
+}
+
+.def-blue {
+  color: #00a5fc;
+}
+
+
+
+.lft-cnt {
+  width: 35rem;
+}
+
+.rgt-cnt {
+  width: 35rem;
+}
+
+.btn-cnt {
+  display: flex;
+}
+
+header {
+  height: 5.625rem;
+  display: flex;
+  max-width: 70rem;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+header nav {
+  font-size: 0.875rem;
+}
+
+header nav ul {
+  display: flex;
+  gap: 30px;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+main {
+  height: 100vh;
+}
+
+main {
+  background-image: url('../img/mesh1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1095px;
+  background-position: 0 470px;
+  border-top: 1px #e2e2e2 solid;
+}
+
+main h1 {
+  color: black;
+  font-size: 4rem;
+  width: 40rem;
+  font-weight: 900;
+  margin-top: 7.5rem;
+  letter-spacing: 1px;
+  margin-bottom: 36px;
+  }
+
+main .btn-cnt {
+  width: 43rem;
+  position: relative;
+  display: flex;
+  margin-top: 4rem;
+  align-items: center;
+  font-size: 1.25rem;
+  color: #dce3e9;
+  font-weight: bold;
+  letter-spacing: 1px;
+  justify-content: space-between;
+}
+
+main .btn-cnt p {
+  font-weight: 500;
+  position: relative;
+  right: 10px;
+}
+
+main p {
+}
+
+.rgt-cnt {
+  display: flex;
+  margin-top: 7.5rem;
+  justify-content: flex-end;
+  position: relative;
+}
+ 
+.shadow {
+  position: absolute;
+  box-shadow: 3px 3px 8px hsl(0deg 0% 0% / 0.15);
+}
+
+ .rgt-cnt .knoxicn {
+  background-color: white; 
+  position: absolute;
+  top: -22px;
+  right: -62px;
+  padding: 20px;
+  border-radius: 13px;
+  
+  
+}
+
+.rgt-cnt .m365icn {
+  position: absolute;
+  top: 150px;
+  right: -110px;
+  padding: 11px;
+  border-radius: 13px;
+  background-color: white; 
+}
+
+.rgt-cnt .azureicn {
+  position: absolute;
+  top: 340px;
+  right: -40px;
+  padding: 16px;
+  border-radius: 13px;
+  background-color: white; 
+}
+
+.rgt-cnt .intuneicn {
+  position: absolute;
+  top: 260px;
+  left: 150px;
+  padding: 16px;
+  border-radius: 13px;
+  background-color: white; 
+}
+
+.rgt-cnt .win11icn {
+  position: absolute;
+  top: 60px;
+  left: 90px;
+  padding: 16px;
+  border-radius: 13px;
+  background-color: white; 
+} 
+
+section {
+  display: flex;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+/****  Section 2 ****/
+
+section ul {
+
+  list-style-type: none;
+  list-style: none;
+
+}
+
+section ul li {
+  background: url(../img/ulimage.png) left top no-repeat;
+  margin: 0 0 22px 0;
+  padding-left: 73px;
+  background-repeat: no-repeat;
+  
+}
+
+main section:nth-child(2) .rgt-cnt {
+  margin-top: 200px;
+  justify-content: flex-start;
+}
+
+section ul li h2{
+margin: 0 0 0 0;
+
+}
+
+section ul li p {
+  color: #00a5fc;
+  margin: 5px 0 0 0 ;
+}
+
+main section:nth-child(2) .lft-cnt {
+  margin-top: 145px;
+  padding-left: 8rem;
+}
+
+
+.findia {
+  height: 364px;
+  width: 289px;
+  border-radius: 13px;
+  background-color: white; 
+  box-shadow: 3px 3px 8px hsl(0deg 0% 0% / 0.15);
+  margin-right: 0;
+  
+}
