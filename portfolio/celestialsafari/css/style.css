@@ -244,7 +244,7 @@ main .img-cont .cont1 h2 {
 main .img-cont .cont2 {
 	position: relative;
 	width: 11.94rem;
-    height: 11.94rem;
+	height: 11.94rem;
 	background-color: black;
 	border-radius: 20px;
 	border: 3px solid RGBA(148, 0, 255, 0.5);
@@ -262,7 +262,7 @@ main .img-cont .cont2 h2 {
 main .img-cont .cont3 {
 	position: relative;
 	width: 11.94rem;
-    height: 11.94rem;
+	height: 11.94rem;
 	background-color: black;
 	border-radius: 20px;
 	border: 3px solid RGBA(139, 139, 139, 0.5);
@@ -303,7 +303,7 @@ main .home.pc4 {
 	display: block;
 	position: relative;
 	left: 43%;
-	top: -20rem;rem;
+	top: -20rem;
 	width: 70px;
 	height: 70px;
 	border-radius: 50%;
@@ -334,7 +334,7 @@ main .home.pc6 {
 
 main .about.pc1 {
 	display: block;
-    position: absolute;
+	position: absolute;
 	left:65%;
 	top: 10rem;
 	width: 12px;
@@ -345,7 +345,7 @@ main .about.pc1 {
 
 main .about.pc2 {
 	display: block;
-    position: absolute;
+	position: absolute;
 	left: 90%;
 	top: 20rem;
 	width: 50px;
@@ -356,7 +356,7 @@ main .about.pc2 {
 
 main .about.pc3 {
 	display: block;
-    position: absolute;
+	position: absolute;
 	left: 21%;
 	top: 49rem;
 	width: 30px;
@@ -367,7 +367,7 @@ main .about.pc3 {
 
 main .about.pc4 {
 	display: block;
-    position: absolute;
+	position: absolute;
 	left: 58%;
 	top: 22rem;
 	width: 70px;
@@ -378,7 +378,7 @@ main .about.pc4 {
 
 main .about.pc5 {
 	display: block;
-    position: absolute;
+	position: absolute;
 	left: 53%;
 	top: 29rem;
 	width: 9px;
@@ -625,7 +625,7 @@ footer a {
 	  }
 	
 	  @media (max-width: 576px) {
-  		
+		  
 		  .bg {
 	
 			  max-width: 700%;
@@ -689,8 +689,8 @@ footer a {
 		  height: 60px;
 		  width: 100vw;
 		  margin: 0;
-	  	  }
-	 	 
+			}
+		  
 	 main .img-cont {
 		 display: flex; 
 		 justify-content: center;
@@ -704,7 +704,7 @@ footer a {
 	 main .img-cont .cont3 {
 	 display: none;
 	 }
-	 		 
+			  
 	  main {
 		  margin: 0 0 5rem; 0;
 	  }
@@ -729,7 +729,7 @@ footer a {
 	  main .p-cont {
 		  display: flex; 
 		  flex-direction: column;
-  		  margin: 3rem 1rem 0 6%;
+			margin: 3rem 1rem 0 6%;
 	  }
 	  
 	  main .p-cont .cont1 p{
@@ -834,4 +834,4 @@ footer a {
 	
 	
 	/* END - Mobile Styles */
-    
+	

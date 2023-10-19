@@ -45,38 +45,37 @@ const imagesObj = [
   },
 ];
 
-var cont1 = document.querySelector(".cont1");
-var cont2 = document.querySelector(".cont2");
-var cont3 = document.querySelector(".cont3");
+let uniPlanets = new Set()
+
+const cont1 = document.querySelector(".cont1");
+const cont2 = document.querySelector(".cont2");
+const cont3 = document.querySelector(".cont3");
 
 const ranGen = () => {
+  uniPlanets.clear()
   min = Math.ceil(0);
   max = Math.floor(Object.keys(imagesObj).length);
 
-  cont1ranNum = Math.floor(Math.random() * (max - min));
-  cont2ranNum = Math.floor(Math.random() * (max - min));
-  cont3ranNum = Math.floor(Math.random() * (max - min));
+for(let i = 0; i < 10; i++) {
+  let unnum = Math.floor(Math.random() * (max - min));
+      uniPlanets.add(unnum)
+  } 
+  
+let uniPlanetVals = uniPlanets.values()
+let uniPlanetsArr = []
 
-  if (cont1ranNum === cont2ranNum) {
-    cont2ranNum = Math.floor(Math.random() * (max - min));
-  }
+for(let x = 0; x < uniPlanets.size; x++) {
+  uniPlanetsArr.push(uniPlanetVals.next().value)
+}
 
-  if (cont2ranNum === cont3ranNum) {
-    cont2ranNum = Math.floor(Math.random() * (max - min));
-  }
+  cont1.firstChild.textContent = `${imagesObj[uniPlanetsArr[0]].title}`;
+  cont1.lastChild.src = `images/${imagesObj[uniPlanetsArr[0]].image}`;
+  cont2.firstChild.textContent = `${imagesObj[uniPlanetsArr[1]].title}`;
+  cont2.lastChild.src = `images/${imagesObj[uniPlanetsArr[1]].image}`;
+  cont3.firstChild.textContent = `${imagesObj[uniPlanetsArr[2]].title}`;
+  cont3.lastChild.src = `images/${imagesObj[uniPlanetsArr[2]].image}`; 
 
-  if (cont1ranNum === cont3ranNum) {
-    cont3ranNum = Math.floor(Math.random() * (max - min));
-  }
-
-  cont1.firstChild.textContent = `${imagesObj[cont1ranNum].title}`;
-  cont1.lastChild.src = `images/${imagesObj[cont1ranNum].image}`;
-  cont2.firstChild.textContent = `${imagesObj[cont2ranNum].title}`;
-  cont2.lastChild.src = `images/${imagesObj[cont2ranNum].image}`;
-  cont3.firstChild.textContent = `${imagesObj[cont3ranNum].title}`;
-  cont3.lastChild.src = `images/${imagesObj[cont3ranNum].image}`; 
-
-
-};
+}
 ranGen();
+
 setInterval(ranGen, 5000);
