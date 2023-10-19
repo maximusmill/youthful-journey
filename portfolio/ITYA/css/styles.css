@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: white;
+  box-sizing: border-box;
 }
 
 p {
@@ -224,6 +225,15 @@ main section:nth-child(2) .lft-cnt {
   border-start-start-radius: 13px;
   border-start-end-radius: 13px;
   background-color: rgba(60, 88, 136, 0.38);
-  height: 65px;
+  padding: 10px 14px 10px 14px;
+  height: 50px;
   color: white;
+  display: flex;
+}
+
+.findia div p {
+  display: flex;
+  font-weight: 400;
+  align-items: center;
+  padding: 0 130px 0 10px;
 }
