@@ -242,7 +242,7 @@ main section:nth-child(2) .lft-cnt {
   height: 34px;
   width: 73px;
   color: white;
-  left: 180px;
+  left: 190px;
   top: 85px;
 }
 
@@ -278,4 +278,54 @@ main section:nth-child(2) .lft-cnt {
   margin-top: 2px;
   margin: 2px 0 0 16px;
   font-size: 1rem;
+}
+
+.findia div:nth-child(4) {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 5px solid #d9d9d9;
+  position: absolute;
+  top: 302px;
+  left: 30px;
+}
+
+.findia div:nth-child(5) {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 5px solid #d9d9d9;
+  position: absolute;
+  top: 256px;
+  left: 80px;
+}
+
+.findia div:nth-child(6) {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 5px solid #d9d9d9;
+  position: absolute;
+  top: 211px;
+  left: 108px;
+}
+
+.findia div:nth-child(7) {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 5px solid #ffc700;
+  position: absolute;
+  top: 166px;
+  left: 152px;
+}
+
+.findia div:nth-child(8) {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  border: 5px solid #d9d9d9;
+  position: absolute;
+  top: 120px;
+  left: 165px;
 }
