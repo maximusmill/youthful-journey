@@ -89,11 +89,11 @@ main {
 }
 
 main {
-  background-image: url("../img/mesh1.png");
+  background-image: url("../img/mesh2.png");
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 1180px;
-  background-position: 0 464px;
+  min-height: 1395px;
+  background-position: 0 434px;
   border-top: 1px #e2e2e2 solid;
   width: 100%;
 }
