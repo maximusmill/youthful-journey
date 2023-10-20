@@ -1,25 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   font-family: "Roboto", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: #5b7a9d;
   margin: 0;
   padding: 0;
   background-color: white;
-  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: never;
 }
 
 p {
-  font-weight: 300;
-  font-size: 1.25rem;
+  font-weight: 400;
+  font-size: 1.1875rem;
   letter-spacing: 1.3px;
-  line-height: 30px;
+  line-height: 1.8125rem;
 }
 
 h2 {
-  font-weight: bold;
+  font-weight: 600;
   font-size: 2rem;
   color: black;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: 1.3px;
+  line-height: 30px;
 }
 
 button {
@@ -78,10 +91,11 @@ main {
 main {
   background-image: url("../img/mesh1.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 1095px;
-  background-position: 0 470px;
+  background-size: contain;
+  min-height: 1180px;
+  background-position: 0 464px;
   border-top: 1px #e2e2e2 solid;
+  width: 100%;
 }
 
 main h1 {
@@ -91,14 +105,14 @@ main h1 {
   font-weight: 900;
   margin-top: 7.5rem;
   letter-spacing: 1px;
-  margin-bottom: 36px;
+  margin-bottom: 1.895rem;
 }
 
 main .btn-cnt {
   width: 43rem;
   position: relative;
   display: flex;
-  margin-top: 4rem;
+  margin-top: 3.875rem;
   align-items: center;
   font-size: 1.25rem;
   color: #dce3e9;
@@ -148,7 +162,7 @@ main p {
 
 .rgt-cnt .azureicn {
   position: absolute;
-  top: 340px;
+  top: 350px;
   right: -40px;
   padding: 16px;
   border-radius: 13px;
@@ -208,8 +222,8 @@ section ul li p {
 }
 
 main section:nth-child(2) .lft-cnt {
-  margin-top: 145px;
-  padding-left: 11rem;
+  margin-top: 9.5rem;
+  padding-left: 7.5rem;
 }
 
 .findia {
@@ -226,11 +240,11 @@ main section:nth-child(2) .lft-cnt {
 }
 
 .findia div:nth-child(1) {
-  border-start-start-radius: 13px;
-  border-start-end-radius: 13px;
+  border-start-start-radius: 8px;
+  border-start-end-radius: 8px;
   background-color: rgba(60, 88, 136, 0.38);
-  padding: 10px 14px 10px 14px;
-  height: 50px;
+  padding: 14px 14px 14px 14px;
+  height: 64px;
   color: white;
   display: flex;
 }
@@ -281,8 +295,8 @@ main section:nth-child(2) .lft-cnt {
 }
 
 .findia div:nth-child(4) {
-  width: 5px;
-  height: 5px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   border: 5px solid #d9d9d9;
   position: absolute;
@@ -291,8 +305,8 @@ main section:nth-child(2) .lft-cnt {
 }
 
 .findia div:nth-child(5) {
-  width: 5px;
-  height: 5px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   border: 5px solid #d9d9d9;
   position: absolute;
@@ -301,8 +315,8 @@ main section:nth-child(2) .lft-cnt {
 }
 
 .findia div:nth-child(6) {
-  width: 5px;
-  height: 5px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   border: 5px solid #d9d9d9;
   position: absolute;
@@ -311,8 +325,8 @@ main section:nth-child(2) .lft-cnt {
 }
 
 .findia div:nth-child(7) {
-  width: 5px;
-  height: 5px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   border: 5px solid #ffc700;
   position: absolute;
@@ -321,11 +335,89 @@ main section:nth-child(2) .lft-cnt {
 }
 
 .findia div:nth-child(8) {
-  width: 5px;
-  height: 5px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   border: 5px solid #d9d9d9;
   position: absolute;
   top: 120px;
   left: 165px;
+}
+
+/******** Section 3 **********/
+
+section:nth-child(3) {
+  margin-top: 10.6rem;
+}
+
+section:nth-child(3) h2 {
+  line-height: 0.6;
+}
+
+section:nth-child(3) h3 {
+  line-height: 0;
+  color: #00a5fc;
+  margin: 0 0 3.1rem 0;
+}
+
+section:nth-child(3) ul {
+  margin: 3.6rem 0 0 0;
+}
+
+section:nth-child(3) ul li {
+  background: none;
+  font-size: 1.125rem;
+  color: #00a5fc;
+  margin: 0 0 10px 0;
+}
+
+section:nth-child(3) ul li:nth-child(1) {
+  background: url(../img/bullarr.png) left top no-repeat;
+  padding-left: 73px;
+  background-repeat: no-repeat;
+}
+
+section:nth-child(3) ul li:nth-child(7) {
+  background: url(../img/bullarr.png) left top no-repeat;
+  padding-left: 73px;
+  background-repeat: no-repeat;
+  margin: 6rem 0 0 0;
+}
+section:nth-child(3) ul li:nth-child(8) {
+  background: url(../img/bullarr.png) left top no-repeat;
+  padding-left: 73px;
+  background-repeat: no-repeat;
+}
+
+section:nth-child(3) .rgt-cnt {
+  margin: -2rem 0 0 0;
+  position: relative;
+}
+
+section:nth-child(4) ul li {
+  background: url(../img/bullarr.png) left top no-repeat;
+  /* margin-bottom: 40px; */
+  padding-left: 73px;
+  background-repeat: no-repeat;
+}
+
+section:nth-child(4) ul li {
+  margin-top: 1.4rem;
+}
+
+section:nth-child(4) ul li:nth-child(1) {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 85px;
+}
+
+section:nth-child(4) ul li:nth-child(2) {
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.spc {
+  margin: 0 1.25rem 0 1.25rem;
 }
