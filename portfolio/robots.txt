@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /pfbr
-Disallow: / celestial safari
+Disallow: /celestial safari
+Disallow: /ITYA
 
