@@ -92,7 +92,7 @@ main {
   background-image: url("../img/mesh2.png");
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 1395px;
+  min-height: 1495px;
   background-position: 0 434px;
   border-top: 1px #e2e2e2 solid;
   width: 100%;
@@ -394,25 +394,33 @@ section:nth-child(3) .rgt-cnt {
   position: relative;
 }
 
-section:nth-child(4) ul li {
+/******** Section 4 **********/
+
+.companies {
+  display: flex;
+  max-width: 70rem;
+  margin: 0 auto;
+}
+
+.companies ul li {
   background: url(../img/bullarr.png) left top no-repeat;
   /* margin-bottom: 40px; */
   padding-left: 73px;
   background-repeat: no-repeat;
 }
 
-section:nth-child(4) ul li {
+.companies ul li {
   margin-top: 1.4rem;
 }
 
-section:nth-child(4) ul li:nth-child(1) {
+.companies ul li:nth-child(1) {
   height: 20px;
   display: flex;
   align-items: center;
   margin-bottom: 85px;
 }
 
-section:nth-child(4) ul li:nth-child(2) {
+.companies ul li:nth-child(2) {
   height: 20px;
   display: flex;
   align-items: center;
