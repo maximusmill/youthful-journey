@@ -89,11 +89,11 @@ main {
 }
 
 main {
-  background-image: url("../img/mesh2.png");
+  background-image: url("../img/meshtop.svg"), url("../img/meshbot.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 1495px;
-  background-position: 0 434px;
+  min-height: 3595px;
+  background-position: 0 434px, 0 1900px;
   border-top: 1px #e2e2e2 solid;
   width: 100%;
 }
@@ -428,4 +428,36 @@ section:nth-child(3) .rgt-cnt {
 
 .spc {
   margin: 0 1.25rem 0 1.25rem;
+}
+
+section:nth-child(5) {
+  margin-top: 10.6rem;
+}
+
+section:nth-child(5) h2 {
+  line-height: 0.6;
+}
+
+section:nth-child(5) h3 {
+  line-height: 0;
+  color: #00a5fc;
+  margin: 0 0 3.1rem 0;
+}
+
+section:nth-child(5) .rgt-cnt {
+  margin-top: 1rem;
+}
+
+section:nth-child(6) {
+  margin-top: 10.6rem;
+}
+
+section:nth-child(6) h2 {
+  line-height: 0.6;
+}
+
+section:nth-child(6) h3 {
+  line-height: 0;
+  color: #00a5fc;
+  margin: 0 0 3.1rem 0;
 }
