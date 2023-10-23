@@ -344,7 +344,7 @@ main section:nth-child(2) .lft-cnt {
 /******** Section 3 **********/
 
 section:nth-child(3) {
-  margin-top: 10.6rem;
+  margin-top: 14rem;
 }
 
 section:nth-child(3) h2 {
@@ -428,7 +428,7 @@ section:nth-child(3) .rgt-cnt {
 }
 
 section:nth-child(5) {
-  margin-top: 10.6rem;
+  margin-top: 14rem;
 }
 
 section:nth-child(5) h2 {
@@ -446,7 +446,13 @@ section:nth-child(5) .rgt-cnt {
 }
 
 section:nth-child(6) {
-  margin-top: 10.6rem;
+  margin-top: 14rem;
+}
+
+section:nth-child(6) .rgt-cnt {
+ justify-content: flex-start;
+ display: flex;
+ align-items: flex-start;
 }
 
 section:nth-child(6) div {
@@ -466,3 +472,46 @@ section:nth-child(6) h3 {
 section:nth-child(6) {
   display: block;
 }
+
+section:nth-child(6) div {
+margin-top: 0;
+}
+
+section:nth-child(6) div p{
+  color: #00a5fc;
+  padding: 0 0 0 2rem;
+}
+
+section:nth-child(6) .lft-cnt {
+  margin-top: 1rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+section:nth-child(6) .lft-cnt p {
+  margin: 0 0 0 0;
+  font-weight: bold;
+
+}
+
+section:nth-child(6) .rgt-cnt {
+  margin-top: 1rem;
+}
+
+section:nth-child(6) .rgt-cnt ul {
+ margin: 0 0 0 0; 
+}
+
+
+section:nth-child(6) .rgt-cnt ul li{
+  background: none;
+  margin: 0 0 22px 0;
+  padding-left: 0;
+  height: 10px;
+  display: flex;
+  align-items: flex-start;
+  color: #00a5fc;
+
+}
+
+
