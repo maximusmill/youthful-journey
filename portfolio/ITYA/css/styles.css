@@ -77,7 +77,7 @@ header {
   position: sticky;
   top: 0;
   background-color: white;
- 
+ z-index: 200;
 
 }
 
@@ -88,6 +88,7 @@ header div {
   max-width: 70rem;
   margin: 0 auto;
   height: 5.625rem;
+  z-index: 200;
 }
 
 
