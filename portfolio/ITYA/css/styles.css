@@ -62,6 +62,14 @@ button {
   display: flex;
 }
 
+#headersep {
+  border-bottom: 1px #e2e2e2 solid;
+  height: 1px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 90px;
+}
+
 header {
   height: 5.625rem;
   display: flex;
@@ -69,7 +77,13 @@ header {
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 20;
 }
+
 
 header nav {
   font-size: 0.875rem;
@@ -84,6 +98,16 @@ header nav ul li {
   list-style-type: none;
 }
 
+
+footer {
+  height: 5.625rem;
+  display: flex;
+  max-width: 70rem;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
 main {
   height: 100vh;
 }
@@ -92,9 +116,10 @@ main {
   background-image: url("../img/meshtop.svg"), url("../img/meshbot.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  min-height: 3595px;
+  min-height: 3355px;
   background-position: 0 434px, 0 1900px;
-  border-top: 1px #e2e2e2 solid;
+
+  border-bottom: 1px #e2e2e2 solid;
   width: 100%;
 }
 
@@ -480,6 +505,7 @@ margin-top: 0;
 section:nth-child(6) div p{
   color: #00a5fc;
   padding: 0 0 0 2rem;
+  width: 1000px;
 }
 
 section:nth-child(6) .lft-cnt {
@@ -487,6 +513,18 @@ section:nth-child(6) .lft-cnt {
   display: flex;
   align-items: flex-start;
 }
+
+
+
+
+
+section:nth-child(6) .lft-cnt p span {
+ font-weight: normal;
+}
+
+
+
+
 
 section:nth-child(6) .lft-cnt p {
   margin: 0 0 0 0;
@@ -514,4 +552,8 @@ section:nth-child(6) .rgt-cnt ul li{
 
 }
 
+footer p {
+  font-size: 1rem;
+  letter-spacing: 0;
+}
 
