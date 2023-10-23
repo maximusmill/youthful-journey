@@ -15,13 +15,26 @@ body {
   font-smooth: never;
 }
 
-a:link, a:visited {
+
+a.nav {
   color: #5b7a9d;
   text-decoration: none;
-  cursor: auto;
+  cursor: pointer;
 }
 
-a:link:active, a:visited:active {
+a.nav:hover {
+  color: #5b7a9d;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.nav:link, a.nav:visited {
+  color: #5b7a9d;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.nav:link:active, a.nav:visited:active {
   color: #5b7a9d;
 }
 
@@ -45,16 +58,7 @@ h3 {
   line-height: 30px;
 }
 
-/* button {
-  background-color: #00a5fc;
-  color: white;
-  width: 173px;
-  height: 47px;
-  border: 0px;
-  border-radius: 7px;
-  font-size: 1.125rem;
-  box-shadow: 3px 3px 8px hsl(0deg 0% 0% / 0.28);
-} */
+
 
 .btn-cnt a {
   background-color: #00a5fc;
@@ -71,13 +75,20 @@ h3 {
   letter-spacing: 0;
 }
 
+
+.but-cnt a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .but-cnt a:link, a:visited {
   color: white;
   text-decoration: none;
-  cursor: auto;
+  cursor: pointer;
 }
 
-.button a:link:active, a:visited:active {
+.but-cnt a:link:active, a:visited:active {
   color: white;
 }
 
