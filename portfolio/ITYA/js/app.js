@@ -6,7 +6,7 @@ for (const link of navlinks) {
 
  function smoothScroll(e) {
 	 e.preventDefault()
-	 const hreft = this.getAttribute("href") {
+	 const href = this.getAttribute("href") {
 		 behavior: "smooth"
 	 }
  }
