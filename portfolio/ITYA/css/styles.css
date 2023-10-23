@@ -127,9 +127,6 @@ main .btn-cnt p {
   right: 10px;
 }
 
-main p {
-}
-
 .rgt-cnt {
   display: flex;
   margin-top: 7.5rem;
@@ -456,11 +453,11 @@ section:nth-child(6) div {
   display: flex;
 }
 
-section:nth-child(6) div h2 {
+section:nth-child(6) h2 {
   line-height: 0.6;
 }
 
-section:nth-child(6) div h3 {
+section:nth-child(6) h3 {
   line-height: 0;
   color: #00a5fc;
   margin: 0 0 3.1rem 0;
