@@ -72,16 +72,22 @@ button {
 
 header {
   height: 5.625rem;
-  display: flex;
-  max-width: 70rem;
-  margin: 0 auto;
-  justify-content: space-between;
-  align-items: center;
+  width: 100vw;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   background-color: white;
-  z-index: 20;
+ 
+
+}
+
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70rem;
+  margin: 0 auto;
+  height: 5.625rem;
 }
 
 
