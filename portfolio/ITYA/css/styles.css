@@ -527,6 +527,8 @@ section:nth-child(6) .lft-cnt {
 
 section:nth-child(6) .lft-cnt p span {
  font-weight: normal;
+ font-size: 1.1875rem;
+ letter-spacing: 0;
 }
 
 
