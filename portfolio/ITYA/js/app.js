@@ -1,14 +1,9 @@
 let navlinks = document.querySelectorAll("header div nav ul li a")
 let whatwecando = document.querySelector(".btn-cnt a")
+let wwcdelement = document.getElementById("services")
 
-whatwecando.addEventListener('click', () => {
-document.getElementById("services").scrollIntoView({ 
-  behavior: 'smooth', 
-  behavior: "smooth",
-  block: "center"
-})
 
-})
+whatwecando.addEventListener('click',smoothScroll)
 
 for (const link of navlinks) {
 	link.addEventListener("click", smoothScroll)
@@ -21,8 +16,6 @@ for (const link of navlinks) {
 	document.querySelector(href).scrollIntoView({
 		behavior: "smooth",
 		block: "center"
-	  });
-	 
-	
+	  }); 
  }
 
