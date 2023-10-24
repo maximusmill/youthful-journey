@@ -614,3 +614,87 @@ footer p {
   letter-spacing: 0;
 }
 
+@media (max-width: 1385px) {
+  /* ...
+  /* // rules here apply to devices from 12821px to 1385px (inclusive) */
+
+  .rgt-cnt .knoxicn {
+      right: -9px;
+  }
+  
+  .rgt-cnt .m365icn {
+      right: -62px;
+  }
+  /* ... */
+}
+
+
+@media (max-width: 1282px) {
+  /* ...
+  /* // rules here apply to devices from 1201px to 1282px (inclusive) */
+
+  .rgt-cnt .knoxicn {
+      right: 31px;
+  }
+  
+  .rgt-cnt .m365icn {
+      right: -34px;
+  }
+  /* ... */
+}
+
+/* ...
+// all rules outside of @media queries apply to devices 1201px and above
+... */
+
+@media (max-width: 1200px) {
+  /* ...
+  /* // rules here apply to devices from 993px to 1200px (inclusive) */
+
+  .rgt-cnt .knoxicn {
+      right: 31px;
+  }
+  
+  .rgt-cnt .m365icn {
+      right: -34px;
+  }
+  
+  .rgt-cnt .azureicn {
+      right: -6px;
+
+  }
+  
+  .rgt-cnt .m365icn {
+      right: -4px;
+  }
+  
+  /* ... */
+}
+
+@media (max-width: 1134px) {	
+  /* ...
+  // rules here apply to devices from 769px to 992px (inclusive)
+  ... */
+  header div {
+   padding: 0 2rem 0 2rem;
+  }
+  
+  section {
+    padding: 0 2rem 0 2rem   ;
+      margin: 0 auto;
+  }
+  
+}
+
+
+
+@media (max-width: 992px) {	
+  /* ...
+  // rules here apply to devices from 769px to 992px (inclusive)
+  ... */
+}
+@media (max-width: 768px) {
+  /* ...
+  // rules here apply to devices from 0px to 768px (inclusive)
+  ... */
+}
