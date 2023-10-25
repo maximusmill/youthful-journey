@@ -457,8 +457,8 @@ section#services .rgt-cnt {
 }
 
 section#services .rgt-cnt img {
-  width: 524px;
-  hieght: 517px;
+  max-width: 524px;
+  max-height: 517px;
 }
 
 section#services ul {
@@ -705,8 +705,12 @@ footer p {
   /***** Services *****/
 
   section#services .rgt-cnt img {
-    width: 424px;
-    height: 417px;
+    width: 324px;
+    height: 317px;
+  }
+
+  section#services .rgt-cnt {
+    max-width: 20rem;
   }
 
   /***** End Services *****/
@@ -754,6 +758,14 @@ footer p {
   }
 
   /***** End Home *****/
+
+  /***** General *****/
+
+  section#general .lft-cnt {
+    padding-left: 0;
+  }
+
+  /***** End General *****/
 }
 
 @media (max-width: 992px) {
@@ -766,9 +778,9 @@ footer p {
   main section:nth-child(2) .lft-cnt {
     padding: 0 2rem 0 2rem;
   }
-}
 
-@media (max-width: 958px) {
+  /***** Home *****/
+
   section#home .rgt-cnt img {
     width: 200px;
     height: 200px;
@@ -777,6 +789,8 @@ footer p {
   main section:nth-child(2) .lft-cnt {
     padding: 0 2rem 0 2rem;
   }
+
+  /***** End Home *****/
 }
 
 @media (max-width: 895px) {
@@ -789,6 +803,10 @@ footer p {
   section#services .rgt-cnt img {
     width: 324px;
     height: 317px;
+  }
+
+  section#services .rgt-cnt {
+    display: none;
   }
 
   /***** End Services *****/
@@ -815,6 +833,8 @@ footer p {
 }
 
 @media (max-width: 730px) {
+  /***** Home *****/
+
   #home .lft-cnt .btn-cnt {
     width: 27.4rem;
   }
@@ -826,36 +846,55 @@ footer p {
     display: none;
   }
 
-  main section:nth-child(2) .lft-cnt {
+  /***** End Home *****/
+
+  /***** General *****/
+
+  section#general .rgt-cnt {
+    margin: 6rem 0 0 0;
+  }
+
+  section#general .lft-cnt {
     display: none;
   }
-  #services .rgt-cnt {
+
+  /***** End General *****/
+
+  /***** Services *****/
+
+  section#services .rgt-cnt {
     display: none;
   }
+
+  section#services {
+    margin: 4rem 0 0 0;
+  }
+
+  /***** End Services *****/
 }
 
 @media (max-width: 651px) {
-  main #home .lft-cnt h1 {
+  /* main #home .lft-cnt h1 {
     color: black;
     font-size: 3rem;
     width: 40rem;
     font-weight: 900;
     margin-top: 7.5rem;
     letter-spacing: 1px;
-    margin-bottom: 1.895rem;
-  }
+    margin-bottom: 1.895rem; 
+  }*/
 }
 
 @media (max-width: 580px) {
-  main #home .lft-cnt h1 {
+  /* main #home .lft-cnt h1 {
     color: black;
     font-size: 2.2rem;
     width: 40rem;
     font-weight: 900;
     margin-top: 7.5rem;
     letter-spacing: 1px;
-    margin-bottom: 1.295rem;
-  }
+    margin-bottom: 1.295rem; 
+  }*/
 
   main section:nth-child(2) .rgt-cnt {
     margin-top: 4rem;
