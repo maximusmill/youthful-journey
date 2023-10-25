@@ -20,12 +20,6 @@ section {
   display: flex;
   max-width: 70rem;
   margin: 0 auto;
-
-
-}
-
-div {
-  max-width: 100%;
 }
 
 img {
@@ -64,7 +58,9 @@ p {
   max-width: 100%;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: black;
 }
 
@@ -76,7 +72,6 @@ h1 {
 h2 {
   font-weight: 600;
   font-size: 2rem;
-
 }
 
 h3 {
@@ -126,7 +121,7 @@ a:visited:active {
 }
 
 .lft-cnt {
- width: 35rem;
+  width: 35rem;
 }
 
 .rgt-cnt {
@@ -159,8 +154,6 @@ header {
   top: 0;
   background-color: white;
   z-index: 200;
-
-  
 }
 
 header div {
@@ -210,7 +203,7 @@ main {
   width: 100%;
 }
 
-/***** Home *****/ 
+/***** Home *****/
 
 section#home {
   margin-top: 4rem;
@@ -246,8 +239,6 @@ section#home .rgt-cnt {
   justify-content: flex-end;
   position: relative;
 }
-
-
 
 section#home .rgt-cnt .knoxicn {
   background-color: white;
@@ -294,7 +285,7 @@ section#home .rgt-cnt .win11icn {
   background-color: white;
 }
 
-/***** General *****/ 
+/***** General *****/
 
 section#general ul {
   list-style-type: none;
@@ -446,7 +437,7 @@ section#general .findia div:nth-child(8) {
   left: 165px;
 }
 
-/***** Services *****/ 
+/***** Services *****/
 
 section#services {
   margin-top: 14rem;
@@ -458,11 +449,10 @@ section#services h2 {
 
 section#services h3 {
   line-height: 0;
-
 }
 
 section#services .rgt-cnt {
-  display:flex;
+  display: flex;
   justify-content: flex-end;
 }
 
@@ -474,7 +464,6 @@ section#services .rgt-cnt img {
 section#services ul {
   margin: 3.6rem 0 0 0;
   list-style-type: none;
-
 }
 
 section#services ul li {
@@ -485,19 +474,18 @@ section#services ul li {
   margin: 0 0 10px 0;
 }
 
-section#services ul li:nth-child(1){
+section#services ul li:nth-child(1) {
   background: url(../img/bullarr.png) left top no-repeat;
   padding-left: 73px;
   background-repeat: no-repeat;
 }
-
 
 section#services .rgt-cnt {
   margin: -2rem 0 0 0;
   position: relative;
 }
 
-/***** Companies *****/ 
+/***** Companies *****/
 
 .companies {
   display: flex;
@@ -532,7 +520,7 @@ section#services .rgt-cnt {
   margin: 0 1.25rem 0 1.25rem;
 }
 
-/***** About Us *****/ 
+/***** About Us *****/
 
 section#aboutus {
   margin-top: 14rem;
@@ -544,7 +532,6 @@ section#aboutus h2 {
 
 section#aboutus h3 {
   line-height: 0;
-
 }
 
 section#aboutus .rgt-cnt {
@@ -558,8 +545,7 @@ section#aboutus .rgt-cnt img {
   height: 300px;
 }
 
-/***** Contact Us *****/ 
-
+/***** Contact Us *****/
 
 section#contactus {
   margin-top: 14rem;
@@ -581,8 +567,6 @@ section#contactus h2 {
 
 section#contactus h3 {
   line-height: 0;
-
-
 }
 
 section#contactus {
@@ -644,76 +628,67 @@ footer p {
 /*************      STYLES      **************/
 /*********************************************/
 
-
 @media (max-width: 1385px) {
+  header {
+    padding: 0 2rem 0 2rem;
+  }
 
-header {
-  padding: 0 2rem 0 2rem;
-}
+  section {
+    padding: 0 2rem 0 2rem;
+  }
 
-section {
-  padding: 0 2rem 0 2rem;
-}
+  /***** Home *****/
 
-/***** Home *****/ 
-    
-section#home .rgt-cnt .knoxicn {
+  section#home .rgt-cnt .knoxicn {
     right: -9px;
   }
 
-section#home .rgt-cnt .m365icn {
+  section#home .rgt-cnt .m365icn {
     right: -62px;
   }
-  
-/***** End Home *****/ 
+
+  /***** End Home *****/
 }
 
 @media (max-width: 1282px) {
+  /***** Home *****/
 
-/***** Home *****/ 
-
-section#home .rgt-cnt .knoxicn {
+  section#home .rgt-cnt .knoxicn {
     right: 31px;
   }
 
-section#home .rgt-cnt .m365icn {
+  section#home .rgt-cnt .m365icn {
     right: -34px;
   }
 
-/***** End Home *****/ 
-
+  /***** End Home *****/
 }
 
 @media (max-width: 1200px) {
+  /***** Home *****/
 
-/***** Home *****/ 
-  
-
-section#home .rgt-cnt .knoxicn {
+  section#home .rgt-cnt .knoxicn {
     right: 31px;
   }
 
-section#home .rgt-cnt .m365icn {
+  section#home .rgt-cnt .m365icn {
     right: -34px;
   }
 
-section#home .rgt-cnt .azureicn {
+  section#home .rgt-cnt .azureicn {
     right: -6px;
   }
 
-section#home .rgt-cnt .m365icn {
+  section#home .rgt-cnt .m365icn {
     right: -4px;
   }
 
-/***** End Home *****/ 
+  /***** End Home *****/
 }
 
-
-
 @media (max-width: 1134px) {
-  
-  /***** Header *****/ 
-  
+  /***** Header *****/
+
   header {
     padding: 0 12rem 0 2rem;
   }
@@ -722,180 +697,142 @@ section#home .rgt-cnt .m365icn {
     padding: 0 2rem 0 2rem;
     margin: 0 auto;
   }
-  
-  /***** End Header *****/ 
-  
-}
 
+  /***** End Header *****/
+}
 
 @media (max-width: 1109px) {
-  /***** Services *****/ 
-  
-  section#services .rgt-cnt img {
-      width: 424px;
-      height: 417px;
-  }
-  
-  /***** End Services *****/ 
-}
+  /***** Services *****/
 
+  section#services .rgt-cnt img {
+    width: 424px;
+    height: 417px;
+  }
+
+  /***** End Services *****/
+}
 
 @media (max-width: 1076px) {
-  
-  /***** Services *****/ 
-  
+  /***** Services *****/
+
   section#services {
-      line-height: normal;
+    line-height: normal;
   }
-  
-  /***** End Services *****/ 
+
+  /***** End Services *****/
 }
 
-
-
 @media (max-width: 1057px) {
+  /***** Home *****/
 
-  /***** Home *****/   
-  
-section#home .rgt-cnt .knoxicn {
+  section#home .rgt-cnt .knoxicn {
     display: none;
   }
 
-section#home .rgt-cnt .m365icn {
+  section#home .rgt-cnt .m365icn {
     display: none;
   }
 
-section#home .rgt-cnt .azureicn {
+  section#home .rgt-cnt .azureicn {
     display: none;
   }
 
-section#home .rgt-cnt .intuneicn {
+  section#home .rgt-cnt .intuneicn {
     display: none;
   }
 
-section#home .rgt-cnt .win11icn {
+  section#home .rgt-cnt .win11icn {
     display: none;
   }
-  
-section#home .rgt-cnt img {
+
+  section#home .rgt-cnt img {
     width: 300px;
     height: 300px;
   }
-section#home h2 {
-      line-height: 1.1;
+  section#home h2 {
+    line-height: 1.1;
   }
-  
-  /***** End Home *****/ 
+
+  /***** End Home *****/
 }
 
 @media (max-width: 992px) {
-
-  
-  
 }
 
 @media (max-width: 989px) {
-
-
-  
-  
 }
 
 @media (max-width: 958px) {
-
-    
-
-
-  
   main section:nth-child(2) .lft-cnt {
     padding: 0 2rem 0 2rem;
   }
-  
-  
 }
 
 @media (max-width: 958px) {
-
   section#home .rgt-cnt img {
-   width: 200px;
-   height: 200px;
- }
-  
+    width: 200px;
+    height: 200px;
+  }
+
   main section:nth-child(2) .lft-cnt {
     padding: 0 2rem 0 2rem;
   }
-  
-  
 }
-
 
 @media (max-width: 895px) {
+  /***** Home *****/
 
-  /***** Home *****/   
-  
+  /***** End Home *****/
 
+  /***** Services *****/
 
-  
- 
- /***** End Home *****/   
- 
- /***** Services *****/   
- 
- section#services .rgt-cnt img {
-   width: 324px; 
-   height: 317px; 
- }
- 
- /***** End Services *****/   
+  section#services .rgt-cnt img {
+    width: 324px;
+    height: 317px;
+  }
+
+  /***** End Services *****/
 }
-
 
 @media (max-width: 822px) {
-  /***** Home *****/  
+  /***** Home *****/
 
-  section#home .rgt-cnt  {
-   display: none;
- }
- 
- 
-  /***** EndHome *****/  
+  section#home .rgt-cnt {
+    display: none;
+  }
+
+  section#home .lft-cnt {
+    width: 70rem;
+  }
+
+  /***** EndHome *****/
 }
 
-
-
-
 @media (max-width: 768px) {
-  section#home .rgt-cnt  {
-     display: none;
-   }
-  
+  section#home .rgt-cnt {
+    display: none;
+  }
 }
 
 @media (max-width: 730px) {
-  
   #home .lft-cnt .btn-cnt {
     width: 27.4rem;
-  } 
+  }
   #home .lft-cnt .btn-cnt img:nth-child(5) {
-  display: none;
+    display: none;
   }
- 
+
   #home .lft-cnt .btn-cnt p:nth-child(6) {
-  display: none;
+    display: none;
   }
-  
-  main section:nth-child(2) .lft-cnt  {
-  display: none;
-    
+
+  main section:nth-child(2) .lft-cnt {
+    display: none;
+  }
+  #services .rgt-cnt {
+    display: none;
+  }
 }
-  #services .rgt-cnt  {
-display: none;
-}
-
-
-}
-
-
 
 @media (max-width: 651px) {
   main #home .lft-cnt h1 {
@@ -907,8 +844,9 @@ display: none;
     letter-spacing: 1px;
     margin-bottom: 1.895rem;
   }
+}
 
-  @media (max-width: 580px) {
+@media (max-width: 580px) {
   main #home .lft-cnt h1 {
     color: black;
     font-size: 2.2rem;
@@ -918,26 +856,17 @@ display: none;
     letter-spacing: 1px;
     margin-bottom: 1.295rem;
   }
-  
+
   main section:nth-child(2) .rgt-cnt {
-      margin-top: 4rem;
-
+    margin-top: 4rem;
   }
-  
+
   main section:nth-child(2) .rgt-cnt h2 {
-
-
-      font-size: 1.5rem;
- 
-
+    font-size: 1.5rem;
   }
-  
+
   main #home .lft-cnt p:nth-child(2) {
     font-size: 1rem;
     max-width: 30rem;
-   
   }
- 
-
-  
- }
+}
