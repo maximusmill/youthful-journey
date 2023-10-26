@@ -16,6 +16,15 @@ body {
   font-size: 16px;
 }
 
+p {
+  font-weight: 400;
+  font-size: 1.1875rem;
+  letter-spacing: 1.3px;
+  line-height: 1.8125rem;
+  max-width: 100%;
+}
+
+
 section {
   display: flex;
   max-width: 70rem;

@@ -1,4 +1,4 @@
-let navlinks = document.querySelectorAll("header div nav ul li a")
+let navlinks = document.querySelectorAll("header nav ul li a")
 let whatwecando = document.querySelector(".btn-cnt a")
 let wwcdelement = document.getElementById("services")
 
