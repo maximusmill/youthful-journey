@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  color: #5b7a9d;
+  background-color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smooth: never;
+  font-size: 16px;
+}
+
+.def-blue {
+  color: #00a5fc;
+}
+
+h1 {
+  font-size: 1.5rem;
+  max-width: 15rem;
+  padding-top: 0.25rem;
+}
+h2 {
+  font-size: 1.25rem;
+}
+h3 {
+  font-size: 1.15rem;
+}
+h4 {
+  font-size: 1.32rem;
+}
+h5 {
+  font-size: 1.149rem;
+}
+h6 {
+  font-size: 1rem;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h1,
+h2,
+h3 {
+  color: black;
+}
+
+h2 {
+  line-height: normal;
+}
+
+h3 {
+  font-weight: 400;
+  color: #00a5fc;
+  line-height: normal;
+}
+
+a.nav {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.nav:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.nav:link,
+a.nav:visited {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+a.nav:link:active,
+a.nav:visited:active {
+  color: black;
+  font-weight: bold;
+}
+
+header {
+  height: 16vh;
+  background-color: white;
+  padding: 0.5rem 0.2rem;
+  width: 100vw;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px #e2e2e2 solid;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+section#home {
+  padding: 2rem 1rem 0 1rem;
+}
+
+section#home p {
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 1.3px;
+  line-height: 1.4rem;
+  max-width: 100%;
+  padding: 1.6rem 0 1.6rem 0;
+}
