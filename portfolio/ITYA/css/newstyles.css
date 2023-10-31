@@ -20,6 +20,11 @@ body {
   color: #00a5fc;
 }
 
+.lft-cnt{
+  display: flex;
+  flex-direction: column;
+}
+
 h1 {
   font-size: 1.5rem;
   max-width: 15rem;
@@ -89,6 +94,19 @@ a.nav:visited:active {
   font-weight: bold;
 }
 
+.brand-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3125rem;
+  border: 0px solid #FFF;
+  background: #FFF;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
+  width: 8.0625rem;
+  height: 2.75rem;
+  margin-bottom: 2rem;
+}
+
 header {
   height: 5.5rem;
   background-color: white;
@@ -108,47 +126,100 @@ header nav ul {
 }
 
 section#home {
-  padding: 2rem 1rem 0 1rem;
+  /* background-image: url("../img/mobilemesh.svg"), url("../img/mobilemesh.svg"); */
+  background-image: url("../img/mobilemesh.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100vh;
+  background-position: 0 180px, 0 1900px;
+}
+
+section#home {
+  padding: 2rem 1.5rem 0 1.5rem;
 }
 
 section#home p {
-  font-weight: 400;
-  font-size: 1rem;
-  letter-spacing: 1.3px;
-  line-height: 1.4rem;
-  max-width: 100%;
-  padding: 1.6rem 0 2.5rem 0;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.3125rem; /* 131.25% */
+letter-spacing: 0.04rem;
+height: 7rem;
+margin-top: 1.4rem;
+  }
+
+section#home .lft-cnt div  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
 }
+
+section#home .lft-cnt div .brand-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
 
 section#home a {
   background-color: #00a5fc;
   color: white;
-  width: 173px;
-  height: 47px;
   border: 0px;
-  border-radius: 7px;
+  width: 9.25rem;
+  border-radius: 6px;
   box-shadow: 3px 3px 8px hsl(0deg 0% 0% / 0.28);
   font-weight: normal;
-  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  padding: 0.7rem 0.8rem 0.7rem 0.8rem;
+  /* margin: 40rem 0 4rem 0; */
   text-decoration: none;
   letter-spacing: 0;
 }
 
-section#home .but-cnt a:hover {
+section#home a:hover {
   color: white;
   text-decoration: none;
   cursor: pointer;
 }
 
-section#home .but-cnt a:link,
+section#home a:link,
 a:visited {
   color: white;
   text-decoration: none;
   cursor: pointer;
 }
 
-section#home .but-cnt a:link:active,
+section#home a:link:active,
 a:visited:active {
   color: white;
 }
 
+section#home .lft-cnt .contact-tel-email {
+  display: flex;
+  flex-direction: column;
+  margin: 3.5rem 0 0 0
+}
+
+section#home .lft-cnt .contact-tel-email div {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+section#home .lft-cnt .contact-tel-email div:nth-child(2) {
+ margin-top: 0.9rem;
+}
+
+
+section#home .lft-cnt .contact-tel-email div p {
+  line-height: normal;
+  height: 20px;
+  margin: 0 0 0 0.6rem;
+  color: #DCE3E9;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.64px;
+ }
+  
+  
