@@ -529,7 +529,6 @@ section#services .rgt-cnt {
   height: 20px;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .spc {

@@ -90,7 +90,7 @@ a.nav:visited:active {
 }
 
 header {
-  height: 16vh;
+  height: 5.5rem;
   background-color: white;
   padding: 0.5rem 0.2rem;
   width: 100vw;
@@ -117,5 +117,38 @@ section#home p {
   letter-spacing: 1.3px;
   line-height: 1.4rem;
   max-width: 100%;
-  padding: 1.6rem 0 1.6rem 0;
+  padding: 1.6rem 0 2.5rem 0;
 }
+
+section#home a {
+  background-color: #00a5fc;
+  color: white;
+  width: 173px;
+  height: 47px;
+  border: 0px;
+  border-radius: 7px;
+  box-shadow: 3px 3px 8px hsl(0deg 0% 0% / 0.28);
+  font-weight: normal;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  text-decoration: none;
+  letter-spacing: 0;
+}
+
+section#home .but-cnt a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+section#home .but-cnt a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+section#home .but-cnt a:link:active,
+a:visited:active {
+  color: white;
+}
+
