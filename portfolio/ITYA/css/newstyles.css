@@ -94,6 +94,11 @@ a.nav:visited:active {
   font-weight: bold;
 }
 
+#brands {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .brand-cnt {
   display: flex;
   align-items: center;
