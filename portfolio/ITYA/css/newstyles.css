@@ -28,9 +28,8 @@ body {
 
 
 h1 {
-  font-size: 1.5rem;
-  max-width: 15rem;
-  padding-top: 0.25rem;
+  font-size: 1.875rem;
+  max-width: 15rem
 }
 h2 {
   font-size: 1.25rem;
@@ -229,11 +228,35 @@ section#home .lft-cnt .contact-tel-email div p {
   letter-spacing: 0.64px;
  }
   
+/**************** 470px Media *******************/  
+  
+
+@media (min-width: 470px) {
+ 
+   h1 {  
+     font-size: 2.5rem;
+     padding-top: 0.25rem;
+     max-width: 25rem;
+   }
+ }
+
+
+/**************** 600px Media *******************/
+
+
+@media (min-width: 600px) {
+
+  h1 {  
+    font-size: 3rem;
+    padding-top: 2rem;
+    max-width: 30rem;
+  }
+}
 
 
 /**************** 720px Media *******************/
 
-@media (min-width: 652px) {
+@media (min-width: 768px) {
   
   #home {
     display: flex;

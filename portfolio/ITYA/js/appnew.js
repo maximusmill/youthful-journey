@@ -45,7 +45,7 @@ for (const link of navlinks) {
 
 const isMob360 = window.matchMedia('(min-width: 360px)'); 
 const isMob457 = window.matchMedia('(min-width: 457px)'); 
-const isMob652 = window.matchMedia('(min-width: 652px)'); 
+const isMob768 = window.matchMedia('(min-width: 768px)'); 
 
   const handleResize360 = e => { 
 	
@@ -100,11 +100,11 @@ const isMob652 = window.matchMedia('(min-width: 652px)');
 	 }
   }; 
 
-const handleResize652 = e => { 
+const handleResize768 = e => { 
 		
 		if (e.matches) {   
 		 console.log(e.matches) 
-		 console.log('viewport above 652px!'); 
+		 console.log('viewport above 768px!'); 
 		  let div = document.createElement('div')
 			  div.classList.add('rgt-cnt')
 			  div.innerHTML = ` <img src="img/dcenter.png" width="240" height="240" alt="Data Center Image">
@@ -119,9 +119,9 @@ const handleResize652 = e => {
 		 
 		} else {
 			
-			const div652reset = document.querySelector('#home .rgt-cnt')
-			console.log(div652reset)
-			div652reset.parentNode.removeChild(div652reset)
+			const div768reset = document.querySelector('#home .rgt-cnt')
+			console.log(div768reset)
+			div768reset.parentNode.removeChild(div768reset)
 			
 		}
 	 }; 
@@ -129,12 +129,12 @@ const handleResize652 = e => {
  // handles our media query as/when it changes 
  isMob360.addEventListener('change', e => handleResize360(e)); 
  isMob457.addEventListener('change', e => handleResize457(e));  
- isMob652.addEventListener('change', e => handleResize652(e)); 
+ isMob768.addEventListener('change', e => handleResize768(e)); 
  
  // instantiates the media query at load-time 
  handleResize360(isMob360) 
  handleResize457(isMob457) 
- handleResize652(isMob652) 
+ handleResize768(isMob768) 
  
  
  
