@@ -20,10 +20,12 @@ body {
   color: #00a5fc;
 }
 
-.lft-cnt{
+.lft-cnt {
   display: flex;
   flex-direction: column;
 }
+
+
 
 h1 {
   font-size: 1.5rem;
@@ -227,4 +229,29 @@ section#home .lft-cnt .contact-tel-email div p {
   letter-spacing: 0.64px;
  }
   
+
+
+/**************** 720px Media *******************/
+
+@media (min-width: 652px) {
   
+  #home {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .lft-cnt {
+    flex-direction: column; 
+    width: 35rem;
+  }
+  
+  .rgt-cnt {
+    display: flex;
+    flex-direction: column; 
+    width: 35rem;
+    align-items: flex-end;
+  }
+  
+
+  
+}
