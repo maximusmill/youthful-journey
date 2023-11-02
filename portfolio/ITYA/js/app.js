@@ -2,6 +2,7 @@ let navlinks = document.querySelectorAll("header nav ul li a")
 let whatwecando = document.querySelector("#home .lft-cnt a")
 let wwcdelement = document.getElementById("services")
 let brandscontainer = document.querySelector("#brands")
+let homecontainer = document.querySelector("#home")
 const fragment = document.createDocumentFragment()
 
 
@@ -21,15 +22,35 @@ for (const link of navlinks) {
  }
 
 
+
+// function updateSize() {
+// 	viewportsize = window.innerWidth
+// }
+// 
+// window.addEventListener("resize", updateSize);
+// updateSize();
+// 
+// 
+// switch(viewportsize) {
+//   case 360:
+// 	 // code block
+// 	 break;
+//   case y:
+// 	 // code block
+// 	 break;
+//   default:
+// 	 // code block
+// }
+
+
 const isMob360 = window.matchMedia('(min-width: 360px)'); 
-  console.log(MediaQueryList)
-  console.log(isMob360)
-  const handleResize = e => { 
-	 console.log(e)
+const isMob457 = window.matchMedia('(min-width: 457px)'); 
+const isMob900 = window.matchMedia('(min-width: 900px)'); 
+
+  const handleResize360 = e => { 
 	
-   if (e.matches) { 
-	   
-	  console.log(e.matches) 
+   if (e.matches) {   
+	 console.log(e.matches) 
 	 console.log('viewport above 360px!'); 
 	  let div = document.createElement('div')
  		 div.classList.add('brand-cnt')
@@ -57,9 +78,68 @@ const isMob360 = window.matchMedia('(min-width: 360px)');
 	   
    }
  }; 
-  console.log(brandscontainer)
+
+ const handleResize457 = e => { 
+	 
+	 if (e.matches) {   
+	  console.log(e.matches) 
+	  console.log('viewport above 457px!'); 
+		let div = document.createElement('div')
+			div.classList.add('brand-cnt')
+			div.innerHTML = `<img src="img/knoxicn.svg" width="111" height="25" alt="Samsung Knox Logo">`
+			fragment.appendChild(div)
+			brandscontainer.appendChild(fragment)
+ 
+	  
+	 } else {
+		 
+		 const divreset = document.querySelectorAll('#brands div')[4]
+		 console.log(divreset)
+		 divreset.parentNode.removeChild(divreset)
+		 
+	 }
+  }; 
+
+const handleResize900 = e => { 
+		
+		if (e.matches) {   
+		 console.log(e.matches) 
+		 console.log('viewport above 900px!'); 
+		  let div = document.createElement('div')
+			  div.classList.add('rgt-cnt')
+			  div.innerHTML = ` <img src="img/dcenter.png" width="380" height="380" alt="Data Center Image">
+			  <img class="knoxicn shadow" src="img/knoxicn.svg" alt="Samsung Know Logo">
+			  <img class="m365icn shadow" src="img/365icn.svg" alt="Microsoft 365 Logo">
+			  <img class="azureicn shadow" src="img/azureicn.svg" alt="Microsoft Azure Logo">
+			  <img class="intuneicn shadow" src="img/intuneicn.svg" alt="Microsoft Intune Logo">
+			  <img class="win11icn shadow" src="img/win11icn.svg" alt="Microsoft Windows 11 logo"> `
+			  fragment.appendChild(div)
+			  homecontainer.appendChild(fragment)
+	
+		 
+		} else {
+			
+			const divreset = document.querySelector('#home .rgt-cnt')
+			console.log(divreset)
+			divreset.parentNode.removeChild(divreset)
+			
+		}
+	 }; 
+
  // handles our media query as/when it changes 
- isMob360.addEventListener('change', e => handleResize(e)); 
-  
+ isMob360.addEventListener('change', e => handleResize360(e)); 
+ isMob457.addEventListener('change', e => handleResize457(e));  
+ isMob900.addEventListener('change', e => handleResize900(e)); 
+ 
  // instantiates the media query at load-time 
- handleResize(isMob360) 
+ handleResize360(isMob360) 
+ handleResize457(isMob457) 
+ handleResize457(isMob900) 
+ 
+ 
+ 
+
+ 
+ 
+
+ 
