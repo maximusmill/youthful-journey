@@ -5,7 +5,7 @@ let brandscontainer = document.querySelector("#brands")
 let homecontainer = document.querySelector("#home")
 const fragment = document.createDocumentFragment()
 
-let isMob360Html = 
+let isMob360Html
 
 
 
@@ -121,18 +121,8 @@ const handleResize768 = e => {
 		  let div = document.createElement('div')
 			  div.classList.add('rgt-cnt')
 			  div.innerHTML = ` 
-			  <img src="img/dcenter.png" width="240" height="240" alt="Data Center Image">
-			
-			  <img class="knoxicn shadow" src="img/knoxicn.svg" width="111" height="25" alt="Samsung Know Logo">
-			
-			  <img class="m365icn shadow" src="img/365icn.svg" width="111" height="25" alt="Microsoft 365 Logo">
-	
-			  <img class="azureicn shadow" src="img/azureicn.svg" width="111" height="25" alt="Microsoft Azure Logo">
-		
-			  <img class="intuneicn shadow" src="img/intuneicn.svg" width="111" height="25" alt="Microsoft Intune Logo">
-		
-			  <img class="win11icn shadow" src="img/win11icn.svg" width="111" height="25" alt="Microsoft Windows 11 logo"> 
-		
+			  <img src="img/dcenter.png" width="296" height="296" alt="Data Center Image">
+				
 			  `
 			  fragment.appendChild(div)
 			  homecontainer.appendChild(fragment)

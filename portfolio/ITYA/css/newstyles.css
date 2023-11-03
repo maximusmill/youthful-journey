@@ -250,7 +250,7 @@ section#home .lft-cnt .contact-tel-email div p {
     background-image: url("../img/meshtop.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 0 180px, 0 1900px;
+    background-position: 0 380px, 0 1900px;
   }
 
   section#home {
@@ -274,7 +274,11 @@ section#home .lft-cnt .contact-tel-email div p {
 @media (min-width: 720px) {
 }
 
-/**************** 720px Media *******************/
+
+
+
+
+/**************** 768px Media *******************/
 
 @media (min-width: 768px) {
   #home {
@@ -298,78 +302,83 @@ section#home .lft-cnt .contact-tel-email div p {
     display: flex;
     margin-top: 4rem;
     position: relative;
+
   }
 
-  section#home .rgt-cnt .knoxicn {
-    position: absolute;
-    padding: 10px;
-    top: -22px;
-    right: -7px;
-    border-radius: 0.3125rem;
-    border: 0px solid #fff;
-    background: #fff;
-    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
-    width: 8.0625rem;
-    height: 2.75rem;
-    margin-bottom: 2rem;
+
+section#home .rgt-cnt img:nth-child(1) {
+      position: relative;
+      top: -50px;
+      
   }
 
-  section#home .rgt-cnt .m365icn {
-    position: absolute;
-    padding: 10px;
-    top: 112px;
-    right: 145px;
-    border-radius: 0.3125rem;
-    border: 0px solid #fff;
-    background: #fff;
-    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
-    width: 8.0625rem;
-    height: 2.75rem;
-    margin-bottom: 2rem;
-  }
-
-  section#home .rgt-cnt .azureicn {
-    position: absolute;
-    padding: 10px;
-    top: 78px;
-    right: -13px;
-    border-radius: 0.3125rem;
-    border: 0px solid #fff;
-    background: #fff;
-    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
-    width: 8.0625rem;
-    height: 2.75rem;
-    margin-bottom: 2rem;
-  }
-
-  section#home .rgt-cnt .intuneicn {
-    position: absolute;
-    padding: 10px;
-    top: 185px;
-    left: 222px;
-    border-radius: 0.3125rem;
-    border: 0px solid #fff;
-    background: #fff;
-    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
-    width: 8.0625rem;
-    height: 2.75rem;
-    margin-bottom: 2rem;
-  }
-
-  section#home .rgt-cnt .win11icn {
-    position: absolute;
-    padding: 10px;
-    top: 37px;
-    left: 69px;
-    border-radius: 0.3125rem;
-    border: 0px solid #fff;
-    background: #fff;
-    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
-    width: 8.0625rem;
-    height: 2.75rem;
-    margin-bottom: 2rem;
-  }
+  
 }
+
+
+/**************** 885px Media *******************/
+
+@media (min-width: 885px) {
+  
+  section#home .rgt-cnt img:nth-child(1) {
+    /* width: 80%;
+    height: 80%; */
+  }
+  
+ section#home .rgt-cnt .knoxicn {
+   top: -22px;
+   right: 20px;
+   
+ }
+ 
+ section#home .rgt-cnt .m365icn {
+  
+   top: 132px;
+   right: 245px;
+   
+ }
+ 
+ section#home .rgt-cnt .azureicn {
+  
+   top: 178px;
+   right: -13px;
+
+ }
+ 
+ section#home .rgt-cnt .intuneicn {
+ 
+   top: 300px;
+   right: 45px;
+
+ }
+ 
+ section#home .rgt-cnt .win11icn {
+   
+ top: 32px;
+   right: 235px;
+
+ } 
+  
+  section#home .rgt-cnt img:nth-child(1) {
+     width: 376px;
+      height: 376px
+  }
+  
+  section#home .lft-cnt .contact-tel-email {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  section#home .lft-cnt .contact-tel-email div:nth-child(2) {
+    margin-top: 0; 
+  }
+  
+}
+
+
+
+
+
 
 /**************** 1120px Media *******************/
 
@@ -402,7 +411,7 @@ section#home .lft-cnt .contact-tel-email div p {
 
   section#home {
     margin-top: 5.5rem;
-    padding: 0 0 0 0;
+    padding: 0 2rem 0 1rem;
   }
 
   section#home .lft-cnt p {
@@ -416,78 +425,34 @@ section#home .lft-cnt .contact-tel-email div p {
   }
 
   section#home .rgt-cnt img:nth-child(1) {
-    width: 380px;
-    height: 380px;
+      position: relative;
+      top: -70px;
+      right: -30px;
+      min-width: 460px;
+      min-height: 460px;
+  }
+  
+  
+  section#home .lft-cnt .contact-tel-email div p {
+      font-weight: 500;
+      position: relative;
+      right: 10px;
+      font-size: 1.1875rem;
+      letter-spacing: 1.3px;
+      line-height: 1.8125rem;
   }
 
-  section#home .rgt-cnt .knoxicn {
-    background-color: white;
-    position: absolute;
-    top: -34px;
-    right: -62px;
-    border-radius: 7px;
-    border-radius: 0.3125rem;
-    border: 0px solid #fff;
-    background: #fff;
-    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
-    width: 211px;
-    height: 58px;
-    margin-bottom: 2rem;
+ section#home .lft-cnt .contact-tel-email div:nth-child(2) img {
+      width: 30px;
+      height: 25px;
   }
 
-  section#home .rgt-cnt .m365icn {
-    position: absolute;
-    top: 150px;
-    right: -110px;
-    border-radius: 5px;
-    border-radius: 0.3125rem;
-    border: 0px solid #fff;
-    background: #fff;
-    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
-    width: 211px;
-    height: 58px;
-    margin-bottom: 2rem;
-  }
 
-  section#home .rgt-cnt .azureicn {
-    position: absolute;
-    top: 350px;
-    right: -40px;
-    border-radius: 5px;
-    border-radius: 0.3125rem;
-    border: 0px solid #fff;
-    background: #fff;
-    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
-    width: 211px;
-    height: 58px;
-    margin-bottom: 2rem;
-  }
+   section#home .lft-cnt .contact-tel-email div:nth-child(3) img {
+        width: 28px;
+        height: 20px;
+    }
 
-  section#home .rgt-cnt .intuneicn {
-    position: absolute;
-    top: 260px;
-    left: 150px;
-    border-radius: 5px;
-    border-radius: 0.3125rem;
-    border: 0px solid #fff;
-    background: #fff;
-    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
-    width: 211px;
-    height: 58px;
-    margin-bottom: 2rem;
-  }
-
-  section#home .rgt-cnt .win11icn {
-    position: absolute;
-    top: 60px;
-    left: 90px;
-    border-radius: 5px;
-    border-radius: 0.3125rem;
-    border: 0px solid #fff;
-    background: #fff;
-    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
-    width: 211px;
-    height: 58px;
-    margin-bottom: 2rem;
-  }
 }
+
+
