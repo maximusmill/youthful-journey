@@ -30,11 +30,9 @@ body {
   flex-direction: column;
 }
 
-
-
 h1 {
   font-size: 1.875rem;
-  max-width: 15rem
+  max-width: 15rem;
 }
 h2 {
   font-size: 1.25rem;
@@ -99,7 +97,6 @@ a.nav:visited:active {
   color: black;
   font-weight: bold;
 }
-
 #brands {
   display: flex;
   flex-wrap: wrap;
@@ -110,8 +107,8 @@ a.nav:visited:active {
   align-items: center;
   justify-content: center;
   border-radius: 0.3125rem;
-  border: 0px solid #FFF;
-  background: #FFF;
+  border: 0px solid #fff;
+  background: #fff;
   box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
   width: 8.0625rem;
   height: 2.75rem;
@@ -127,6 +124,7 @@ header {
   position: sticky;
   top: 0;
   border-bottom: 1px #e2e2e2 solid;
+  z-index: 9999;
 }
 
 header nav ul {
@@ -147,7 +145,6 @@ section#home {
   /* background-image: url("../img/mobilemesh.svg"), url("../img/mobilemesh.svg"); */
 
   min-height: 100vh;
-
 }
 
 section#home {
@@ -155,27 +152,26 @@ section#home {
 }
 
 section#home p {
-font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.3125rem; /* 131.25% */
-letter-spacing: 0.04rem;
-height: 7rem;
-margin-top: 1.4rem;
-  }
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.3125rem; /* 131.25% */
+  letter-spacing: 0.04rem;
+  height: 7rem;
+  margin-top: 1.4rem;
+}
 
-section#home .lft-cnt div  {
+section#home .lft-cnt div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
 }
 
 section#home .lft-cnt div .brand-cnt {
   display: flex;
   align-items: center;
   justify-content: center;
- }
+}
 
 section#home a {
   background-color: #00a5fc;
@@ -212,7 +208,7 @@ a:visited:active {
 section#home .lft-cnt .contact-tel-email {
   display: flex;
   flex-direction: column;
-  margin: 2.5rem 0 0 0
+  margin: 2.5rem 0 0 0;
 }
 
 section#home .lft-cnt .contact-tel-email div {
@@ -222,64 +218,51 @@ section#home .lft-cnt .contact-tel-email div {
 }
 
 section#home .lft-cnt .contact-tel-email div:nth-child(2) {
- margin-top: 0.9rem;
+  margin-top: 0.9rem;
 }
-
 
 section#home .lft-cnt .contact-tel-email div p {
   line-height: normal;
   height: 20px;
   margin: 0 0 0 0.6rem;
-  color: #DCE3E9;
+  color: #dce3e9;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0.64px;
- }
-  
-/**************** 470px Media *******************/  
-  
+}
+
+/**************** 470px Media *******************/
 
 @media (min-width: 470px) {
- 
-   h1 {  
-     font-size: 2.5rem;
-     padding-top: 0.25rem;
-     max-width: 25rem;
-   }
- }
-
+  h1 {
+    font-size: 2.5rem;
+    padding-top: 0.25rem;
+    max-width: 25rem;
+  }
+}
 
 /**************** 532px Media *******************/
- 
- 
- @media (min-width: 532px) {
-   
+
+@media (min-width: 532px) {
   main {
-   background-image: url("../img/meshtop.svg");
+    background-image: url("../img/meshtop.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 0 180px, 0 1900px;
-  } 
-   
-   
-section#home {
+  }
 
- 
- }
+  section#home {
+  }
 
-/* swap mobile background image for mobile desktop  background*/
-
- }
-
+  /* swap mobile background image for mobile desktop  background*/
+}
 
 /**************** 600px Media *******************/
 
-
 @media (min-width: 600px) {
-
-  h1 {  
+  h1 {
     font-size: 3rem;
     padding-top: 2rem;
     max-width: 30rem;
@@ -288,97 +271,223 @@ section#home {
 
 /**************** 600px Media *******************/
 
-
 @media (min-width: 720px) {
-
 }
 
 /**************** 720px Media *******************/
 
 @media (min-width: 768px) {
-  
   #home {
     display: flex;
     flex-direction: row;
   }
-  
+
   .lft-cnt {
-    flex-direction: column; 
+    flex-direction: column;
     width: 35rem;
   }
-  
+
   .rgt-cnt {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     width: 35rem;
     align-items: flex-end;
   }
-  
-  .brand-cnt {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0.3125rem;
-    border: 0px solid #FFF;
-    background: #FFF;
-    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
-    width: 8.0625rem;
-    height: 2.75rem;
-    margin-bottom: 2rem;
-  }
-  
-  
+
   section#home .rgt-cnt {
     display: flex;
     margin-top: 4rem;
     position: relative;
   }
-  
+
+  section#home .rgt-cnt .knoxicn {
+    position: absolute;
+    padding: 10px;
+    top: -22px;
+    right: -7px;
+    border-radius: 0.3125rem;
+    border: 0px solid #fff;
+    background: #fff;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
+    width: 8.0625rem;
+    height: 2.75rem;
+    margin-bottom: 2rem;
+  }
+
+  section#home .rgt-cnt .m365icn {
+    position: absolute;
+    padding: 10px;
+    top: 112px;
+    right: 145px;
+    border-radius: 0.3125rem;
+    border: 0px solid #fff;
+    background: #fff;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
+    width: 8.0625rem;
+    height: 2.75rem;
+    margin-bottom: 2rem;
+  }
+
+  section#home .rgt-cnt .azureicn {
+    position: absolute;
+    padding: 10px;
+    top: 78px;
+    right: -13px;
+    border-radius: 0.3125rem;
+    border: 0px solid #fff;
+    background: #fff;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
+    width: 8.0625rem;
+    height: 2.75rem;
+    margin-bottom: 2rem;
+  }
+
+  section#home .rgt-cnt .intuneicn {
+    position: absolute;
+    padding: 10px;
+    top: 185px;
+    left: 222px;
+    border-radius: 0.3125rem;
+    border: 0px solid #fff;
+    background: #fff;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
+    width: 8.0625rem;
+    height: 2.75rem;
+    margin-bottom: 2rem;
+  }
+
+  section#home .rgt-cnt .win11icn {
+    position: absolute;
+    padding: 10px;
+    top: 37px;
+    left: 69px;
+    border-radius: 0.3125rem;
+    border: 0px solid #fff;
+    background: #fff;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
+    width: 8.0625rem;
+    height: 2.75rem;
+    margin-bottom: 2rem;
+  }
+}
+
+/**************** 1120px Media *******************/
+
+@media (min-width: 1120px) {
+  section,
+  footer {
+    max-width: 1120px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0 0 0 0;
+  }
+
+  header {
+    border-bottom: 1px #e2e2e2 solid;
+    width: 100vw;
+  }
+
+  header div {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+    min-width: 100%;
+    margin-bottom: 0.4rem;
+  }
+
+  section#home {
+    margin-top: 5.5rem;
+    padding: 0 0 0 0;
+  }
+
+  section#home .lft-cnt p {
+    font-weight: 400;
+    font-size: 1.1875rem;
+    letter-spacing: 1.3px;
+    line-height: 1.8125rem;
+    max-width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  section#home .rgt-cnt img:nth-child(1) {
+    width: 380px;
+    height: 380px;
+  }
+
   section#home .rgt-cnt .knoxicn {
     background-color: white;
     position: absolute;
-    top: -22px;
+    top: -34px;
     right: -62px;
-    padding: 20px;
-    border-radius: 13px;
+    border-radius: 7px;
+    border-radius: 0.3125rem;
+    border: 0px solid #fff;
+    background: #fff;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
+    width: 211px;
+    height: 58px;
+    margin-bottom: 2rem;
   }
-  
+
   section#home .rgt-cnt .m365icn {
     position: absolute;
     top: 150px;
     right: -110px;
-    padding: 11px;
-    border-radius: 13px;
-    background-color: white;
+    border-radius: 5px;
+    border-radius: 0.3125rem;
+    border: 0px solid #fff;
+    background: #fff;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
+    width: 211px;
+    height: 58px;
+    margin-bottom: 2rem;
   }
-  
+
   section#home .rgt-cnt .azureicn {
     position: absolute;
     top: 350px;
     right: -40px;
-    padding: 16px;
-    border-radius: 13px;
-    background-color: white;
+    border-radius: 5px;
+    border-radius: 0.3125rem;
+    border: 0px solid #fff;
+    background: #fff;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
+    width: 211px;
+    height: 58px;
+    margin-bottom: 2rem;
   }
-  
+
   section#home .rgt-cnt .intuneicn {
     position: absolute;
     top: 260px;
     left: 150px;
-    padding: 16px;
-    border-radius: 13px;
-    background-color: white;
+    border-radius: 5px;
+    border-radius: 0.3125rem;
+    border: 0px solid #fff;
+    background: #fff;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
+    width: 211px;
+    height: 58px;
+    margin-bottom: 2rem;
   }
-  
+
   section#home .rgt-cnt .win11icn {
     position: absolute;
     top: 60px;
     left: 90px;
-    padding: 16px;
-    border-radius: 13px;
-    background-color: white;
+    border-radius: 5px;
+    border-radius: 0.3125rem;
+    border: 0px solid #fff;
+    background: #fff;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
+    width: 211px;
+    height: 58px;
+    margin-bottom: 2rem;
   }
-
-
-  
 }
