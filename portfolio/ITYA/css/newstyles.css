@@ -142,9 +142,11 @@ main {
 }
 
 section#home {
-  /* background-image: url("../img/mobilemesh.svg"), url("../img/mobilemesh.svg"); */
-
   min-height: 100vh;
+}
+
+  section#home .lft-cnt .contact-tel-email > img {
+     display: none;
 }
 
 section#home {
@@ -174,6 +176,7 @@ section#home .lft-cnt div .brand-cnt {
 }
 
 section#home a {
+  display: flex;
   background-color: #00a5fc;
   color: white;
   border: 0px;
@@ -182,9 +185,10 @@ section#home a {
   box-shadow: 3px 3px 8px hsl(0deg 0% 0% / 0.28);
   font-weight: normal;
   padding: 0.7rem 0.8rem 0.7rem 0.8rem;
-  /* margin: 40rem 0 4rem 0; */
+  height: 41px;
   text-decoration: none;
   letter-spacing: 0;
+ 
 }
 
 section#home a:hover {
@@ -217,7 +221,7 @@ section#home .lft-cnt .contact-tel-email div {
   justify-content: left;
 }
 
-section#home .lft-cnt .contact-tel-email div:nth-child(2) {
+section#home .lft-cnt .contact-tel-email div:nth-child(3) {
   margin: 2rem 0 0.85rem 0;
 }
 
@@ -407,8 +411,22 @@ section#home .rgt-cnt img:nth-child(1) {
   align-items: leff;
 }
 
-  section#home .lft-cnt .contact-tel-email div:nth-child(2) {
+  section#home .lft-cnt .contact-tel-email div:nth-child(3) {
      margin: 0;
+}
+
+}
+
+/**************** 1100px Media *******************/
+
+@media (min-width: 1100px) {
+
+  section#home .lft-cnt .contact-tel-email > img {
+     display: block;
+}
+
+  section#home .lft-cnt .contact-tel-email a {
+   margin-top: 8px;
 }
 
 }
@@ -482,13 +500,13 @@ section#home .rgt-cnt img:nth-child(1) {
     width: 600px;
   }
 
- section#home .lft-cnt .contact-tel-email div:nth-child(2) img {
+ section#home .lft-cnt .contact-tel-email div:nth-child(3) img {
       width: 30px;
       height: 25px;
   }
 
 
-   section#home .lft-cnt .contact-tel-email div:nth-child(3) img {
+   section#home .lft-cnt .contact-tel-email div:nth-child(4) img {
         width: 28px;
         height: 20px;
     }
