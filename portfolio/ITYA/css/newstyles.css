@@ -218,7 +218,7 @@ section#home .lft-cnt .contact-tel-email div {
 }
 
 section#home .lft-cnt .contact-tel-email div:nth-child(2) {
-  margin-top: 0.9rem;
+  margin: 2rem 0 0.85rem 0;
 }
 
 section#home .lft-cnt .contact-tel-email div p {
@@ -246,12 +246,18 @@ section#home .lft-cnt .contact-tel-email div p {
 /**************** 532px Media *******************/
 
 @media (min-width: 532px) {
-  main {
+  /* main {
     background-image: url("../img/meshtop.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: 0 380px, 0 1900px;
+    background-position: 0 450px, 0 1900px;
+
+  } */
+
+  main:nth-child(1) img {
+    opacity: 0;
   }
+
 
   section#home {
   }
@@ -269,7 +275,21 @@ section#home .lft-cnt .contact-tel-email div p {
   }
 }
 
-/**************** 600px Media *******************/
+
+/**************** 626px Media *******************/
+
+@media (min-width: 626px) {
+  main {
+    background-image: url("../img/meshtop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 450px, 0 1900px;
+
+  }
+
+
+
+/**************** 720px Media *******************/
 
 @media (min-width: 720px) {
 }
@@ -281,6 +301,13 @@ section#home .lft-cnt .contact-tel-email div p {
 /**************** 768px Media *******************/
 
 @media (min-width: 768px) {
+  
+  main {
+    background-position: 0 350px, 0 1900px;
+  
+  }
+  
+  
   #home {
     display: flex;
     flex-direction: row;
@@ -363,26 +390,40 @@ section#home .rgt-cnt img:nth-child(1) {
      width: 376px;
       height: 376px
   }
-  
-  section#home .lft-cnt .contact-tel-email {
-    flex-direction: row;
-    align-items: center;
-  }
+    
   
   section#home .lft-cnt .contact-tel-email div:nth-child(2) {
-    margin-top: 0; 
+       margin: 2rem 0 0.85rem 0;
   }
   
 }
 
 
+/**************** 992px Media *******************/
 
+@media (min-width: 992px) {
+  section#home .lft-cnt .contact-tel-email {
+  flex-direction: row;
+  align-items: leff;
+}
 
+  section#home .lft-cnt .contact-tel-email div:nth-child(2) {
+     margin: 0;
+}
 
+}
 
 /**************** 1120px Media *******************/
 
 @media (min-width: 1120px) {
+ 
+ main {
+   background-position: 0 390px, 0 1900px;
+ 
+ }
+ 
+ 
+ 
   section,
   footer {
     max-width: 1120px;
@@ -434,12 +475,11 @@ section#home .rgt-cnt img:nth-child(1) {
   
   
   section#home .lft-cnt .contact-tel-email div p {
-      font-weight: 500;
-      position: relative;
-      right: 10px;
       font-size: 1.1875rem;
-      letter-spacing: 1.3px;
-      line-height: 1.8125rem;
+  }
+
+  section#home .lft-cnt .contact-tel-email  {
+    width: 600px;
   }
 
  section#home .lft-cnt .contact-tel-email div:nth-child(2) img {
