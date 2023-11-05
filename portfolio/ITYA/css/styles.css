@@ -272,6 +272,7 @@ section#general ul li {
 }
 
 section#general .rgt-cnt {
+  display: flex;
   margin-top: 200px;
   justify-content: flex-start;
 }

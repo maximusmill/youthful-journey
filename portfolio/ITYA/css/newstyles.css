@@ -16,6 +16,7 @@ body {
   font-size: 16px;
 }
 
+
 .shadow {
   position: absolute;
   box-shadow: 3px 3px 8px hsl(0deg 0% 0% / 0.15);
@@ -71,31 +72,30 @@ h3 {
 }
 
 a.nav {
-  color: black;
+  color: #5b7a9d;
   text-decoration: none;
   cursor: pointer;
-  font-weight: bold;
+}
+
+a.nav {
+  font-size: 0.85rem;
 }
 
 a.nav:hover {
-  color: black;
   text-decoration: none;
   cursor: pointer;
-  font-weight: bold;
 }
 
 a.nav:link,
 a.nav:visited {
-  color: black;
   text-decoration: none;
   cursor: pointer;
-  font-weight: bold;
+  color: #5b7a9d;
 }
 
 a.nav:link:active,
 a.nav:visited:active {
-  color: black;
-  font-weight: bold;
+  font-weight: normal;
 }
 #brands {
   display: flex;
@@ -116,6 +116,7 @@ a.nav:visited:active {
 }
 
 header {
+  display: flex;  
   height: 5.5rem;
   background-color: white;
   padding: 0.5rem 0.2rem;
@@ -127,23 +128,28 @@ header {
   z-index: 9999;
 }
 
-header nav ul {
+header div img {
+  width: 156px;
   display: flex;
-  list-style-type: none;
-  justify-content: space-between;
-  padding: 0.5rem 0.5rem 0 0.5rem;
+  align-items: center;
 }
 
 header div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
-header div nav {
+header nav ul {
   display: flex;
+  list-style-type: none;
 
 }
+
+header nav ul li {
+  padding: 0 0.5rem 0 0.5rem;}
 
 main {
   background-image: url("../img/mobilemesh.svg");
@@ -152,9 +158,9 @@ main {
   background-position: 0 190px, 0 1900px;
 }
 
-section#home {
-  min-height: 100vh;
-}
+/* section#home {
+  min-height: 50vh;
+} */
 
   section#home .lft-cnt .contact-tel-email > img {
      display: none;
@@ -223,7 +229,7 @@ a:visited:active {
 section#home .lft-cnt .contact-tel-email {
   display: flex;
   flex-direction: column;
-  margin: 2.5rem 0 0 0;
+  margin: 0 0 0 0;
 }
 
 section#home .lft-cnt .contact-tel-email div {
@@ -358,6 +364,167 @@ section#home .rgt-cnt img:nth-child(1) {
 }
 
 
+/***** General *****/
+
+
+section#general {
+  display: flex;
+}
+
+section#general ul {
+  list-style-type: none;
+  list-style: none;
+}
+
+section#general ul li {
+  background: url(../img/ulimage.png) left top no-repeat;
+  margin: 0 0 22px 0;
+  padding-left: 73px;
+  background-repeat: no-repeat;
+}
+
+section#general .rgt-cnt {
+  margin-top: 200px;
+  justify-content: flex-start;
+}
+
+section#general ul li h2 {
+  margin: 0 0 0 0;
+}
+
+section#general ul li p {
+  color: #00a5fc;
+  margin: 5px 0 0 0;
+}
+
+section#general .lft-cnt {
+  margin-top: 7rem;
+  padding-left: 7.5rem;
+}
+
+section#general .findia {
+  height: 364px;
+  width: 289px;
+  border-radius: 13px;
+  background-color: white;
+  box-shadow: 5px 3px 8px hsl(0deg 0% 0% / 0.04);
+  background-position: center;
+  background-image: url("../img/fiabk.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+section#general .findia div:nth-child(1) {
+  border-start-start-radius: 8px;
+  border-start-end-radius: 8px;
+  background-color: rgba(60, 88, 136, 0.38);
+  padding: 14px 14px 14px 14px;
+  height: 64px;
+  color: white;
+  display: flex;
+}
+
+section#general .findia div:nth-child(2) {
+  position: absolute;
+  border-radius: 4px;
+  background-color: #34b439;
+  height: 34px;
+  width: 73px;
+  color: white;
+  left: 190px;
+  top: 85px;
+}
+
+section#general .findia div:nth-child(3) {
+  position: absolute;
+  border-radius: 4px;
+  background-color: #5b7a9d;
+  height: 34px;
+  width: 73px;
+  color: white;
+  left: 115px;
+  top: 247px;
+}
+
+section#general .findia div p {
+  display: flex;
+  font-weight: 400;
+  align-items: center;
+  padding: 0 130px 0 10px;
+}
+
+section#general .findia div:nth-child(2) p {
+  border-radius: 4px;
+  padding: 0 0 0 0;
+  margin-top: 2px;
+  margin: 2px 0 0 16px;
+  font-size: 1rem;
+}
+
+section#general .findia div:nth-child(3) p {
+  border-radius: 4px;
+  padding: 0 0 0 0;
+  margin-top: 2px;
+  margin: 2px 0 0 16px;
+  font-size: 1rem;
+}
+
+section#general .findia div:nth-child(4) {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 5px solid #d9d9d9;
+  position: absolute;
+  top: 302px;
+  left: 30px;
+}
+
+section#general .findia div:nth-child(5) {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 5px solid #d9d9d9;
+  position: absolute;
+  top: 256px;
+  left: 80px;
+}
+
+section#general .findia div:nth-child(6) {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 5px solid #d9d9d9;
+  position: absolute;
+  top: 211px;
+  left: 108px;
+}
+
+section#general .findia div:nth-child(7) {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 5px solid #ffc700;
+  position: absolute;
+  top: 166px;
+  left: 152px;
+}
+
+section#general .findia div:nth-child(8) {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 5px solid #d9d9d9;
+  position: absolute;
+  top: 120px;
+  left: 165px;
+}
+
+/***** End General *****/
+
+
+
 /**************** 885px Media *******************/
 
 @media (min-width: 885px) {
@@ -461,6 +628,8 @@ section#home .rgt-cnt img:nth-child(1) {
     padding: 0 0 0 0;
   }
 
+
+
   header {
     border-bottom: 1px #e2e2e2 solid;
     width: 100vw;
@@ -481,8 +650,25 @@ section#home .rgt-cnt img:nth-child(1) {
 
   section#home {
     margin-top: 5.5rem;
-    padding: 0 2rem 0 1rem;
+    padding: 0 0 0 0;
   }
+
+
+    
+  section#home a {
+        background-color: #00a5fc;
+        color: white;
+        width: 173px;
+        height: 47px;
+        border: 0px;
+        border-radius: 7px;
+        font-size: 1.125rem;
+        box-shadow: 3px 3px 8px hsl(0deg 0% 0% / 0.28);
+        font-weight: normal;
+        padding: 0.79rem 0 0 1.2rem;
+        text-decoration: none;
+        letter-spacing: 0;
+   }
 
   section#home .lft-cnt p {
     font-weight: 400;
@@ -492,6 +678,7 @@ section#home .rgt-cnt img:nth-child(1) {
     max-width: 100%;
     margin-top: 1.5rem;
     margin-bottom: 3rem;
+
   }
 
   section#home .rgt-cnt img:nth-child(1) {
@@ -505,10 +692,12 @@ section#home .rgt-cnt img:nth-child(1) {
   
   section#home .lft-cnt .contact-tel-email div p {
       font-size: 1.1875rem;
+      margin-left: 1.6rem;
+      font-weight: 500;
   }
 
   section#home .lft-cnt .contact-tel-email  {
-    width: 600px;
+    width: 642px;
   }
 
  section#home .lft-cnt .contact-tel-email div:nth-child(3) img {
@@ -521,7 +710,42 @@ section#home .rgt-cnt img:nth-child(1) {
         width: 28px;
         height: 20px;
     }
+    
+    
+   section#general .rgt-cnt {
+      justify-content: flex-start;
+      align-items: flex-start;
+      margin-top: 9rem;
+    }
+    
+    section#general .rgt-cnt ul {
+      padding-left:0;
+    }
+    
+   section#general .rgt-cnt ul li h2 {
+     font-size: 2rem;
+   }
+   
+   section#general .rgt-cnt ul li p {
+     
+      color: #00a5fc;
+         margin: 5px 0 0 0;
+    font-weight: 400;
+         font-size: 1.1875rem;
+         letter-spacing: 1.3px;
+         line-height: 1.8125rem;
+         max-width: 100%;
+     
+   }
 
 }
 
+/**************** 1280px Media *******************/
 
+
+
+
+  
+  
+  
+  
