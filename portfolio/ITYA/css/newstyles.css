@@ -134,6 +134,17 @@ header nav ul {
   padding: 0.5rem 0.5rem 0 0.5rem;
 }
 
+header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header div nav {
+  display: flex;
+
+}
+
 main {
   background-image: url("../img/mobilemesh.svg");
   background-repeat: no-repeat;
