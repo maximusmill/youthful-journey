@@ -24,7 +24,6 @@ p {
   max-width: 100%;
 }
 
-
 section {
   display: flex;
   max-width: 70rem;
@@ -250,12 +249,11 @@ section#home .rgt-cnt {
 }
 
 section#home .rgt-cnt img:nth-child(1) {
-    position: relative;
-    top: -70px;
-    max-width: 100%;
-    max-height: 100%;
+  position: relative;
+  top: -70px;
+  max-width: 100%;
+  max-height: 100%;
 }
-
 
 /***** End Home *****/
 
@@ -600,7 +598,7 @@ section#contactus .lft-cnt ul li {
   margin: 0 0 22px 0;
 }
 
-section#contactus .lft-cnt ul li:nth-child(1){
+section#contactus .lft-cnt ul li:nth-child(1) {
   background: url(../img/phoneicn.png) left top no-repeat;
   padding-left: 73px;
   background-repeat: no-repeat;
@@ -620,21 +618,11 @@ section#contactus .rgt-cnt ul li {
   margin: 0 0 22px 0;
 }
 
-section#contactus .rgt-cnt ul li:nth-child(1){
+section#contactus .rgt-cnt ul li:nth-child(1) {
   background: url(../img/emailicn.png) left top no-repeat;
   padding-left: 73px;
   background-repeat: no-repeat;
 }
-
-
-
-
-
-
-
-
-
-
 
 /***** End Contact Us *****/
 
@@ -789,15 +777,13 @@ footer p {
 }
 
 @media (max-width: 1015px) {
-
   /***** Contact Us *****/
 
   section#contactus div .lft-cnt {
     width: 25rem;
   }
-  
+
   /***** End Contact Us *****/
-  
 }
 
 @media (max-width: 992px) {
@@ -829,18 +815,16 @@ footer p {
   section#aboutus .rgt-cnt {
     display: none;
   }
-  
+
   section#aboutus .lft-cnt {
     max-width: 70rem;
   }
-  
+
   section#aboutus .lft-cnt p {
     max-width: 70rem;
   }
 
   /***** End About Us *****/
-
-
 }
 
 @media (max-width: 895px) {
@@ -863,15 +847,13 @@ footer p {
 }
 
 @media (max-width: 854px) {
-  
-  /***** Contact Us *****/
+  /****** Contact Us ******/
 
-/* section#contactus div .lft-cnt {
+  /* section#contactus div .lft-cnt {
   width: 20rem;
 } */
 
-/***** End Contact Us *****/
-
+  /***** End Contact Us *****/
 }
 
 @media (max-width: 822px) {
@@ -889,38 +871,28 @@ footer p {
 }
 
 @media (max-width: 775px) {
-  
   /***** Contact Us *****/
 
-section#contactus div {
-  flex-direction: column;
-  
+  section#contactus div {
+    flex-direction: column;
+  }
+
+  section#contactus div .lft-cnt {
+    width: 20rem;
+  }
+
+  section#contactus div .rgt-cnt ul {
+    margin: 3rem 0 0 0;
+    padding: 0 0 0 0;
+  }
+
+  section#contactus div .lft-cnt ul {
+    padding-left: 0;
+    width: 20rem;
+  }
+
+  /***** End Contact Us *****/
 }
-
-section#contactus div .lft-cnt {
-  width: 20rem;
-  
-}
-
-
-section#contactus div .rgt-cnt ul{
-  margin: 3rem 0 0 0;
-  padding: 0 0 0 0;
-  
-}
-
-section#contactus div .lft-cnt ul {
-  padding-left: 0;
-  width: 20rem;
-}
-
-/***** End Contact Us *****/
-
-}
-
-
-
-
 
 @media (max-width: 768px) {
   section#home .rgt-cnt {
@@ -1002,86 +974,80 @@ section#contactus div .lft-cnt ul {
 
   /***** Home *****/
 
-    section#home .lft-cnt p {
+  section#home .lft-cnt p {
     font-size: 1rem;
     /* max-width: 30rem; */
   }
-  
+
   /***** End Home *****/
-  
+
   /*****  General *****/
-  
+
   section#general .lft-cnt h2 {
     font-size: 1.5rem;
   }
-  
+
   /***** End General *****/
-  
+
   /***** Services *****/
-  
+
   section#services .lft-cnt p {
-  font-size: 1rem;      
+    font-size: 1rem;
   }
-    
+
   section#services .lft-cnt h2 {
-  font-size: 1.5rem;      
-  line-height: normal;
+    font-size: 1.5rem;
+    line-height: normal;
   }
-  
+
   section#services .lft-cnt h3 {
-  font-size: 1.25rem;      
-  line-height: normal;
+    font-size: 1.25rem;
+    line-height: normal;
   }
-  
+
   /***** End Services *****/
-    
+
   /***** About Us *****/
-    
+
   section#aboutus {
-      margin-top: 7rem;
+    margin-top: 7rem;
   }
-  
+
   section#aboutus .lft-cnt p {
-  font-size: 1rem;      
+    font-size: 1rem;
   }
-    
+
   section#aboutus .lft-cnt h2 {
-  font-size: 1.5rem;      
-  line-height: normal;
+    font-size: 1.5rem;
+    line-height: normal;
   }
-  
+
   section#aboutus .lft-cnt h3 {
-  font-size: 1.25rem;      
-  line-height: normal;
+    font-size: 1.25rem;
+    line-height: normal;
   }
-  
+
   /***** End About Us *****/
-    
-  
+
   /***** Contact Us *****/
-    
+
   section#contactus {
-      margin-top: 7rem;
+    margin-top: 7rem;
   }
-  
+
   section#contactus p {
-  font-size: 1rem;      
+    font-size: 1rem;
   }
-    
+
   section#contactus h2 {
-  font-size: 1.5rem;      
-  line-height: normal;
+    font-size: 1.5rem;
+    line-height: normal;
   }
-  
+
   section#contactus h3 {
-  font-size: 1.25rem;      
-  line-height: normal;
+    font-size: 1.25rem;
+    line-height: normal;
   }
-  
+
   /***** End Contact Us *****/
-  
-
-
-
-
 }
