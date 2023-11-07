@@ -1,0 +1,374 @@
+/*** SET DEFAULTS GLOBAL ***/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/***************************/
+
+/*** SET DEFAULTS HTML AND BODY ***/
+
+html,
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: #5b7a9d;
+	background-color: white;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-smooth: never;
+	font-size: 16px;
+}
+
+/**************************/
+
+/*** SET DEFAULTS HEADER MAIN FOOTER PADDING ***/
+
+header,
+main,
+footer div {
+	padding: 0.5rem;
+}
+
+main,
+footer div {
+	padding: 0 1.6rem 0 1.6rem;
+}
+	
+	
+/***********************************************/
+
+/*** SET DEFAULT SECTION SPACING ***/
+
+section {
+	margin: 5rem 0 0 0;
+}
+
+/***********************************/
+
+/*** SET DEFAULT MAIN BACKGROUND IMAGE ***/
+
+main {
+  background-image: url("../img/mobilemesh.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 170px, 0 1900px;
+}
+
+/*****************************************/
+
+/*** SET DEFAULT HEADINGS ***/
+
+h1 {
+	font-size: 1.6rem;
+}
+
+h2 {
+	font-size: 1.25rem;
+}
+
+h3 {
+	font-size: 1rem;
+}
+
+h4 {
+	font-size: 1.32rem;
+}
+
+h5 {
+	font-size: 1.149rem;
+}
+
+h6 {
+	font-size: 1rem;
+}
+
+/****************************/
+
+/*** SET DEFAULT PARAGRAPH ***/
+
+P {
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.04rem;
+}
+
+/*****************************/
+
+/*** SET DEFAULT NAV LINKS ***/
+
+a.nav:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.nav:link,
+a.nav:visited {
+  text-decoration: none;
+  cursor: pointer;
+  color: #5b7a9d;
+}
+
+a.nav:link:active,
+a.nav:visited:active {
+  font-weight: normal;
+}
+
+/*****************************/
+
+/*** SET DEFAULT BRAND CONTAINER ***/
+
+#brands {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.brand-cnt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3125rem;
+  border: 0px solid #fff;
+  background: #fff;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.16);
+  width: 7.5rem;
+  height: 2.75rem;
+  margin: .25rem 0 2.6rem 0;
+  padding: 0.5rem;
+}
+
+/***********************************/
+
+
+/*** MOBILE FIRST ***/
+
+h1 {
+	font-weight: 900;
+}
+
+h1,
+h2 {
+	color: black;
+}
+
+header {
+	height: 5rem;
+	width: 100vw;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	border-bottom: 1px solid #e2e2e2;
+	z-index: 9999;
+}
+
+header nav ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+	margin: 0.3rem;
+	font-size: 0.85rem;
+}
+
+section h3 {
+	color: #00a5fc;
+	font-weight: normal;
+}
+
+section p {
+	line-height: 1.3125rem; 
+	min-height: 7rem;
+	margin: 1.4rem 0 0rem 0; 
+}
+
+section h1 span {
+	color: #00a5fc;
+}
+
+section h1 {
+	min-width: 15rem;
+}
+
+/*** HOME SECTION ***/
+
+
+section#home {
+	margin: 2rem 0 0 0;
+}
+
+section#home a {
+  display: flex;
+  background-color: #00a5fc;
+  color: white;
+  border: 0px;
+  width: 9.25rem;
+  border-radius: 6px;
+  box-shadow: 3px 3px 8px hsl(0deg 0% 0% / 0.28);
+  font-weight: normal;
+  padding: 0.7rem 0.8rem 0.7rem 0.8rem;
+  height: 41px;
+  text-decoration: none;
+  letter-spacing: 0;
+ 
+}
+
+section#home a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+section#home a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+section#home a:link:active,
+a:visited:active {
+  color: white;
+}
+
+section#home #contact-details {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin: 3.2rem 0 0 0; 
+	
+}
+
+
+
+section#home #contact-details div {
+	display: flex;
+	align-items: center;
+	margin:  0 0 0.8rem 0;
+	
+	
+}
+
+section#home #contact-details div p{
+	min-height: 0;
+	line-height: normal;
+	margin: 0;
+	color: #dce3e9;
+	font-style: normal;
+	  font-weight: 700;
+	  letter-spacing: 0.64px;
+}
+
+section#home #contact-details div img{
+margin-right: 1rem;
+}
+
+section#home ul {
+  list-style-type: none;
+  list-style: none;
+  margin: 2.2rem 0 0 1rem;
+}
+
+section#home ul li {
+  background: url(../img/ulimage.png) left top no-repeat;
+  margin: 0 0 22px 0;
+  padding-left: 73px;
+  background-repeat: no-repeat;
+}
+section#home ul li p{
+	min-height: 0;
+line-height: normal;
+margin: 0;
+color: #00a5fc;
+font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.64px;
+}
+
+/**********************/
+
+/*** SERVICES SECTION ***/
+
+section#services ul {
+	margin: 2rem 0 0 0;
+}
+
+section#services ul {
+  margin: 3.6rem 0 0 0;
+  list-style-type: none;
+}
+
+section#services ul li {
+  background: none;
+  padding-left: 73px;
+  font-size: 1rem;
+  color: #00a5fc;
+  margin: 0 0 10px 0;
+}
+
+section#services ul li:nth-child(1) {
+  background: url(../img/bullarr.png) left top no-repeat;
+  padding-left: 73px;
+  background-repeat: no-repeat;
+}
+
+section#services .companies {
+  display: flex;
+  max-width: 70rem;
+  margin: 0 auto;
+ 
+} 
+
+section#services .companies ul li {
+  background: url(../img/bullarr.png) left top no-repeat;
+  padding-left: 73px;
+  background-repeat: no-repeat;
+}
+
+section#services .companies ul li {
+  flex-direction: column;
+  margin: 0 0 2rem 0;
+}
+
+section#services .companies ul li img {
+	width: 80%;
+	margin: 0 0 1.5rem 0;
+}
+
+section#services.companies ul li:nth-child(1) {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 85px;
+}
+
+section#services.companies ul li:nth-child(2) {
+  height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+section#services .spc {
+ display: none;
+  
+}
+
+/************************/
+
+/*** ABOUT US SECTION ***/
+
+
+section#aboutus {
+	margin-top: 2rem;
+}
+
+
+
+
+
+
+
+/************************/
