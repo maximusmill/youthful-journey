@@ -353,7 +353,6 @@ section#services.companies ul li:nth-child(2) {
 
 section#services .spc {
  display: none;
-  
 }
 
 /************************/
@@ -362,9 +361,43 @@ section#services .spc {
 
 
 section#aboutus {
-	margin-top: 2rem;
+	margin: 2rem 0 2rem 0;
 }
 
+
+/*** Contact Us Section ***/
+	
+	section#contactus {
+		min-height: 35rem;
+	}
+	
+	section#contactus ul{
+	  margin: 1rem 0 5rem 0;
+	  list-style-type: none;
+	}
+	
+	section#contactus ul li {
+	  background: none;
+	  padding-left: 73px;
+	  font-size: 1rem;
+	  height: 30px;
+	  color: #00a5fc;
+	  margin: 0 0 22px 0;
+	}
+	
+	section#contactus ul.tel li:nth-child(1) {
+	  background: url(../img/phoneicn.png) left top no-repeat;
+	  padding-left: 73px;
+	  background-repeat: no-repeat;
+	}
+	
+
+	section#contactus ul.email li:nth-child(1) {
+	  background: url(../img/emailicn.png) left top no-repeat;
+	  padding-left: 73px;
+	  background-repeat: no-repeat;
+	}
+}
 
 
 
