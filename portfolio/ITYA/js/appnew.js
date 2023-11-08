@@ -34,17 +34,6 @@ const isMob768 = window.matchMedia('(min-width: 768px)');
    if (e.matches) {   
 	 console.log(e.matches) 
 	 console.log('viewport above 360px!'); 
-// 	  let div = document.createElement('div')
-//  		 div.classList.add('brand-cnt')
-// 	 	 div.innerHTML = `<img src="img/intuneicn.svg" width="111" height="25" alt="Micorsoft Intune Logo">`
-// 	 	 fragment.appendChild(div)
-// 	 	 brandscontainer.appendChild(fragment)
-// 
-// 	 let div1 = document.createElement('div')
-// 		 div1.classList.add('brand-cnt')
-// 		 div1.innerHTML = `<img src="img/azureicn.svg" width="111" height="25" alt="Micorsoft Azure Logo">`
-// 		 fragment.appendChild(div1)
-//    		 brandscontainer.appendChild(fragment)
 	
 	brandscontainer.innerHTML +=  `
 	   <div class="brand-cnt">
@@ -76,11 +65,6 @@ const isMob768 = window.matchMedia('(min-width: 768px)');
 	 if (e.matches) {   
 	  console.log(e.matches) 
 	  console.log('viewport above 457px!'); 
-		// let div = document.createElement('div')
-		// 	div.classList.add('brand-cnt')
-		// 	div.innerHTML = `<img src="img/knoxicn.svg" width="111" height="25" alt="Samsung Knox Logo">`
-		// 	fragment.appendChild(div)
-		// 	brandscontainer.appendChild(fragment)
  
  	brandscontainer.innerHTML += `<div class="brand-cnt">
 	 <img src="img/knoxicn.svg" width="111" height="25" alt="Samsung Knox Logo">
@@ -102,13 +86,6 @@ const isMob768 = window.matchMedia('(min-width: 768px)');
 					   <img src="img/win11icn.svg" width="111" height="25" alt="Windows 11 Logo">
 				   </div>	
 		   `
-		 
-		 
-		 
-		 
-		 // const div457reset = document.querySelectorAll('#brands div')[4]
-		 // console.log(div457reset)
-		 // div457reset.parentNode.removeChild(div457reset)
 		 
 	 }
   }; 
@@ -134,18 +111,7 @@ const handleResize768 = e => {
 			const div768reset = document.querySelector('#home .rgt-cnt')
 			console.log(div768reset)
 		div768reset.parentNode.removeChild(div768reset)
-			// 
-			// let div = document.createElement('div')
-			// 	  div.classList.add('brand-cnt')
-			// 	  div.innerHTML = `<img src="img/intuneicn.svg" width="111" height="25" alt="Microsoft Intune Logo">`
-			// 	  fragment.appendChild(div)
-			// 	  brandscontainer.appendChild(fragment)
-			// 
-			//  let div1 = document.createElement('div')
-			// 	 div1.classList.add('brand-cnt')
-			// 	 div1.innerHTML = `<img src="img/azureicn.svg" width="111" height="25" alt="Microsoft Azure Logo">`
-			// 	 fragment.appendChild(div1)
-			// 		brandscontainer.appendChild(fragment)
+
 			brandscontainer.innerHTML = `
 					<div class="brand-cnt">
 						<img src="img/intuneicn.svg" width="111" height="25" alt="Micorsoft Intune Logo">
