@@ -244,6 +244,8 @@ a:visited:active {
 }
 
 section#home #contact-details {
+  position: fixed;
+  bottom: 20px;
   margin-top: 1.85rem;
 }
 
