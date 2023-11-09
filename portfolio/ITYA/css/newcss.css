@@ -250,8 +250,9 @@ a:visited:active {
 
 section#home #contact-details {
   position: sticky;
-  bottom: 0;
+  bottom: 20px;
   margin-top: 1.85rem;
+  width: 100%;
 }
 
 section#home #contact-details div:nth-child(2) img {
