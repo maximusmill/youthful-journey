@@ -114,7 +114,7 @@ header {
 }
 
 header div img {
-  width: 137px;
+  width: 114px;
   padding: 0;
   position: relative;
   left: -5px;
@@ -191,6 +191,10 @@ header div {
 /********************/
 
 /*** HOME SECTION ***/
+
+section#home {
+  height: 100vh;
+}
 
 section#home div:nth-child(2) {
   display: flex;
