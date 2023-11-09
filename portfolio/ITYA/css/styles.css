@@ -213,6 +213,11 @@ main {
 
 /***** Home *****/
 
+
+section#home {
+  scroll-margin-top: 9.8rem;
+}
+
 section#home {
   margin-top: 4rem;
 }
@@ -258,6 +263,7 @@ section#home .rgt-cnt img:nth-child(1) {
 /***** End Home *****/
 
 /***** General *****/
+
 
 section#general ul {
   list-style-type: none;
@@ -415,6 +421,10 @@ section#general .findia div:nth-child(8) {
 /***** Services *****/
 
 section#services {
+  scroll-margin-top: 11.5rem;
+}
+
+section#services {
   margin-top: 14rem;
 }
 
@@ -502,6 +512,10 @@ section#services .rgt-cnt {
 /***** About Us *****/
 
 section#aboutus {
+  scroll-margin-top: 11.5rem;
+}
+
+section#aboutus {
   margin-top: 14rem;
 }
 
@@ -527,6 +541,10 @@ section#aboutus .rgt-cnt img {
 /***** End About Us *****/
 
 /***** Contact Us *****/
+
+section#contactus {
+  scroll-margin-top: 11.5rem;
+}
 
 section#contactus {
   margin-top: 14rem;
@@ -632,423 +650,4 @@ footer p {
   letter-spacing: 0;
 }
 
-/*********************************************/
-/*************      MOBILE      **************/
-/*************      STYLES      **************/
-/*********************************************/
-
-@media (max-width: 1385px) {
-  header {
-    padding: 0 2rem 0 2rem;
-  }
-
-  section {
-    padding: 0 2rem 0 2rem;
-  }
-
-  /***** Home *****/
-
-  section#home .rgt-cnt .knoxicn {
-    right: -9px;
-  }
-
-  section#home .rgt-cnt .m365icn {
-    right: -62px;
-  }
-
-  /***** End Home *****/
-}
-
-@media (max-width: 1282px) {
-  /***** Home *****/
-
-  section#home .rgt-cnt .knoxicn {
-    right: 31px;
-  }
-
-  section#home .rgt-cnt .m365icn {
-    right: -34px;
-  }
-
-  /***** End Home *****/
-}
-
-@media (max-width: 1200px) {
-  /***** Home *****/
-
-  section#home .rgt-cnt .knoxicn {
-    right: 31px;
-  }
-
-  section#home .rgt-cnt .m365icn {
-    right: -34px;
-  }
-
-  section#home .rgt-cnt .azureicn {
-    right: -6px;
-  }
-
-  section#home .rgt-cnt .m365icn {
-    right: -4px;
-  }
-
-  /***** End Home *****/
-}
-
-@media (max-width: 1134px) {
-  /***** Header *****/
-
-  header {
-    padding: 0 12rem 0 2rem;
-  }
-
-  header#section {
-    padding: 0 2rem 0 2rem;
-    margin: 0 auto;
-  }
-
-  /***** End Header *****/
-}
-
-@media (max-width: 1109px) {
-  /***** Services *****/
-
-  section#services .rgt-cnt img {
-    width: 324px;
-    height: 317px;
-  }
-
-  section#services .rgt-cnt {
-    max-width: 20rem;
-  }
-
-  /***** End Services *****/
-}
-
-@media (max-width: 1076px) {
-  /***** Services *****/
-
-  section#services {
-    line-height: normal;
-  }
-
-  /***** End Services *****/
-}
-
-@media (max-width: 1057px) {
-  /***** Home *****/
-
-  section#home .rgt-cnt .knoxicn {
-    display: none;
-  }
-
-  section#home .rgt-cnt .m365icn {
-    display: none;
-  }
-
-  section#home .rgt-cnt .azureicn {
-    display: none;
-  }
-
-  section#home .rgt-cnt .intuneicn {
-    display: none;
-  }
-
-  section#home .rgt-cnt .win11icn {
-    display: none;
-  }
-
-  section#home .rgt-cnt img {
-    width: 300px;
-    height: 300px;
-  }
-  section#home h2 {
-    line-height: 1.1;
-  }
-
-  /***** End Home *****/
-
-  /***** General *****/
-
-  section#general .lft-cnt {
-    padding-left: 0;
-  }
-
-  /***** End General *****/
-}
-
-@media (max-width: 1015px) {
-  /***** Contact Us *****/
-
-  section#contactus div .lft-cnt {
-    width: 25rem;
-  }
-
-  /***** End Contact Us *****/
-}
-
-@media (max-width: 992px) {
-}
-
-@media (max-width: 989px) {
-}
-
-@media (max-width: 958px) {
-  main section:nth-child(2) .lft-cnt {
-    padding: 0 2rem 0 2rem;
-  }
-
-  /***** Home *****/
-
-  section#home .rgt-cnt img {
-    width: 200px;
-    height: 200px;
-  }
-
-  main section:nth-child(2) .lft-cnt {
-    padding: 0 2rem 0 2rem;
-  }
-
-  /***** End Home *****/
-
-  /***** About Us *****/
-
-  section#aboutus .rgt-cnt {
-    display: none;
-  }
-
-  section#aboutus .lft-cnt {
-    max-width: 70rem;
-  }
-
-  section#aboutus .lft-cnt p {
-    max-width: 70rem;
-  }
-
-  /***** End About Us *****/
-}
-
-@media (max-width: 895px) {
-  /***** Home *****/
-
-  /***** End Home *****/
-
-  /***** Services *****/
-
-  section#services .rgt-cnt img {
-    width: 324px;
-    height: 317px;
-  }
-
-  section#services .rgt-cnt {
-    display: none;
-  }
-
-  /***** End Services *****/
-}
-
-@media (max-width: 854px) {
-  /****** Contact Us ******/
-
-  /* section#contactus div .lft-cnt {
-  width: 20rem;
-} */
-
-  /***** End Contact Us *****/
-}
-
-@media (max-width: 822px) {
-  /***** Home *****/
-
-  section#home .rgt-cnt {
-    display: none;
-  }
-
-  section#home .lft-cnt {
-    width: 70rem;
-  }
-
-  /***** EndHome *****/
-}
-
-@media (max-width: 775px) {
-  /***** Contact Us *****/
-
-  section#contactus div {
-    flex-direction: column;
-  }
-
-  section#contactus div .lft-cnt {
-    width: 20rem;
-  }
-
-  section#contactus div .rgt-cnt ul {
-    margin: 3rem 0 0 0;
-    padding: 0 0 0 0;
-  }
-
-  section#contactus div .lft-cnt ul {
-    padding-left: 0;
-    width: 20rem;
-  }
-
-  /***** End Contact Us *****/
-}
-
-@media (max-width: 768px) {
-  section#home .rgt-cnt {
-    display: none;
-  }
-}
-
-@media (max-width: 730px) {
-  /***** Home *****/
-
-  section#home .lft-cnt .btn-cnt {
-    width: 27.4rem;
-  }
-  section#home .lft-cnt .btn-cnt img:nth-child(5) {
-    display: none;
-  }
-
-  section#home .lft-cnt .btn-cnt p:nth-child(6) {
-    display: none;
-  }
-
-  /***** End Home *****/
-
-  /***** General *****/
-
-  section#general .rgt-cnt {
-    margin: 6rem 0 0 0;
-  }
-
-  section#general .lft-cnt {
-    display: none;
-  }
-
-  /***** End General *****/
-
-  /***** Services *****/
-
-  section#services .rgt-cnt {
-    display: none;
-  }
-
-  section#services {
-    margin: 4rem 0 0 0;
-  }
-
-  /***** End Services *****/
-}
-
-@media (max-width: 651px) {
-  /* main #home .lft-cnt h1 {
-    color: black;
-    font-size: 3rem;
-    width: 40rem;
-    font-weight: 900;
-    margin-top: 7.5rem;
-    letter-spacing: 1px;
-    margin-bottom: 1.895rem; 
-  }*/
-}
-
-@media (max-width: 580px) {
-  /* main #home .lft-cnt h1 {
-    color: black;
-    font-size: 2.2rem;
-    width: 40rem;
-    font-weight: 900;
-    margin-top: 7.5rem;
-    letter-spacing: 1px;
-    margin-bottom: 1.295rem; 
-  }*/
-
-  main section:nth-child(2) .rgt-cnt {
-    margin-top: 4rem;
-  }
-
-  main section:nth-child(2) .rgt-cnt h2 {
-    font-size: 1.5rem;
-  }
-
-  /***** Home *****/
-
-  section#home .lft-cnt p {
-    font-size: 1rem;
-    /* max-width: 30rem; */
-  }
-
-  /***** End Home *****/
-
-  /*****  General *****/
-
-  section#general .lft-cnt h2 {
-    font-size: 1.5rem;
-  }
-
-  /***** End General *****/
-
-  /***** Services *****/
-
-  section#services .lft-cnt p {
-    font-size: 1rem;
-  }
-
-  section#services .lft-cnt h2 {
-    font-size: 1.5rem;
-    line-height: normal;
-  }
-
-  section#services .lft-cnt h3 {
-    font-size: 1.25rem;
-    line-height: normal;
-  }
-
-  /***** End Services *****/
-
-  /***** About Us *****/
-
-  section#aboutus {
-    margin-top: 7rem;
-  }
-
-  section#aboutus .lft-cnt p {
-    font-size: 1rem;
-  }
-
-  section#aboutus .lft-cnt h2 {
-    font-size: 1.5rem;
-    line-height: normal;
-  }
-
-  section#aboutus .lft-cnt h3 {
-    font-size: 1.25rem;
-    line-height: normal;
-  }
-
-  /***** End About Us *****/
-
-  /***** Contact Us *****/
-
-  section#contactus {
-    margin-top: 7rem;
-  }
-
-  section#contactus p {
-    font-size: 1rem;
-  }
-
-  section#contactus h2 {
-    font-size: 1.5rem;
-    line-height: normal;
-  }
-
-  section#contactus h3 {
-    font-size: 1.25rem;
-    line-height: normal;
-  }
-
-  /***** End Contact Us *****/
-}
+/***************************/

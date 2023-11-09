@@ -197,7 +197,7 @@ header div {
 /*** HOME SECTION ***/
 
 section#home {
-  height: 100vh;
+  min-height: 100vh;
 
 }
 
@@ -249,10 +249,11 @@ a:visited:active {
 }
 
 section#home #contact-details {
+  position: -webkit-sticky; /* Safari */
   position: sticky;
-  bottom: 20px;
+  bottom: 0;
   margin-top: 1.85rem;
-  width: 100%;
+
 }
 
 section#home #contact-details div:nth-child(2) img {
