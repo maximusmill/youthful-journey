@@ -65,10 +65,14 @@ body {
 
 /*** SET DEFAULT NAV LINKS ***/
 
+a.nav {
+  font-size: 1.025rem;
+}
+
 a.nav:hover {
   text-decoration: none;
   cursor: pointer;
-}
+  }
 
 a.nav:link,
 a.nav:visited {
