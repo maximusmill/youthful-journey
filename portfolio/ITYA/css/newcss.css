@@ -8,6 +8,14 @@
 
 /***************************/
 
+/*** Set Center Container ***/
+
+header div, main div, footer div {
+  margin: 0 auto;
+  max-width: 1120px;
+}
+
+
 /*** SET DEFAULT HEADINGS ***/
 
 h1 {
@@ -16,7 +24,7 @@ h1 {
   font-weight: 900;
 }
 h2 {
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 h3 {
   font-size: 1.15rem;
@@ -39,6 +47,7 @@ p {
   color: #5b7a9d;
   padding: 1.8rem 0 1.8rem 0;
   letter-spacing: 0.04rem;
+  font-size: 1rem;
 }
 
 /*****************************/
@@ -66,7 +75,7 @@ body {
 /*** SET DEFAULT NAV LINKS ***/
 
 a.nav {
-  font-size: 1.025rem;
+  font-size: 1.0rem;
 }
 
 a.nav:hover {
@@ -142,9 +151,15 @@ body {
 
 /*****************************************/
 
+main {
+  display:flex;
+}
+
+
 /*** SET DEFAULT SECTION SPACING ***/
 
 section {
+  display: flex;
   background-color: none;
   padding: 2rem 1.5rem 2rem 1.5rem;
 }
@@ -197,7 +212,8 @@ header div {
 /*** HOME SECTION ***/
 
 section#home {
-  min-height: 100vh;
+  height: 100vh;
+  flex-direction: column;
 
 }
 
@@ -205,13 +221,18 @@ section#home div:nth-child(2) {
   display: flex;
 }
 
-section#home div:nth-child(1) div {
+/* section#home div:nth-child(1) div {
   flex-direction: column;
+} */
+
+section#home .dc {
+  min-width: 112px;
 }
 
 section#home div div:nth-child(2) img {
   position: relative;
-  left: 24px
+  left: 24px;
+ 
 }
 
 section#home a {
@@ -248,42 +269,129 @@ a:visited:active {
   color: white;
 }
 
-section#home #contact-details {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  bottom: 0;
-  margin-top: 1.85rem;
+/*** General Key Points Container ***/
+
+section#home #general {
+  width: 100%;
+  height: 128px;
+  position: relative;
+  top: -20px;
+}
+
+section#home #general ul {
+  list-style-type: none;
+  list-style: none;
+}
+
+section#home #general ul li {
+  background: url(../img/ulimage.png) left top no-repeat;
+  margin: 0 0 10px 0;
+  padding-left: 50px;
+  padding-top: 3px;
+  background-repeat: no-repeat;
+  background-size: 28px;
+
 
 }
 
-section#home #contact-details div:nth-child(2) img {
+section#home #general ul li h2 {
+  margin: 0 0 0 0;
+
+}
+
+section#home #general ul li p {
+  color: #00a5fc;
+  margin: 0 0 0 0;
+  padding: 5px 0 0 0; ;
+}
+
+/****************************/
+
+
+/*** Contact Details ***/
+
+section#home #contact-details {
+  margin-left: 0;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 14rem;
+  
+  
+}
+
+section#home #contact-details div {
+  display: flex;
+flex-direction: column;
+margin: 0.25rem 0 0 0;
+padding-top: 0.5rem;
+}
+
+section#home #contact-details div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 1.9rem;
+
+}
+
+section#home #contact-details div div img{ 
+  left: 0;
+  margin: 0 1rem 0 0;
+}
+
+section#home #contact-details div .spc {
   display: none;
 }
 
-section#home #contact-details div:nth-child(3) {
+section#home #contact-details p {
   display: flex;
-  padding: 2.8rem 0 1rem 0;
+  padding: 0;
+  height: 1rem;
+  align-items: center;
+  color: #dce3e9;
+  font-weight: bold;
 }
 
-section#home #contact-details div:nth-child(3) p {
+
+ /***********************/
+
+
+/* 
+
+
+section#home #contact-details div img:nth-child(2) {
+
+  flex-direction: row;
+  width: 20px;
+  height: 19px;
+
+}
+
+section#home #contact-details p:nth-child(4)  {
+ 
+
+  width: 10rem;
   padding: 0 0 0 1rem;
   color: #dce3e9;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0.64px;
+  padding: 0 0 0 0;
 }
 
 section#home #contact-details div:nth-child(4) {
-  display: flex;
+
   background-color: none;
   align-items: center;
 }
 
 section#home #contact-details div:nth-child(4) p {
   padding: 0 0 0 1rem;
-  display: flex;
+
   color: #dce3e9;
   font-style: normal;
   font-weight: 700;
   letter-spacing: 0.64px;
-}
+}  */
