@@ -2,4 +2,5 @@ User-agent: *
 Disallow: /pfbr
 Disallow: /celestial safari
 Disallow: /ITYA
+Disallow: /Nick-Holywell-Qalker
 
