@@ -356,42 +356,25 @@ section#home #contact-details p {
 
 
  /***********************/
-
-
-/* 
-
-
-section#home #contact-details div img:nth-child(2) {
-
-  flex-direction: row;
-  width: 20px;
-  height: 19px;
-
-}
-
-section#home #contact-details p:nth-child(4)  {
+/**************** 768px Media *******************/
  
-
-  width: 10rem;
-  padding: 0 0 0 1rem;
-  color: #dce3e9;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0.64px;
-  padding: 0 0 0 0;
-}
-
-section#home #contact-details div:nth-child(4) {
-
-  background-color: none;
-  align-items: center;
-}
-
-section#home #contact-details div:nth-child(4) p {
-  padding: 0 0 0 1rem;
-
-  color: #dce3e9;
-  font-style: normal;
-  font-weight: 700;
-  letter-spacing: 0.64px;
-}  */
+ @media (min-width: 768px) {
+ section#home h1 {
+   font-size: 2.6rem; 
+   min-width: 20rem;
+ }
+ 
+ section#home div div.p {
+  
+   background-color: red;
+ }
+ 
+ section#home div div .dc img {
+   position: relative;
+   top: -4.7rem;
+ }
+ 
+ 
+ }
+ 
+ /************************************************/

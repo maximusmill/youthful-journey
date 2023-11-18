@@ -1,83 +1,109 @@
-const generalList = document.querySelectorAll('#general ul')
-// let mediaMMList = [
-// 	window.matchMedia("(max-width: 360px)"),
-// 	window.matchMedia("(max-width: 414px)"),
-// 	window.matchMedia("(max-width: 768px)")
-// ]
-// [
-	// window.matchMedia("(max-width: 360px)"),
-	// window.matchMedia("(max-width: 414px)"),
-
-// ]
-
-// for(i = 0; i < mediaMMList.length; i++) {
-// 	
-// 	console.log(mediaMMList[i])
-// 	
-// 	
-// 	// if(event.matches) { 
-// 	// 	//		alert()mediaMMList.addEventListener
-// 	// alert("true")
-// 	// console.log(mediaMMList.matches)
-// }
-// }
-
-
-// console.log(mediaMMList)
-// function mediaQResp(mediaMMList){
-// 	if (mediaMMList[0].matches){ 
-// 		alert("360")
-// 	}
-// 	if (mqls[1].matches){ // {max-width: 600px} query matched
-// 		alert("414")
-// 	}
-// 	if (!mediaMMList[0].matches && !mediaMMList[1].matches){ // neither queries matched
-// 		alert("not 360 or 414")
-// 	}
-// }
-//  
-// for (var i=0; i<mediaMMList.length; i++){
-// 	mediaQResp(mediaMMList[i]) // call listener function explicitly at run time
-// 	mediaMMList[i].addEventListener(mediaQResp) // attach listener function to listen in on state changes
-// }
+const generalidx = document.querySelector('#general')
+const homeparaidx = document.querySelector('#home div div')
+const homedcimgidx = document.querySelector('#home div div:nth-child(2)')
 
 let mediaMMList = [
-	window.matchMedia("(max-width: 840px)"),
-	window.matchMedia("(max-width: 600px)")
+	window.matchMedia("(max-width: 360px)"),
+	window.matchMedia("(min-width: 360px)"),
+	window.matchMedia("(min-width: 414px)"),
+	window.matchMedia("(min-width: 768px)")
 ]
- 
-console.log(mediaMMList) 
- 
-function mediaqueryresponse(mediaMM){
-	if (mediaMMList[0].matches){ // {max-width: 840px} query matched
-	console.log("840")
-	}
-	if (mediaMMList[1].matches){ // {max-width: 600px} query matched
-	console.log("600")
-	}
-	if (!mediaMMList[0].matches && !mediaMMList[1].matches){ // neither queries matched
-		console.log("neither")
-	}
+
+const mqrmax360 = () => {
+	console.log("360")
+ 	
+
+generalidx.innerHTML = `<ul>
+<li>
+	<h2>Investment Fund Backed</h2>
+	<p>Substantial Resources</p>
+</li>
+<li>
+	<h2>Consulting</h2>
+	<p>Over 100 years of experience</p>
+</li>
+						</ul>`
+						
+						
+homeparaidx.innerHTML = `
+	<p>'Delivering technical solutions and building a partnership that’s trustworthy.'</p>
+`						
+homedcimgidx.innerHTML = `<img class="dc" src="img/mobdc320.png" width="112" height="181" alt="Data Center">`
+
 }
+
+
+
+const mqr360 = () => {
+	console.log("360")
+	homeparaidx.innerHTML = `
+		<p>'Delivering cutting edge technical solutions and building a partnership that’s trustworthy and valued.'</p>
+	`						
+homedcimgidx.innerHTML = `<img class="dc" src="img/mobdc320.png" width="112" height="181" alt="Data Center">`
+	
+}
+
+
+const mqr414 = () => {
+	console.log("414")	
+
+generalidx.innerHTML = `<ul>
+<li>
+	<h2>Investment Fund Backed</h2>
+	<p>Substantial Resources</p>
+</li>
+<li>
+	<h2>Consulting</h2>
+	<p>Over 100 years of experience</p>
+</li>
+<li>
+	<h2>Expanded</h2>
+	<p>Internationally</p>
+</li>		
+		
+						</ul>`
+						
+homedcimgidx.innerHTML = `<img class="dc" src="img/mobdc320.png" width="112" height="181" alt="Data Center">`						
+
+ } 
+ 
+const mqr768 = () => {
+	homedcimgidx.innerHTML = `<img src="img/dcenter.png" width="350" height="350" alt="Data Center Image">`
+} 
+ 
+ 
+const mqresponse = (mediaMM) => {
+	if (mediaMMList[0].matches){ 
+	mqrmax360()
+	
+}
+	if (mediaMMList[1].matches){ 
+	mqr360()
+	}
+		
+	if (mediaMMList[2].matches){ 
+	mqr414()
+	
+	
+	} 
+	
+	if (mediaMMList[3].matches){ 
+	mqr768()
+	
+	
+	} 	
+	// if (!mediaMMList[0].matches && !mediaMMList[1].matches){ // neither queries matched
+	// 	let genRemChild = generalList.lastChild
+	// 	
+	// 	generalList.removeChild(genRemChild)
+	// 	
+	// 	console.log(genRemChild)
+	// }
+
+ }
  
 for (var i=0; i<mediaMMList.length; i++){
-	mediaqueryresponse(mediaMMList[i]) // call listener function explicitly at run time
-	mediaMMList[i].addListener(mediaqueryresponse) // attach listener function to listen in on state changes
+	mqresponse(mediaMMList[i]) // call listener function explicitly at run time
+	mediaMMList[i].addListener(mqresponse) // attach listener function to listen in on state changes
 }
-
-
-// mediaMMList.forEach(function (item) {
-//  mediaqueryresponse(mediaMMList[item]) // call listener function explicitly at run time
-//  mediaMMList[item, index].addEventListener(mediaqueryresponse) // attach listener function to listen in on state changes
-// })
-
-
-
-
-
-
-
-
-
-
 
