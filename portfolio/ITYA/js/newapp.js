@@ -41,6 +41,18 @@ const mqr360 = () => {
 	`						
 homedcimgidx.innerHTML = `<img class="dc" src="img/mobdc320.png" width="112" height="181" alt="Data Center">`
 	
+	
+	generalidx.innerHTML = `<ul>
+	<li>
+		<h2>Investment Fund Backed</h2>
+		<p>Substantial Resources</p>
+	</li>
+	<li>
+		<h2>Consulting</h2>
+		<p>Over 100 years of experience</p>
+	</li>
+							</ul>`
+	
 }
 
 
@@ -68,7 +80,7 @@ homedcimgidx.innerHTML = `<img class="dc" src="img/mobdc320.png" width="112" hei
  } 
  
 const mqr768 = () => {
-	homedcimgidx.innerHTML = `<img src="img/dcenter.png" width="350" height="350" alt="Data Center Image">`
+	homedcimgidx.innerHTML = `<img class="dc" src="img/dcenter.png" width="350" height="350" alt="Data Center Image">`
 } 
  
  

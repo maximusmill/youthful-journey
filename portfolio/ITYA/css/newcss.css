@@ -10,11 +10,12 @@
 
 /*** Set Center Container ***/
 
-header div, main div, footer div {
+header div,
+main div,
+footer div {
   margin: 0 auto;
   max-width: 1120px;
 }
-
 
 /*** SET DEFAULT HEADINGS ***/
 
@@ -75,13 +76,13 @@ body {
 /*** SET DEFAULT NAV LINKS ***/
 
 a.nav {
-  font-size: 1.0rem;
+  font-size: 1rem;
 }
 
 a.nav:hover {
   text-decoration: none;
   cursor: pointer;
-  }
+}
 
 a.nav:link,
 a.nav:visited {
@@ -113,7 +114,6 @@ footer {
   width: 100vw;
   height: 5.5rem;
   background-color: white;
-
 }
 
 header {
@@ -152,9 +152,8 @@ body {
 /*****************************************/
 
 main {
-  display:flex;
+  display: flex;
 }
-
 
 /*** SET DEFAULT SECTION SPACING ***/
 
@@ -214,7 +213,6 @@ header div {
 section#home {
   height: 100vh;
   flex-direction: column;
-
 }
 
 section#home div:nth-child(2) {
@@ -232,7 +230,6 @@ section#home .dc {
 section#home div div:nth-child(2) img {
   position: relative;
   left: 24px;
- 
 }
 
 section#home a {
@@ -290,23 +287,19 @@ section#home #general ul li {
   padding-top: 3px;
   background-repeat: no-repeat;
   background-size: 28px;
-
-
 }
 
 section#home #general ul li h2 {
   margin: 0 0 0 0;
-
 }
 
 section#home #general ul li p {
   color: #00a5fc;
   margin: 0 0 0 0;
-  padding: 5px 0 0 0; ;
+  padding: 5px 0 0 0;
 }
 
 /****************************/
-
 
 /*** Contact Details ***/
 
@@ -317,15 +310,13 @@ section#home #contact-details {
   flex-direction: column;
   align-items: flex-start;
   height: 14rem;
-  
-  
 }
 
 section#home #contact-details div {
   display: flex;
-flex-direction: column;
-margin: 0.25rem 0 0 0;
-padding-top: 0.5rem;
+  flex-direction: column;
+  margin: 0.25rem 0 0 0;
+  padding-top: 0.5rem;
 }
 
 section#home #contact-details div div {
@@ -333,10 +324,9 @@ section#home #contact-details div div {
   flex-direction: row;
   justify-content: flex-start;
   height: 1.9rem;
-
 }
 
-section#home #contact-details div div img{ 
+section#home #contact-details div div img {
   left: 0;
   margin: 0 1rem 0 0;
 }
@@ -354,27 +344,27 @@ section#home #contact-details p {
   font-weight: bold;
 }
 
-
- /***********************/
+/***********************/
 /**************** 768px Media *******************/
- 
- @media (min-width: 768px) {
- section#home h1 {
-   font-size: 2.6rem; 
-   min-width: 20rem;
- }
- 
- section#home div div.p {
-  
-   background-color: red;
- }
- 
- section#home div div .dc img {
-   position: relative;
-   top: -4.7rem;
- }
- 
- 
- }
- 
- /************************************************/
+
+@media (min-width: 768px) {
+  section#home h1 {
+    font-size: 2.6rem;
+    min-width: 20rem;
+  }
+
+  section#home div div.p {
+    background-color: red;
+  }
+
+  section#home .dc {
+    position: relative;
+    top: -4.7rem;
+  }
+
+  section#home #general {
+    top: -203px;
+  }
+}
+
+/************************************************/
