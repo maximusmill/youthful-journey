@@ -5,6 +5,7 @@ const homedcimgidx = document.querySelector('#home div div:nth-child(2)')
 let mediaMMList = [
 	window.matchMedia("(max-width: 360px)"),
 	window.matchMedia("(min-width: 360px)"),
+	window.matchMedia("(min-width: 575px)"),
 	window.matchMedia("(min-width: 414px)"),
 	window.matchMedia("(min-width: 768px)")
 ]
@@ -79,6 +80,30 @@ homedcimgidx.innerHTML = `<img class="dc" src="img/mobdc320.png" width="112" hei
 
  } 
  
+ 
+ const mqr575 = () => {
+	 console.log("575")	
+ 
+ generalidx.innerHTML = `<ul>
+ <li>
+	 <h2>Investment Fund Backed</h2>
+	 <p>Substantial Resources</p>
+ </li>
+ <li>
+	 <h2>Consulting</h2>
+	 <p>Over 100 years of experience</p>
+ </li>
+ <li>
+	 <h2>Expanded</h2>
+	 <p>Internationally</p>
+ </li>		
+		 
+						 </ul>`
+						 
+ homedcimgidx.innerHTML = `<img class="dc" src="img/dcenter.png" width="112" height="181" alt="Data Center">`						
+ 
+  } 
+ 
 const mqr768 = () => {
 	homedcimgidx.innerHTML = `<img class="dc" src="img/dcenter.png" width="350" height="350" alt="Data Center Image">`
 } 
@@ -100,6 +125,12 @@ const mqresponse = (mediaMM) => {
 	} 
 	
 	if (mediaMMList[3].matches){ 
+	mqr575()
+	
+	
+	} 
+	
+	if (mediaMMList[4].matches){ 
 	mqr768()
 	
 	
