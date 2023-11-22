@@ -33,6 +33,8 @@ header div img {
   width: 156px;
   display: flex;
   align-items: center;
+  /* height: auto; */
+
 }
 
 header div {
@@ -52,3 +54,37 @@ header div nav ul li {
 	margin: 0 5px
 
 } 
+
+section#home div {
+  width: 100%;
+  background-color: red;
+  
+}
+
+section#home div:nth-child(1) img {
+height: auto;
+width: 70%; 
+
+}
+
+
+@media (min-width: 768px) {
+  
+  section#home div {
+
+  display: flex;
+   
+}
+ 
+ section#home div div {
+
+   display: flex;
+   flex-direction: column;
+    
+ }
+  
+}
+
+
+
+
