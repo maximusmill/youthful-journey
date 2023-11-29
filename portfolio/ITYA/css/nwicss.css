@@ -16,6 +16,48 @@ body {
 	  font-size: 16px;
 }
 
+a.nav {
+  color: #5b7a9d;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.nav:hover {
+  color: #5b7a9d;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.nav:link,
+a.nav:visited {
+  color: #5b7a9d;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.nav:link:active,
+a.nav:visited:active {
+  color: #5b7a9d;
+}
+
+h1 {
+  color: black;
+}
+
+p {
+  font-weight: 400;
+  font-size: 1.1875rem;
+  letter-spacing: 1.3px;
+  line-height: 1.8125rem;
+  max-width: 100%;
+  padding: 1rem 0 0 0;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
 header {
   display: flex;  
   height: 6rem;
@@ -34,7 +76,6 @@ header div img {
   display: flex;
   align-items: center;
   /* height: auto; */
-
 }
 
 header div {
@@ -44,6 +85,7 @@ header div {
   align-items: center;
   width: 100%;
 }
+
 header div nav ul {
 	display: flex;
 }
@@ -55,20 +97,56 @@ header div nav ul li {
 
 } 
 
+main {
+  padding: 1.25rem 1rem 1rem 1rem ;
+}
+
+.def-blue {
+  color: #00a5fc;
+}
+
 section#home div {
   width: 100%;
-  background-color: red;
+  background-color: white;
   
 }
 
 section#home div:nth-child(1) img {
+display: block;
 height: auto;
 width: 70%; 
+margin: 0 auto;
+}
 
+
+@media (min-width: 540px) {
+  
+  header div  {
+
+    display: flex;
+    flex-direction: row;
+  }
+  
+}
+
+@media (min-width: 620px) {
+  
+  section#home div:nth-child(1) img {
+  height: auto;
+ width: 460px; 
+  
+  }
+  
 }
 
 
 @media (min-width: 768px) {
+  
+  section#home div:nth-child(1) img {
+    height: auto;
+   width: 400px; 
+    
+    }
   
   section#home div {
 
@@ -85,6 +163,21 @@ width: 70%;
   
 }
 
+
+@media (min-width: 1111px) {
+
+  section#home div:nth-child(1) img {
+  height: auto;
+  width: 460px; 
+  
+  }      
+  
+  header, main, footer div {
+    width: 70rem;
+    margin: 0 auto;
+  }
+    
+}
 
 
 
