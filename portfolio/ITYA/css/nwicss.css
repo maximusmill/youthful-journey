@@ -40,18 +40,61 @@ a.nav:visited:active {
   color: #5b7a9d;
 }
 
+.btn-cnt a {
+  background-color: #00a5fc;
+  color: white;
+  width: 173px;
+  height: 42px;
+  border: 0px;
+  border-radius: 7px;
+  font-size: 1.125rem;
+  box-shadow: 3px 3px 8px hsl(0deg 0% 0% / 0.28);
+  font-weight: normal;
+  padding: 0.7rem 0 0.6rem 1.2rem;
+  text-decoration: none;
+  letter-spacing: 0;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.but-cnt a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.but-cnt a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.but-cnt a:link:active,
+a:visited:active {
+  color: white;
+}
+
+.btn-cnt {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-cnt > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.btn-cnt > div img {
+  margin: 0 1rem 0 0;
+}
+
 h1 {
   color: black;
 }
 
-p {
-  font-weight: 400;
-  font-size: 1.1875rem;
-  letter-spacing: 1.3px;
-  line-height: 1.8125rem;
-  max-width: 100%;
-  padding: 1rem 0 0 0;
-}
+
 
 h1 {
   font-size: 2rem;
@@ -105,6 +148,36 @@ main {
   color: #00a5fc;
 }
 
+section {
+  margin: 7rem 0 7rem 0;
+}
+
+section h2 {
+  color: black;
+  line-height: 1.6rem;
+  padding-bottom: 0.5rem;
+}
+
+section h3 {
+  line-height: 1.6rem;
+  color: #00a5fc;
+  font-weight: normal;
+}
+
+section p {
+    font-weight: 400;
+    font-size: 1rem;
+    font-size: 1.1875rem;
+    letter-spacing: 1.3px;
+    line-height: 1.8125rem;
+    max-width: 100%;
+    padding: 1rem 0 1rem 0;
+}
+
+section#home {
+  margin-top: 2rem;
+}
+
 section#home div {
   width: 100%;
   background-color: white;
@@ -112,11 +185,233 @@ section#home div {
 }
 
 section#home div:nth-child(1) img {
-display: block;
-height: auto;
-width: 70%; 
-margin: 0 auto;
+  display: block;
+  height: auto;
+  width: 70%; 
+  margin: 0 auto;
 }
+
+
+
+
+section#home .btn-cnt div {
+  margin-top: 1rem;
+}
+
+section#home .btn-cnt > div p{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 1rem;
+  color: #dce3e9;
+  font-weight: bold;
+}
+
+section#home .btn-cnt > img{
+  display: none;
+}
+
+section#general div .findia {
+  display: none;  
+}
+
+section#general div  {
+  display: none;
+}
+
+section#general ul {
+  list-style-type: none;
+  list-style: none;
+  margin-top: 4rem;
+}
+
+section#general ul li {
+  background: url(../img/ulimage.png) left top; no-repeat;
+  margin: 0 0 2px 0;
+  padding-left: 73px;
+  background-repeat: no-repeat;
+  
+}
+
+
+section#general ul li h2 {
+  margin: 0 0 0 0;
+  color: black;
+  font-size: 1.2rem;
+}
+
+section#general ul li p {
+  color: #00a5fc;
+  padding-top: 0;
+  margin: 0 0 0 0;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
+
+/***** Services *****/
+
+section#services {
+  scroll-margin-top: 11.5rem;
+}
+
+/* section#services {
+  margin-top: 14rem;
+} */
+
+
+
+section#services div div {
+  display: flex;
+  justify-content: flex-end;
+}
+
+section#services div > img {
+display: none;
+}
+
+section#services ul {
+  margin: 3.6rem 0 0 0;
+  list-style-type: none;
+}
+
+section#services ul li {
+  background: none;
+  padding-left: 73px;
+  font-size: 1.125rem;
+  color: #00a5fc;
+  margin: 0 0 10px 0;
+}
+
+section#services ul li:nth-child(1) {
+  background: url(../img/bullarr.png) left top no-repeat;
+  padding-left: 73px;
+  background-repeat: no-repeat;
+}
+
+section#services div div {
+  margin: -2rem 0 0 0;
+  position: relative;
+}
+
+
+/***** End Services *****/
+
+/***** Start Companies *****/
+
+.companies {
+  display: none;
+}
+
+/***** End Companies *****/
+
+/***** Start About Us *****/
+
+section#aboutus img {
+  display: none;
+}
+
+/***** End About Us *****/
+
+/***** Start Contact Us *****/
+
+section#contactus {
+  scroll-margin-top: 11.5rem;
+}
+
+
+
+section#contactus div {
+  justify-content: flex-start;
+  display: flex;
+  align-items: flex-start;
+}
+
+section#contactus div {
+  display: flex;
+}
+
+
+
+
+
+section#contactus {
+  display: block;
+}
+
+section#contactus div {
+  margin-top: 0;
+}
+
+section#contactus div p {
+  color: #00a5fc;
+  padding: 0 0 0 2rem;
+  width: 1000px;
+}
+
+section#contactus div {
+  margin-top: 1rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+section#contactus div p span {
+  font-weight: normal;
+  font-size: 1.1875rem;
+  letter-spacing: 0;
+}
+
+section#contactus div p {
+  margin: 0 0 0 0;
+  font-weight: bold;
+}
+
+section#contactus div div {
+  margin-top: 1rem;
+}
+
+section#contactus div div ul {
+  margin: 1rem 0 0 0;
+  list-style-type: none;
+}
+
+section#contactus div ul li {
+  background: none;
+  padding-left: 73px;
+  font-size: 1.125rem;
+  height: 30px;
+  color: #00a5fc;
+  margin: 0 0 22px 0;
+}
+
+section#contactus div ul li:nth-child(1) {
+  background: url(../img/phoneicn.png) left top no-repeat;
+  padding-left: 73px;
+  background-repeat: no-repeat;
+}
+
+section#contactus div ul {
+  margin: 1rem 0 0 0;
+  list-style-type: none;
+}
+
+section#contactus div div ul li {
+  background: none;
+  padding-left: 73px;
+  font-size: 1.125rem;
+  height: 20px;
+  color: #00a5fc;
+  margin: 0 0 22px 0;
+}
+
+section#contactus div div ul li:nth-child(1) {
+  background: url(../img/emailicn.png) left top no-repeat;
+  padding-left: 73px;
+  background-repeat: no-repeat;
+}
+
+/***** End Contact Us *****/
+
 
 
 @media (min-width: 540px) {
@@ -133,7 +428,7 @@ margin: 0 auto;
   
   section#home div:nth-child(1) img {
   height: auto;
- width: 460px; 
+ width: 400px; 
   
   }
   
